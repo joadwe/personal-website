@@ -1,19 +1,8 @@
----
-description: Here, you can links to each of my publications and datasets where applicable.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Publications
+
+!!! info "Publications and Datasets"
+    Here, you can find links to each of my publications and datasets where applicable.
+
 
 1. Kim, J., Xu, S., Jung, S.-R., Nguyen, A., Cheng, Y., Zhao, M., Fujimoto, B. S., Nelson, W., Schiro, P., Franklin, J. L., Higginbotham, J. N., Coffey, R. J., Shi, M., Vojtech, L. N., Hladik, F., Tewari, M., Tigges, J., Ghiran, I., Jovanovic-Talisman, T., … Chiu, D. T. (2024). Comparison of EV characterization by commercial high-sensitivity flow cytometers and a custom single-molecule flow cytometer. _Journal of Extracellular Vesicles_, 13, e12498. doi: 10.1002/jev2.12498 \[[website](https://doi.org/10.1002/jev2.12498)]
 2. Nguyen, V. V. T., Welsh, J. A., Tertel, T., Choo, A., van de Wakker, S. I., Defourny, K. A. Y., Giebel, B., Vader, P., Padmanabhan, J., Lim, S. K., Nolte-'t Hoen, E. N. M., Verhaar, M. C., Bostancioglu, R. B., Zickler, A. M., Hong, J. M., Jones, J. C., EL Andaloussi, S., van Balkom, B. E. M., & Görgens, A. (2024). Inter-laboratory multiplex bead-based surface protein profiling of MSC-derived EV preparations identifies MSC-EV surface marker signatures. _Journal of Extracellular Vesicles_, 13, e12463. doi 10.1002/jev2.12463. \[[website](https://doi.org/10.1002/jev2.12463)]

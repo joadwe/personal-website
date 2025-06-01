@@ -1,0 +1,72 @@
+site_name: Joshua Welsh - Research Scientist
+site_description: Personal website of Joshua Welsh, a research scientist interested in developing next generation translational instrumentation, software, and assays that increase the power of and reproducibility of modern research and medicine.
+site_author: Joshua Welsh
+site_url: https://joshuawelsh.github.io/personal-website/
+
+repo_name: joshuawelsh/personal-website
+repo_url: https://github.com/joshuawelsh/personal-website
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Talks: talks.md
+  - Publications: publications.md
+  - Resources: resources.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/joshuawelsh
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0003-1746-1279
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/joshua-welsh-phd
+    - icon: fontawesome/solid/envelope
+      link: mailto:joshua.welsh@bd.com
+
+copyright: Copyright &copy; 2025 Joshua Welsh
