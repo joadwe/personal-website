@@ -3,88 +3,87 @@
 !!! info "Academic and Industry Presentations"
     Here, you can find a list of my academic and industry talks, organized chronologically.
 
-## Recent Talks (2023-Present)
+## Invited Talks
 
-1. **2023** - **MISEV, MIFlowCyt-EV, EV-TRACK: EV Reporting Standards**, University College Dublin, *Invited by Alfonso Blanco, PhD* (Invited)
+### Academic
+1. ***EVs: Getting started.***, UC Davis, USA, February 2025.
+1. ***Small particle flow cytometry: The utility of assay agnostic metrics.***, Online Education Day, February 2025.
+1. ***Mastering small particle flow cytometry.***, Weizmann Institute of Science, Israel, September 2024.
+1. ***MISEV2023.***, ISEV2024, May 2024.
+1. ***EV Flow Cytometry Optimization and Calibration.***, University of Virginia, March 2024.
+1. ***MISEV and ISEV Task Forces.***, University of Virginia, March 2024.
+1. ***Characterizing the unseen: The rise of small particle flow cytometry.***, CYTO2023 Plenary, May 2023.
+1. ***Novel EV-related e ducation materials.***, ISEV2023 Education Day, May 2023.
+1. ***ISEV-ISAC-ISTH Working Group Updates.***, ISEV2023, May 2023.
+1. ***MISEV, MIFlowCyt-EV, EV-TRACK: EV Reporting Standards***, University College Dublin, March 2023.
+1. ***EV standardization***, ISEVxTech, November 2022.
+1. ***Developing Tools for an extracellular vesicle atlas***,  Oregan State Univerity Grand Round, October 2022.
+1. ***Characterizing and optimizing flow cytometry platforms for small particle analysis***,  Trust for Education and Training in Cytometry, September 2022.
+1. ***Characterizing EVs: Rigor & Reproducibility***, ISCT, May 2022.
+1. ***Utilizing flow cytometry for multi-parametric analysis***, Extracellular Vesicles (EVs): Technologies & Biological Investigations, December 2021.
+1. ***Making the most of your flow cytometer for small particle analysis***, Flow Cytometry UK, November 2021.
+1. ***Getting started with EV flow cytometry***, Cornell Institute of Biotechnology, September 2021.
+1. ***Flow Cytometry and EVs: from MIFlowCyt-EV to calibration of fluorescence and light scatter***, ISEV Extracellular Vesicle Club, July 2021.
+1. ***Current Landscape of Single Extracellular Vesicle Flow Cytometry***, ISTH 2021, July 2021.
+1. ***ISEV-ISAC-ISTH EV Flow Cytometry Working Group Updates***, ISEV2021 Satellite Session, May 2021.
+1. ***Developing the toolkit to create an EV atlas***, Canadian EV Network Meeting, December 2020.
+1. ***The importance of orthogonal measurement techniques for EV quantification***, SelectBio Webinar, August 2020.
+1. ***Towards evaluating the prognostic potential of extracellular vesicles***, Institut Cure, Paris, France, February 2020.
+1. ***Towards evaluating the prognostic potential of extracellular vesicles***, Pediatric Oncology Branch Seminar, NIH, Bethesda, USA, January 2020.
+1. ***Extracellular Vesicle Flow Cytometry: A multiplex to single EV analysis (MtSEA) pipeline***, Flow Cytometry User Group, NIH, Bethesda, USA, December 2019.
+1. ***Extracellular Vesicle Flow Cytometry***, UC Davis, USA, December 2019.
+1. ***FCM<sub>PASS</sub> utilizes MIFlowCyt-EV framework criteria and extracts flow cytometry setting information to allow transparent reporting irrespective of file sharing repository.***, ISEV Workshop: Open, Reproducible and standardized EV research, Ghent, Belgium, 2019.
+1. ***FCM<sub>PASS</sub> provides light scatter and fluorescence calibration tools for reporting small particle data in standard units***, MADSSCi-NERLSCD regional ABRF groups meeting, Philadelphia, USA, November 2019.
+1. ***EV standardization***, Tutorial, CYTO2019, Vancouver, Canada, June 2019.
+1. ***Next Generation Extracellular Vesicles Studies for Cancer Research***, 61st Annual Danish Society for Flow Cytometry Annual Meeting, Kongens Lyngby, Copenhagen, Denmark, May 2019.
+1. ***Next Generation Extracellular Vesicles Studies for Cancer Research***, 19th Annual CCR Fellows and Young Investigators Colloquium, Rockville, USA, February 2019.
+1. ***Tools for extracellular vesicles analysis using flow cytometry***, CytoFlex User Group Meeting, Bethesda, USA, December 2018.
+1. ***Tools for extracellular vesicles analysis using flow cytometry***, Chesapeake Cytometry Consortium, <br>Rockville, USA, November 2018.
+1. ***Development of hyperplexed EV phenotyping assays and software.*** Cytometry Development Symposium, San Diego, USA, November 2018.
+1. ***Developing tools for a multiplex-to-single EV analysis pipeline***, Nanoscale Flow Cytometry for Cancer, Infection, and Disease, Ottawa, Canada, October 2018.
+1. ***Scatter-based reference materials***, ISEV-ISAC-ISTH Satellite Symposium, ISEV, Barcelona, May 2018.
+1. ***Extracellular Vesicles***, Vaccine Branch, National Cancer Institute, National Institutes of Health, April 2017.
+1. ***Extracellular Vesicles: My Journey as a Biologist, Physicist, & Engineer***, University of Edinburgh, Scotland, September 2016.
+1. ***Past, Present, & Future of Extracellular Vesicles***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, June 2016.
+1. ***High-Resolution Flow Cytometry Analysis for Extracellular Vesicles – What do we need to know?***, University of Edinburgh, Scotland, March 2016.
+1. ***Extracellular Vesicles***, Thermo Fisher Scientific North American Field Application Specialist Webinar, March 2016.
+1. ***Extracellular Vesicles: A new generation of translational biomarkers is dawning***, Hong Kong University, Hong Kong, February 2016.
 
-2. **2023** - **Building Tools to Decipher Extracellular Vesicle Cargo**, RoosterBio, *Invited by Biji Mathew, PhD* (Industry)
+### Industry
 
-3. **2023** - **Characterizing the unseen: The rise of small particle flow cytometry**, CYTO2023, *Invited by CYTO2023 IOC* (Invited)
+1. ***Building Tools to Decipher Extracellular Vesicle Cargo***, RoosterBio, April 2023.
+1. ***Meeting the needs of small particle flow cytometry users***, Beckman Coulter FSE & TAS Seminar, July 2022.
+1. ***Developing an tools for cross-platform single EV analysis***, BD R&D Seminar, May 2022.
+1. ***Building the tools for EV standardization and characterization using flow cytometry***, Beckman Coulter, September 2021.
+1. ***Optimizing the Aurora Platform for Sensitive, ergonomic and standardized small particle detection***, Cytek Biosciences, May 2021.
+1. ***Developing Tools for Multiplex to Single EV Analysis Pipelines***, Cytek Bioscience Webinar, October 2020.
+1. ***Past, Present, & Future of Extracellular Vesicles***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, June 2016.
+1. ***Microvesicles in Health & Disease***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, December 2014.
 
-## 2022 Talks
+### Workshops
 
-4. **2022** - **Small Particles Flow Cytometry Analysis**, 45th Annual Flow Cytometry Course, *Invited by Lauren Nettenstrom, MS, SC​YM(ASCP)* (Course)
+1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2025. Co-organizer with Mike Solga & Joanne Lannigan.
+1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, Madison, USA, 2024. Co-organizer with Vera A. Tang, PhD & Joanne Lannigan.
+1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2024. Co-organizer with Mike Solga & Joanne Lannigan.
+1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, San Diego, USA, 2023. Co-organizer with Vera A. Tang, PhD & Joanne Lannigan.
+1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, Madison, USA, 2022. Co-organizer with Vera A. Tang, PhD.
+1. ***MIFlowCyt-EV framework – a standard framework for conducting and reporting small particle research***, CYTO2020, Philadelphia, USA, 2020. Co-organizer with Joanne Lannigan, MS; John P. Nolan, PhD. *Canceled due to conference being compressed into a 2-day online schedule during COVID-19.*
+1. ***EV Multiplex Analysis***, CDW2019, San Diego, USA, November 2019. Invited by John Nolan, PhD.
+1. ***Picking Apart Multiplex Analysis***, Cytometry Development Symposium, San Diego, USA, 2018. Organizers: John P. Nolan, PhD and Jeffrey H. Price, MD, PhD.
+1. ***MESF Regression***, Cytometry Development Workshop, San Diego, USA, 2018. Organizers: John P. Nolan, PhD and Jeffrey H. Price, MD, PhD.
+1. ***Extracellular vesicles as biomarkers of liver fibrosis severity in non-alcoholic fatty liver disease***, ISEV Workshop, Birmingham, UK, 2017. Organizers: Aled Clayton, PhD; David Carter, PhD; Paul Harrison, PhD; Charlotte Lawson, PhD; Jason Webber, PhD; Chris Gardiner, PhD; Marca Wauben, PhD; Ken Witwer, PhD; Hubert Yin, PhD.
+1. ***Multi-wavelength modelling of nanoFACS and its comparison to current flow cytometers***, Cytometry Development Workshop, San Diego, USA, 2017. Organizers: John P. Nolan, PhD and Jeffrey H. Price, MD, PhD.
+1. ***EV Detection Development and Standardization***, Technical Session, Extracellular Vesicle Workshop, São Paulo, Brazil, 2016. Organizers: David Carter, PhD and Emmanuel Dias-Neto, PhD.
+1. ***Leukocyte microvesicles as fibrosis biomarkers in non-alcoholic liver disease***, Extracellular Vesicle Workshop, São Paulo, Brazil, 2016. Organizers: David Carter, PhD and Emmanuel Dias-Neto, PhD.
+1. ***Flow Cytometry SSC Collection Angle Can Be Deduced Using Acquisition of Reference Beads with Known Refractive Index***, Cytometry Development Workshop, San Diego, USA, 2016. Organizers: John P. Nolan, PhD and Jeffrey H. Price, MD, PhD.
+1. ***Flow Cytometry Detection of Extracellular Vesicles: Limitations and Advances***, Technical Session, Extracellular Vesicle Workshop, Moscow, Russia, 2015. Organizers: Alexander Kapustin, PhD and Vsevolod Tkachuk, PhD.
 
-5. **2022** - **Developing tools for cross platform single EV analysis**, Becton Dickinson, *Invited by Aaron Tyznik, PhD* (Industry)
+### Podcasts
 
-6. **2022** - **EV Characterization: Rigor and Reproducibility**, ISCT2022, *Invited by Bernd Giebel, PhD* (Conference)
+1. ***rEVview podcast***, October, 2024.
 
-7. **2022** - **Characterizing and optimizing flow cytometry platforms for small particle analysis**, Trust for Education and Training in Cytometry, *Invited by Hemant Agrawall, PhD* (Conference)
+1. ***SNEV podcast***, August, 2024.
 
-8. **2022** - **Meeting the needs of small particle flow cytometry users**, Beckman Coulter Global FSE & TAS Seminar, *Invited by Maria Gentile, MS* (Industry)
+### Sponsorship
 
-9. **2022** - **Developing the tools for an extracellular vesicle atlas**, Oregon Health & Science University Pathology Grand Rounds, *Invited by Terry Morgan MD, PhD* (Invited)
-
-10. **2022** - **EV standardization**, ISEVxTech, *Invited by Randy Carney, PhD* (Invited)
-
-## 2021 Talks
-
-11. **2021** - **Making the most of your flow cytometer for small particle analysis**, Flow Cytometry UK, *Invited by Derek Davies, BS & Rachael Walker, PhD* (Conference)
-
-12. **2021** - **Getting started with EV flow cytometry**, Cornell Institute of Biotechnology, *Invited by Lydia Tesfa, PhD* (Invited)
-
-13. **2021** - **Building the tools for EV standardization and characterization using flow cytometry**, Beckman Coulter, *Invited by Fanuel Messaggio, PhD* (Industry)
-
-14. **2021** - **Flow Cytometry and EVs: from MIFlowCytEV to calibration of fluorescence and light scatter**, ISEV Extracellular Vesicle Club, *Invited by Kenneth Witwer, PhD* (Webinar) [[link](https://www.youtube.com/watch?v=ghub6emZDAA&t=1s)]
-
-15. **2021** - **ISEVISACISTH EV Flow Cytometry Working Group Updates**, virtual ISTH2021, *Invited by ISTH2021 Organizing Committee* (Conference)
-
-16. **2021** - **ISEVISACISTH EV Flow Cytometry Working Group Updates**, virtual ISEV2021, *Invited by ISEV2021 Organizing Committee* (Conference)
-
-17. **2021** - **Optimizing the Aurora Platform for Sensitive, ergonomic and standardized small particle detection**, Cytek Biosciences, Webinar, *Invited by Joanne Lannigan, MS & Maria Jaimes, PhD* (Industry)
-
-## 2020 Talks
-
-18. **2020** - **Developing the toolkit to create an EV atlas**, Canadian Extracellular Vesicle Network 2nd Annual Meeting, *Invited by Canadian EV Network Organizing Committee* (Conference) [[link](https://youtu.be/anmZHRHPDmE?t=318)]
-
-19. **2020** - **Developing Tools for Multiplex to Single EV Analysis Pipelines**, Cytek Biosciences, Webinar, *Invited by Janelle Shook, MS MBA* (Industry) [[link](https://youtu.be/YxocaA74Wfw)]
-
-20. **2020** - **The importance of orthogonal measurement techniques for EV quantification**, SelectBio, *Invited by JeanLuc Fraikin, PhD* (Conference) [[link](https://youtu.be/w1Pttexc20o)]
-
-21. **2020** - **EV Calibration Tools**, virtual CYTO2020, *Invited by ISAC 2020 Education Committee* (Conference) [[link](https://youtu.be/mKA9dB_g19M)]
-
-22. **2020** - **Towards evaluating the prognostic potential of extracellular vesicles**, Institut Curie, *Invited by Clotilde Théry, PhD* (Conference)
-
-23. **2020** - **Towards evaluating the prognostic potential of extracellular vesicles**, Pediatric Oncology Branch Seminar, NIH, Bethesda, USA, *Invited by Rosandra Kaplan, MD* (Invited)
-
-## 2019 Talks
-
-24. **2019** - **Extracellular Vesicle Flow Cytometry: A multiplex to single EV analysis (MtSEA) pipeline**, Flow Cytometry User Group, NIH, Bethesda, USA, *Invited by William Telford PhD* (Conference)
-
-25. **2019** - **Extracellular Vesicle Flow Cytometry**, UC Davis, Davis, USA, *Invited by Randy Carney PhD* (Invited)
-
-26. **2019** - **EV Multiplex Analysis**, Cytometry Development Workshop, La Jolla, USA, *Invited by John P Nolan, PhD* (Workshop)
-
-27. **2019** - **EV Light Scatter by Flow Cytometry**, Cytometry Development Workshop, La Jolla, USA, *Invited by John P Nolan, PhD* (Workshop)
-
-28. **2019** - **Single EV Measurements: Instruments & Assays**, Cytometry Development Workshop, La Jolla, USA, *Invited by John P Nolan, PhD* (Workshop)
-
-29. **2019** - **FCMPASS v3 software is a tool allowing EV sizing using flow cytometry and provides a method of reporting flow cytometry fluorescence and light scatter data in standard units**, ASEMV2019, USA, *Invited by ASEMV2019, IOC* (Conference)
-
-30. **2019** - **Applying scatter and fluorescence standardization to flow cytometric data of small particles**, CYTO2019, Vancouver, Canada, *Invited by CYTO2019 IOC* (Conference)
-
-!!! tip "Video Links Available"
-    Several talks include links to recorded presentations. These provide excellent insights into the latest developments in extracellular vesicle research and flow cytometry methods.
-
-## Earlier Talks (2014-2018)
-
-!!! note "Complete Talk Archive"
-    I have given over 70 invited talks since 2014, covering topics including:
-    
-    - Extracellular vesicle characterization and standardization
-    - Flow cytometry method development
-    - Small particle analysis techniques
-    - Biomarker discovery and validation
-    - Translational research applications
-    
-    The complete chronological list includes presentations at major international conferences (ISEV, CYTO, ISAC), university seminars, industry workshops, and training courses.
+1. ***Navigating small particle flow cytometry***, SelectBio, November, 2024.
