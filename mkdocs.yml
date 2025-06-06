@@ -1,12 +1,10 @@
 site_name: Joshua Welsh, PhD
 site_description: Personal website of Joshua Welsh, a research scientist interested in developing next generation translational instrumentation, software, and assays that increase the power of and reproducibility of modern research and medicine.
 site_author: Joshua Welsh
-site_url: https://joadwe.github.io/personal-website/
+site_url: https://www.joshuawelsh.co.uk/
 
 theme:
   name: material
-  extra_css:
-    - stylesheets/extra.css
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
