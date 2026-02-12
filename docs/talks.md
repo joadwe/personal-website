@@ -5,7 +5,7 @@
 
 ## Invited Talks
 
-### Academic
+### Academic <span class="jw-talk-count"></span>
 1. ***EVs: Getting started.***, UC Davis, USA, February 2025.
 1. ***Small particle flow cytometry: The utility of assay agnostic metrics.***, Online Education Day, February 2025.
 1. ***Mastering small particle flow cytometry.***, Weizmann Institute of Science, Israel, September 2024.
@@ -13,7 +13,7 @@
 1. ***EV Flow Cytometry Optimization and Calibration.***, University of Virginia, March 2024.
 1. ***MISEV and ISEV Task Forces.***, University of Virginia, March 2024.
 1. ***Characterizing the unseen: The rise of small particle flow cytometry.***, CYTO2023 Plenary, May 2023.
-1. ***Novel EV-related e ducation materials.***, ISEV2023 Education Day, May 2023.
+1. ***Novel EV-related education materials.***, ISEV2023 Education Day, May 2023.
 1. ***ISEV-ISAC-ISTH Working Group Updates.***, ISEV2023, May 2023.
 1. ***MISEV, MIFlowCyt-EV, EV-TRACK: EV Reporting Standards***, University College Dublin, March 2023.
 1. ***EV standardization***, ISEVxTech, November 2022.
@@ -49,7 +49,7 @@
 1. ***Extracellular Vesicles***, Thermo Fisher Scientific North American Field Application Specialist Webinar, March 2016.
 1. ***Extracellular Vesicles: A new generation of translational biomarkers is dawning***, Hong Kong University, Hong Kong, February 2016.
 
-### Industry
+### Industry <span class="jw-talk-count"></span>
 
 1. ***Building Tools to Decipher Extracellular Vesicle Cargo***, RoosterBio, April 2023.
 1. ***Meeting the needs of small particle flow cytometry users***, Beckman Coulter FSE & TAS Seminar, July 2022.
@@ -60,7 +60,7 @@
 1. ***Past, Present, & Future of Extracellular Vesicles***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, June 2016.
 1. ***Microvesicles in Health & Disease***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, December 2014.
 
-### Workshops
+### Workshops <span class="jw-talk-count"></span>
 1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2026. Co-organizer with Mike Solga & Joanne Lannigan.
 1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, Pennsylvania, USA, 2025. Co-organizer with Vera A. Tang, PhD.
 1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2025. Co-organizer with Mike Solga & Joanne Lannigan.
@@ -79,7 +79,7 @@
 1. ***Flow Cytometry SSC Collection Angle Can Be Deduced Using Acquisition of Reference Beads with Known Refractive Index***, Cytometry Development Workshop, San Diego, USA, 2016. Organizers: John P. Nolan, PhD and Jeffrey H. Price, MD, PhD.
 1. ***Flow Cytometry Detection of Extracellular Vesicles: Limitations and Advances***, Technical Session, Extracellular Vesicle Workshop, Moscow, Russia, 2015. Organizers: Alexander Kapustin, PhD and Vsevolod Tkachuk, PhD.
 
-### Podcasts
+### Podcasts <span class="jw-talk-count"></span>
 
 1. ***rEVview podcast***, October, 2024.
 1. ***SNEV podcast***, August, 2024.

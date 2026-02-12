@@ -1,88 +1,243 @@
 # Publications
 
+<!-- Publication Timeline Chart -->
+<div class="jw-chart-container jw-reveal">
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels":["2017","2018","2019","2020","2021","2022","2023","2024","2025","2026"],"values":[2,5,7,11,5,5,6,7,2,1]}'></canvas>
+</div>
 
+<!-- Filter Bar -->
+<div class="jw-filter-bar jw-reveal">
+  <input type="text" id="jw-pub-search" class="jw-filter-bar__search" placeholder="Search publications..." />
+  <button class="jw-filter-btn jw-filter-btn--active" data-jw-filter="all">All</button>
+  <button class="jw-filter-btn" data-jw-filter="publication">Papers</button>
+  <button class="jw-filter-btn" data-jw-filter="chapter">Chapters</button>
+  <button class="jw-filter-btn" data-jw-filter="patent">Patents</button>
+  <span class="jw-filter-count" id="jw-filter-count"></span>
+</div>
 
-!!! info "Publications and Datasets"
-    Here, you can find links to each of my publications and datasets where applicable.
+!!! info "Publications, Chapters, Patents and Datasets"
+    Here, you can find links to each of my publications, book chapters, patents, and associated datasets.
+## 2026
+
+<div class="jw-pub-item" data-jw-type="chapter" data-jw-year="2026" markdown>
+1. Erdbrügger U, van Royen ME, Verhaegh GW, Grange C, Burger D, Greig M, Welsh JA, Nyman TA, Llorente A, Martens-Uzunova E, Puhka M, Barreiro KA, Ng MSY (2026), **Analysis of Urinary Extracellular Vesicles**, In: Srivastava AK (Ed.), Extracellular Vesicles, Springer US, pp. 115-166, DOI: 10.1007/978-1-0716-4905-3_7 \[[website](https://doi.org/10.1007/978-1-0716-4905-3_7){:target="_blank"}]
+</div>
+
 ## 2025
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2025" markdown>
 1. Bettin, B. A., Li, B., Falkena, K., van Leeuwen, T. G., Gollwitzer, C., Varga, Z., Ajzenberg, N., Antovic, J. P., Berckmans, P., Buzas, E. I., Carney, R. P., Cook, S., Dignat-George, F., Faille, D., Giebel, B., Jones, J. C., Kim, Y., Lacroix, R., Lannigan, J., Lucien, F., Maaninka, K., Marques de Menezes, E. G., Meyer, A., Mizenko, R. R., Nelissen, I., Nolan, J., Norris, P. J., Pink, D., Poudel, S., Robert, S., Siljander, P. R.-M., Tang, V. A., Tertel, T., Van Den Broeck, T., Wang, L., Welsh, J. A., Nieuwland, R., van der Pol, E. (2025), **Calibration of Flow Cytometers Enables Reproducible Measurements of Extracellular Vesicle Concentrations and Reference Range Establishment**, Journal of Extracellular Vesicles 14, no. 12: e70189, [[website](https://doi.org/10.1002/jev2.70189){ :target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="chapter" data-jw-year="2025" markdown>
+1. Petrovich-Kopitman E, Welsh JA, Adutler-Lieber S, Dayan A, Porat Z (2025), **Quantification and characterization extracellular vesicles by flow cytometry**, In: Torrecilhas AC (Ed.), Current Topics in Membranes, Volume 96, Academic Press, pp. 277-315, DOI: 10.1016/bs.ctm.2025.09.002 \[[website](https://doi.org/10.1016/bs.ctm.2025.09.002){:target="_blank"}]
+</div>
 
 ## 2024
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 1. Cavicchi, R.E., Ripple, D.C., Welsh, J.A., Izac, J.R., Peterson, A.W., Goldfain, A.M., Vreeland, W.N. (2024), **Measuring the size of oil droplets in a flow cytometer using Mie resonances: A possible size calibration ladder for 0.5–6 μm**, Cytometry Part A, doi: 10.1002/cyto.a.24912 [[website](https://doi.org/10.1002/cyto.a.24912){ :target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 1. Kim, J., Xu, S., Jung, S.-R., Nguyen, A., Cheng, Y., Zhao, M., Fujimoto, B. S., Nelson, W., Schiro, P., Franklin, J. L., Higginbotham, J. N., Coffey, R. J., Shi, M., Vojtech, L. N., Hladik, F., Tewari, M., Tigges, J., Ghiran, I., Jovanovic-Talisman, T., … Chiu, D. T. (2024), **Comparison of EV characterization by commercial high-sensitivity flow cytometers and a custom single-molecule flow cytometer**, _Journal of Extracellular Vesicles_, 13, e12498, doi: 10.1002/jev2.12498 [[website](https://doi.org/10.1002/jev2.12498){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 2. Nguyen, V. V. T., Welsh, J. A., Tertel, T., Choo, A., van de Wakker, S. I., Defourny, K. A. Y., Giebel, B., Vader, P., Padmanabhan, J., Lim, S. K., Nolte-'t Hoen, E. N. M., Verhaar, M. C., Bostancioglu, R. B., Zickler, A. M., Hong, J. M., Jones, J. C., EL Andaloussi, S., van Balkom, B. E. M., & Görgens, A. (2024), **Inter-laboratory multiplex bead-based surface protein profiling of MSC-derived EV preparations identifies MSC-EV surface marker signatures**, _Journal of Extracellular Vesicles_, 13, e12463, doi: 10.1002/jev2.12463 [[website](https://doi.org/10.1002/jev2.12463){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 3. Nishio K, Pasquet L, Camara K, DiSapio J, Hsu KS, Kato S, Bloom A, Richardson SK, Welsh JA, Jiang T, Jones JC, Cardell S, Watarai H, Terabe M, Olkhanud PB, Howell AR, Berzofsky JA (2023), **Lysosomal processing of sulfatide analogs alters target NKT cell specificity and immune responses in cancer**, J Clin Invest. 134(4):e165281, doi: 10.1172/JCI165281 [[website](https://doi.org/10.1172/JCI165281){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 4. Welsh JA, Goberdhan DC, O'Driscoll L, Théry C, Witwer KW (2024), **MISEV2023: An updated guide to EV research and applications**, J Extracell Vesicles. 13(2):e12416, doi: 10.1002/jev2.12416 [[website](https://doi.org/10.1002/jev2.12416){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
 5. Welsh JA, Goberdhan DCI, O'Driscoll L, Buzas EI, Blenkiron C, Bussolati B, Cai H, Di Vizio D, Driedonks TAP, Erdbrügger U, Falcon-Perez JM, Fu QL, Hill AF, Lenassi M, Lim SK, Mahoney MG, Mohanty S, Möller A, Nieuwland R, Ochiya T, Sahoo S, Torrecilhas AC, Zheng L, Zijlstra A, Abuelreich S, Bagabas R, Bergese P, Bridges EM, Brucale M, Burger D, Carney RP, Cocucci E, Crescitelli R, Hanser E, Harris AL, Haughey NJ, Hendrix A, Ivanov AR, Jovanovic-Talisman T, Kruh-Garcia NA, Ku'ulei-Lyn Faustino V, Kyburz D, Lässer C, Lennon KM, Lötvall J, Maddox AL, Martens-Uzunova ES, Mizenko RR, Newman LA, Ridolfi A, Rohde E, Rojalin T, Rowland A, Saftics A, Sandau US, Saugstad JA, Shekari F, Swift S, Ter-Ovanesyan D, Tosar JP, Useckaite Z, Valle F, Varga Z, van der Pol E, van Herwijnen MJC, Wauben MHM, Wehman AM, Williams S, Zendrini A, Zimmerman AJ; MISEV Consortium; Théry C, Witwer KW (2024), **Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches**, J Extracell Vesicles. 13(2):e12404, doi: 10.1002/jev2.12404 [[website](https://doi.org/10.1002/jev2.12404){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="patent" data-jw-year="2024" markdown>
+1. Jones JC, Welsh JA, McKinnon KM, Berzofsky JA, **Purification and labeling of extracellular vesicles using a mixed mode resin composition**, US12,083,448 B2, Assignee: US Department of Health and Human Services, Granted: Sep 10, 2024 [[website](https://patents.google.com/patent/US12083448B2){:target="_blank"}]
+</div>
 
 ## 2023
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 6. Cook S, Tang VA, Lannigan J, Jones JC, Welsh JA (2023), **Quantitative flow cytometry enables end-to-end optimization of cross-platform extracellular vesicle studies**, Cell Rep Methods. 3(12):100664, doi: 10.1016/j.crmeth.2023.100664 [[website](https://doi.org/10.1016/j.crmeth.2023.100664){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 7. de Oliveira Junior GP, Welsh JA, Pinckney B, Palu CC, Lu S, Zimmerman A, Barbosa RH, Sahu P, Noshin M, Gummuluru S, Tigges J, Jones JC, Ivanov AR, Ghiran IC (2023), **Human red blood cells release microvesicles with distinct sizes and protein composition that alter neutrophil phagocytosis**, J Extracell Biol. 2(11):e107, doi: 10.1002/jex2.107. Epub 2023 Oct 25 [[website](https://doi.org/10.1002/jex2.107){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 8. Pleet ML, Cook S, Tang VA, Stack E, Ford VJ, Lannigan J, Do N, Wenger E, Fraikin JL, Jacobson S, Jones JC, Welsh JA (2023), **Extracellular Vesicle Refractive Index Derivation Utilizing Orthogonal Characterization**, Nano Lett. 23(20):9195-9202, doi: 10.1021/acs.nanolett.3c00562. Epub 2023 Oct 3 [[website](https://doi.org/10.1021/acs.nanolett.3c00562){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 9. Pleet ML, Welsh JA, Stack EH, Cook S, Johnson DA, Killingsworth B, Traynor T, Clauze A, Hughes R, Monaco MC, Ngouth N, Ohayon J, Enose-Akahata Y, Nath A, Cortese I, Reich DS, Jones JC, Jacobson S (2023), **Viral Immune signatures from cerebrospinal fluid extracellular vesicles and particles in HAM and other chronic neurological diseases**, Front Immunol. 14:1235791, doi: 10.3389/fimmu.2023.1235791 [[website](https://doi.org/10.3389/fimmu.2023.1235791){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 10. Arce JE, Welsh JA, Cook S, Tigges J, Ghiran I, Jones JC, Jackson A, Roth M, Milosavljevic A (2023), **The NanoFlow Repository**, Bioinformatics. 39(6):btad368, doi: 10.1093/bioinformatics/btad368 [[website](https://doi.org/10.1093/bioinformatics/btad368){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 11. Welsh JA, Arkesteijn GJA, Bremer M, Cimorelli M, Dignat-George F, Giebel B, Görgens A, Hendrix A, Kuiper M, Lacroix R, Lannigan J, van Leeuwen TG, Lozano-Andrés E, Rao S, Robert S, de Rond L, Tang VA, Tertel T, Yan X, Wauben MHM, Nolan JP, Jones JC, Nieuwland R, van der Pol E., **A compendium of single extracellular vesicle flow cytometry**, J Extracell Vesicles. 2021 Dec;10(14):e12182. doi: 10.1002/jev2.12182., 2023, DOI: 10.1002/jev2.12299 [[website](https://doi.org/10.1002/jev2.12299){:target="_blank"}]
+</div>
 
 ## 2022
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
 12. Mateescu B, Jones JC, Alexander RP, Alsop E, An JY, Asghari M, Boomgarden A, Bouchareychas L, Cayota A, Chang HC, Charest A, Chiu DT, Coffey RJ, Das S, De Hoff P, deMello A, D'Souza-Schorey C, Elashoff D, Eliato KR, Franklin JL, Galas DJ, Gerstein MB, Ghiran IH, Go DB, Gould S, Grogan TR, Higginbotham JN, Hladik F, Huang TJ, Huo X, Hutchins E, Jeppesen DK, Jovanovic-Talisman T, Kim BYS, Kim S, Kim KM, Kim Y, Kitchen RR, Knouse V, LaPlante EL, Lebrilla CB, Lee LJ, Lennon KM, Li G, Li F, Li T, Liu T, Liu Z, Maddox AL, McCarthy K, Meechoovet B, Maniya N, Meng Y, Milosavljevic A, Min BH, Morey A, Ng M, Nolan J, De Oliveira Junior GP, Paulaitis ME, Phu TA, Raffai RL, Reátegui E, Roth ME, Routenberg DA, Rozowsky J, Rufo J, Senapati S, Shachar S, Sharma H, Sood AK, Stavrakis S, Stürchler A, Tewari M, Tosar JP, Tucker-Schwartz AK, Turchinovich A, Valkov N, Van Keuren-Jensen K, Vickers KC, Vojtech L, Vreeland WN, Wang C, Wang K, Wang Z, Welsh JA, Witwer KW, Wong DTW, Xia J, Xie YH, Yang K, Zaborowski MP, Zhang C, Zhang Q, Zivkovic AM, Laurent LC., **Phase 2 of extracellular RNA communication consortium charts next-generation approaches for extracellular RNA research**, iScience, 2022, DOI: 10.1016/j.isci.2022.104653 \[ [website](https://doi.org/10.1016/j.isci.2022.104653){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
 13. Welsh JA, Killingsworth B, Kepley J, Traynor T, Cook S, Savage J, Marte J, Lee MJ, Maeng HM, Pleet ML, Magana S, Gorgens A, Maire CL, Lamszus K, Ricklefs FL, Merino MJ, Linehan WM, Greten T, Cooks T, Harris CC, Apolo A, Abdel-Mageed A, Ivanov AR, Trepel JB, Roth M, Tkach M, Milosavljevic A, Théry C, LeBlanc A, Berzofsky JA, Ruppin E, Aldape K, Camphausen K, Gulley JL, Ghiran I, Jacobson S, Jones JC., **MPA(PASS) software enables stitched multiplex, multidimensional EV repertoire analysis and a standard framework for reporting bead-based assays**, Cell Rep Methods, 2022, DOI: 10.1016/j.crmeth.2021.100136 \[ [website](https://doi.org/10.1016/j.crmeth.2021.100136){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
 14. Nolan JP, Chiu DT, Welsh JA, **Rigor and reproducibility: status and challenges for single vesicle analysis**, Extracellular Vesicles and Circulating Nucleic Acids, 2022, DOI: 10.20517/evcna.2022.28 \[ [website](https://doi.org/10.20517/evcna.2022.28){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
 15. Moles R, Sarkis S, Galli V, Omsland M, Artesi M, Bissa M, McKinnon K, Brown S, Hahaut V, Washington-Parks R, Welsh J, Venzon DJ, Gutowska A, Doster MN, Breed MW, Killoran KE, Kramer J, Jones J, Moniuszko M, Van den Broeke A, Pise-Masison CA, Franchini G., **NK cells and monocytes modulate primary HTLV-1 infection**, PLoS Pathog, 2022, DOI: 10.1371/journal.ppat.1010416 \[ [website](https://doi.org/10.1371/journal.ppat.1010416){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="patent" data-jw-year="2022" markdown>
+1. Jones JC, Morales-Kastresana A, Berzofsky JA, Welsh JA, Rosner A, **Molecular nanotags**, US11,536,719 B2, Assignee: US Department of Health and Human Services, Granted: Dec 27, 2022 [[website](https://patents.google.com/patent/US11536719B2){:target="_blank"}]
+</div>
 
 ## 2021
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 16. Witwer KW, Goberdhan DC, O'Driscoll L, Théry C, Welsh JA, Blenkiron C, Buzás EI, Di Vizio D, Erdbrügger U, Falcón-Pérez JM, Fu QL, Hill AF, Lenassi M, Lötvall J, Nieuwland R, Ochiya T, Rome S, Sahoo S, Zheng L., _Updating MISEV: Evolving the minimal requirements for studies of extracellular vesicles_, J Extracell Vesicles, 2021, DOI: 10.1002/jev2.12182 \[ [website](https://doi.org/10.1002/jev2.12182){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 17. Maire CL, Fuh MM, Kaulich K, Fita KD, Stevic I, Heiland DH, Welsh JA, Jones JC, Görgens A, Ricklefs T, Dührsen L, Sauvigny T, Joosse SA, Reifenberger G, Pantel K, Glatzel M, Miklosi AG, Felce JH, Caselli M, Pereno V, Reimer R, Schlüter H, Westphal M, Schüller U, Lamszus K, Ricklefs FL., _Genome-wide methylation profiling of glioblastoma cell-derived extracellular vesicle DNA allows tumor classification_, Neuro Oncol, 2021, DOI: 10.1093/neuonc/noab012 \[ [website](https://doi.org/10.1093/neuonc/noab012){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 18. Welsh JA, Killingsworth B, Kepley J, Traynor T, McKinnon K, Savage J, Appel D, Aldape K, Camphausen K, Berzofsky JA, Ivanov AR, Ghiran IH, Jones JC., _A simple, high-throughput method of protein and label removal from extracellular vesicle samples_, Nanoscale, 2021, DOI: 10.1039/d0nr07830a \[ [website](https://doi.org/10.1039/d0nr07830a){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 19. Killingsworth B, Welsh JA, Jones JC., _EV Translational Horizons as Viewed Across the Complex Landscape of Liquid Biopsies_, Front Cell Dev Biol, 2021, DOI: 10.3389/fcell.2021.556837 \[[website](https://doi.org/10.3389/fcell.2021.556837){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 20. van der Pol E, Welsh JA, Nieuwland R., _Minimum information to report about a flow cytometry experiment on extracellular vesicles: Communication from the ISTH SSC subcommittee on vascular biology_, J Thromb Haemost, 2021, DOI: 10.1111/jth.15540 \[ [website](https://doi.org/10.1111/jth.15540){:target="_blank"}]
+</div>
 
 ## 2020
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 21. Welsh JA, Jenkins LM, Kepley J, Lyons GC, Moore DM, Traynor T, Berzofsky JA, Jones JC., _High Sensitivity Protein Gel Electrophoresis Label Compatible with Mass-Spectrometry_, Biosensors (Basel), 2020, DOI: 10.3390/bios10110160 \[ [website](https://doi.org/10.3390/bios10110160){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 22. Welsh JA, Van Der Pol E, Arkesteijn GJA, Bremer M, Brisson A, Coumans F, Dignat-George F, Duggan E, Ghiran I, Giebel B, Görgens A, Hendrix A, Lacroix R, Lannigan J, Libregts SFWM, Lozano-Andrés E, Morales-Kastresana A, Robert S, De Rond L, Tertel T, Tigges J, De Wever O, Yan X, Nieuwland R, Wauben MHM, Nolan JP, Jones JC., _MIFlowCyt-EV: a framework for standardized reporting of extracellular vesicle flow cytometry experiments_, J Extracell Vesicles, 2020, DOI: 10.1080/20013078.2020.1713526 \[[website](https://doi.org/10.1080/20013078.2020.1713526){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 23. Morales-Kastresana A, Welsh JA, Jones JC., _Detection and Sorting of Extracellular Vesicles and Viruses Using nanoFACS_, Curr Protoc Cytom, 2020, DOI: 10.1002/cpcy.81 \[[website](https://doi.org/10.1002/cpcy.81){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 24. Welsh JA, van der Pol E, Bettin BA, Carter DRF, Hendrix A, Lenassi M, Langlois MA, Llorente A, van de Nes AS, Nieuwland R, Tang V, Wang L, Witwer KW, Jones JC., _Towards defining reference materials for measuring extracellular vesicle refractive index, epitope abundance, size and concentration_, J Extracell Vesicles, 2020, DOI: 10.1080/20013078.2020.1816641 \[ [website](https://doi.org/10.1080/20013078.2020.1816641){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 25. Welsh JA, Jones JC., _Small Particle Fluorescence and Light Scatter Calibration Using FCM(PASS) Software_, Curr Protoc Cytom, 2020, DOI: 10.1002/cpcy.79 \[ [website](https://doi.org/10.1002/cpcy.79){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 26. Butement JT, Holloway PM, Welsh JA, Holloway JA, Englyst NA, Horak P, West J, Wilkinson JS., _Monolithically-integrated cytometer for measuring particle diameter in the extracellular vesicle size range using multi-angle scattering_, Lab Chip, 2020, DOI: 10.1039/c9lc01182j \[ [website](https://doi.org/10.1039/c9lc01182j){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 27. Burnie J, Tang VA, Welsh JA, Persaud AT, Thaya L, Jones JC, Guzzo C., _Flow Virometry Quantification of Host Proteins on the Surface of HIV-1 Pseudovirus Particles_, Viruses, 2020, DOI: 10.3390/v12111296 \[ [website](https://doi.org/10.3390/v12111296){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 28. Welsh JA, Jones JC, Tang VA., _Fluorescence and Light Scatter Calibration Allow Comparisons of Small Particle Data in Standard Units across Different Flow Cytometry Platforms and Detector Settings_, Cytometry A, 2020, DOI: 10.1002/cyto.a.24029 \[ [website](https://doi.org/10.1002/cyto.a.24029){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 29. Welsh JA, Tang VA, van der Pol E, Görgens A., _MIFlowCyt-EV: The Next Chapter in the Reporting and Reliability of Single Extracellular Vesicle Flow Cytometry Experiments_, Cytometry A, 2020, DOI: 10.1002/cyto.a.24268 \[ [website](https://doi.org/10.1002/cyto.a.24268){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 30. de Rond L, Coumans FAW, Welsh JA, Nieuwland R, van Leeuwen TG, van der Pol E., _Quantification of Light Scattering Detection Efficiency and Background in Flow Cytometry_, Cytometry A, 2020, DOI: 10.1002/cyto.a.24243 \[ [website](https://doi.org/10.1002/cyto.a.24243){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="patent" data-jw-year="2020" markdown>
+1. Welsh JA, Jones JC, Telford WG, Berzofsky JA, Rosner A, **Optical configuration methods for spectral scatter flow cytometry**, US10,876,955 B2, Assignee: US Department of Health and Human Services, Granted: Dec 29, 2020 [[website](https://patents.google.com/patent/US10876955B2){:target="_blank"}]
+</div>
 
 ## 2019
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 31. Murillo OD, Thistlethwaite W, Rozowsky J, Subramanian SL, Lucero R, Shah N, Jackson AR, Srinivasan S, Chung A, Laurent CD, Kitchen RR, Galeev T, Warrell J, Diao JA, Welsh JA, Hanspers K, Riutta A, Burgstaller-Muehlbacher S, Shah RV, Yeri A, Jenkins LM, Ahsen ME, Cordon-Cardo C, Dogra N, Gifford SM, Smith JT, Stolovitzky G, Tewari AK, Wunsch BH, Yadav KK, Danielson KM, Filant J, Moeller C, Nejad P, Paul A, Simonson B, Wong DK, Zhang X, Balaj L, Gandhi R, Sood AK, Alexander RP, Wang L, Wu C, Wong DTW, Galas DJ, Van Keuren-Jensen K, Patel T, Jones JC, Das S, Cheung KH, Pico AR, Su AI, Raffai RL, Laurent LC, Roth ME, Gerstein MB, Milosavljevic A., _exRNA Atlas Analysis Reveals Distinct Extracellular RNA Cargo Types and Their Carriers Present across Human Biofluids_, Cell, 2019, DOI: 10.1016/j.cell.2019.02.018 \[ [website](https://doi.org/10.1016/j.cell.2019.02.018){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 32. Görgens A, Bremer M, Ferrer-Tur R, Murke F, Tertel T, Horn PA, Thalmann S, Welsh JA, Probst C, Guerin C, Boulanger CM, Jones JC, Hanenberg H, Erdbrügger U, Lannigan J, Ricklefs FL, El-Andaloussi S, Giebel B., _Optimisation of imaging flow cytometry for the analysis of single extracellular vesicles by using fluorescence-tagged vesicles as biological reference material_, J Extracell Vesicles, 2019, DOI: 10.1080/20013078.2019.1587567 \[ [website](https://doi.org/10.1080/20013078.2019.1587567){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 33. Clayton A, Boilard E, Buzas EI, Cheng L, Falcón-Perez JM, Gardiner C, Gustafson D, Gualerzi A, Hendrix A, Hoffman A, Jones J, Lässer C, Lawson C, Lenassi M, Nazarenko I, O'Driscoll L, Pink R, Siljander PR, Soekmadji C, Wauben M, Welsh JA, Witwer K, Zheng L, Nieuwland R., _Considerations towards a roadmap for collection, handling and storage of blood extracellular vesicles_, J Extracell Vesicles, 2019, DOI: 10.1080/20013078.2019.1647027 \[[website](https://doi.org/10.1080/20013078.2019.1647027){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 34. Czechowska K, Lannigan J, Aghaeepour N, Back JB, Begum J, Behbehani G, Bispo C, Bitoun D, Fernández AB, Boova ST, Brinkman RR, Ciccolella CO, Cotleur B, Davies D, Dela Cruz GV, Del Rio-Guerra R, Des Lauriers-Cox AM, Douagi I, Dumrese C, Bonilla Escobar DL, Estevam J, Ewald C, Fossum A, Gaudillière B, Green C, Groves C, Hall C, Haque Y, Hedrick MN, Hogg K, Hsieh EWY, Irish J, Lederer J, Leipold M, Lewis-Tuffin LJ, Litwin V, Lopez P, Nasdala I, Nedbal J, Ohlsson-Wilhelm BM, Price KM, Rahman AH, Rayanki R, Rieger AM, Robinson JP, Shapiro H, Sun YS, Tang VA, Tesfa L, Telford WG, Walker R, Welsh JA, Wheeler P, Tárnok A., _Cyt-Geist: Current and Future Challenges in Cytometry: Reports of the CYTO 2019 Conference Workshops_, Cytometry A, 2019, DOI: 10.1002/cyto.a.23941 \[[website](https://doi.org/10.1002/cyto.a.23941){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 35. Morales-Kastresana A, Musich TA, Welsh JA, Telford W, Demberg T, Wood JCS, Bigos M, Ross CD, Kachynski A, Dean A, Felton EJ, Van Dyke J, Tigges J, Toxavidis V, Parks DR, Overton WR, Kesarwala AH, Freeman GJ, Rosner A, Perfetto SP, Pasquet L, Terabe M, McKinnon K, Kapoor V, Trepel JB, Puri A, Kobayashi H, Yung B, Chen X, Guion P, Choyke P, Knox SJ, Ghiran I, Robert-Guroff M, Berzofsky JA, Jones JC., _High-fidelity detection and sorting of nanoscale vesicles in viral disease and cancer_, J Extracell Vesicles, 2019, DOI: 10.1080/20013078.2019.1597603 \[ [website](https://doi.org/10.1080/20013078.2019.1597603){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 36. Tang VA, Fritzsche AK, Renner TM, Burger D, van der Pol E, Lannigan JA, Brittain GC, Welsh JA, Jones JC, Langlois M,, _Engineered Retroviruses as Fluorescent Biological ReferenceParticles for Small Particle Flow Cytometry_, BioRxiv, 2019, DOI: 10.1101/614461 \[[website](https://doi.org/10.1101/614461){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 37. Welsh JA, Horak P, Wilkinson JS, Ford VJ, Jones JC, Smith D, Holloway JA, Englyst NA., _FCM(PASS) Software Aids Extracellular Vesicle Light Scatter Standardization_, Cytometry A, 2019, DOI: 10.1002/cyto.a.23782 \[ [website](https://doi.org/10.1002/cyto.a.23782){:target="_blank"}]
+</div>
 
 ## 2018
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 38. Théry C, Witwer KW, Aikawa E, Alcaraz MJ, Anderson JD, Andriantsitohaina R, Antoniou A, Arab T, Archer F, Atkin-Smith GK, Ayre DC, Bach JM, Bachurski D, Baharvand H, Balaj L, Baldacchino S, Bauer NN, Baxter AA, Bebawy M, Beckham C, Bedina Zavec A, Benmoussa A, Berardi AC, Bergese P, Bielska E, Blenkiron C, Bobis-Wozowicz S, Boilard E, Boireau W, Bongiovanni A, Borràs FE, Bosch S, Boulanger CM, Breakefield X, Breglio AM, Brennan MÁ, Brigstock DR, Brisson A, Broekman ML, Bromberg JF, Bryl-Górecka P, Buch S, Buck AH, Burger D, Busatto S, Buschmann D, Bussolati B, Buzás EI, Byrd JB, Camussi G, Carter DR, Caruso S, Chamley LW, Chang YT, Chen C, Chen S, Cheng L, Chin AR, Clayton A, Clerici SP, Cocks A, Cocucci E, Coffey RJ, Cordeiro-da-Silva A, Couch Y, Coumans FA, Coyle B, Crescitelli R, Criado MF, D'Souza-Schorey C, Das S, Datta Chaudhuri A, de Candia P, De Santana EF, De Wever O, Del Portillo HA, Demaret T, Deville S, Devitt A, Dhondt B, Di Vizio D, Dieterich LC, Dolo V, Dominguez Rubio AP, Dominici M, Dourado MR, Driedonks TA, Duarte FV, Duncan HM, Eichenberger RM, Ekström K, El Andaloussi S, Elie-Caille C, Erdbrügger U, Falcón-Pérez JM, Fatima F, Fish JE, Flores-Bellver M, Försönits A, Frelet-Barrand A, et al., _Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines_, J Extracell Vesicles, 2018, DOI: 10.1080/20013078.2018.1535750 \[[website](https://doi.org/10.1080/20013078.2018.1535750){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 39. Welsh JA, Kepley J, Rosner A, Horak P, Berzofsky JA, Jones JC., _Prospective Use of High-Refractive Index Materials for Single Molecule Detection in Flow Cytometry_, Sensors (Basel), 2018, DOI: 10.3390/s18082461 \[ [website](https://doi.org/10.3390/s18082461){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 40. Wiklander OPB, Bostancioglu RB, Welsh JA, Zickler AM, Murke F, Corso G, Felldin U, Hagey DW, Evertsson B, Liang XM, Gustafsson MO, Mohammad DK, Wiek C, Hanenberg H, Bremer M, Gupta D, Björnstedt M, Giebel B, Nordin JZ, Jones JC, El Andaloussi S, Görgens A., _Systematic Methodological Evaluation of a Multiplex Bead-Based Flow Cytometry Assay for Detection of Extracellular Vesicle Surface Signatures_, Front Immunol, 2018, DOI: 10.3389/fimmu.2018.01326 \[[website](https://doi.org/10.3389/fimmu.2018.01326){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 41. Welsh JA, Scorletti E, Clough GF, Englyst NA, Byrne CD., _Leukocyte extracellular vesicle concentration is inversely associated with liver fibrosis severity in NAFLD_, J Leukoc Biol, 2018, DOI: 10.1002/JLB.5A1217-501R \[[website](https://doi.org/10.1002/JLB.5A1217-501R){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 42. Clayton A, Buschmann D, Byrd JB, Carter DRF, Cheng L, Compton C, Daaboul G, Devitt A, Falcon-Perez JM, Gardiner C, Gustafson D, Harrison P, Helmbrecht C, Hendrix A, Hill A, Hoffman A, Jones JC, Kalluri R, Kang JY, Kirchner B, Lässer C, Lawson C, Lenassi M, Levin C, Llorente A, Martens-Uzunova ES, Möller A, Musante L, Ochiya T, Pink RC, Tahara H, Wauben MHM, Webber JP, Welsh JA, Witwer KW, Yin H, Nieuwland R., _Summary of the ISEV workshop on extracellular vesicles as disease biomarkers, held in Birmingham, UK, during December 2017_, J Extracell Vesicles, 2018, DOI: 10.1080/20013078.2018.1473707 \[[website](https://doi.org/10.1080/20013078.2018.1473707){:target="_blank"}]
+</div>
 
 ## 2017
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2017" markdown>
 43. Welsh JA, Holloway JA, Wilkinson JS, Englyst NA., _Extracellular Vesicle Flow Cytometry Analysis and Standardization_, Front Cell Dev Biol, 2017, DOI: 10.3389/fcell.2017.00078 \[[website](https://doi.org/10.3389/fcell.2017.00078){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2017" markdown>
 44. Ramirez MI, Amorim MG, Gadelha C, Milic I, Welsh JA, Freitas VM, Nawaz M, Akbar N, Couch Y, Makin L, Cooke F, Vettore AL, Batista PX, Freezor R, Pezuk JA, Rosa-Fernandes L, Carreira ACO, Devitt A, Jacobs L, Silva IT, Coakley G, Nunes DN, Carter D, Palmisano G, Dias-Neto E., _Technical challenges of working with extracellular vesicles_, Nanoscale, 2017, DOI: 10.1039/c7nr08360b \[ [website](https://doi.org/10.1039/c7nr08360b){:target="_blank"}]
-
-# Chapters
-
-## 2026
-1. Erdbrügger U, van Royen ME, Verhaegh GW, Grange C, Burger D, Greig M, Welsh JA, Nyman TA, Llorente A, Martens-Uzunova E, Puhka M, Barreiro KA, Ng MSY (2026), **Analysis of Urinary Extracellular Vesicles**, In: Srivastava AK (Ed.), Extracellular Vesicles, Springer US, pp. 115-166, DOI: 10.1007/978-1-0716-4905-3_7 \[[website](https://doi.org/10.1007/978-1-0716-4905-3_7){:target="_blank"}]
-
-## 2025
-1. Petrovich-Kopitman E, Welsh JA, Adutler-Lieber S, Dayan A, Porat Z (2025), **Quantification and characterization extracellular vesicles by flow cytometry**, In: Torrecilhas AC (Ed.), Current Topics in Membranes, Volume 96, Academic Press, pp. 277-315, DOI: 10.1016/bs.ctm.2025.09.002 \[[website](https://doi.org/10.1016/bs.ctm.2025.09.002){:target="_blank"}]
-
-# Patents
-
-!!! info "US Patents and Applications"
-    Granted US patents and published US patent applications.
-
-## Granted Patents
-1. Jones JC, Welsh JA, McKinnon KM, Berzofsky JA, **Purification and labeling of extracellular vesicles using a mixed mode resin composition**, US12,083,448 B2, Assignee: US Department of Health and Human Services, Granted: Sep 10, 2024 [[website](https://patents.google.com/patent/US12083448B2){:target="_blank"}]
-1. Jones JC, Morales-Kastresana A, Berzofsky JA, Welsh JA, Rosner A, **Molecular nanotags**, US11,536,719 B2, Assignee: US Department of Health and Human Services, Granted: Dec 27, 2022 [[website](https://patents.google.com/patent/US11536719B2){:target="_blank"}]
-1. Welsh JA, Jones JC, Telford WG, Berzofsky JA, Rosner A, **Optical configuration methods for spectral scatter flow cytometry**, US10,876,955 B2, Assignee: US Department of Health and Human Services, Granted: Dec 29, 2020 [[website](https://patents.google.com/patent/US10876955B2){:target="_blank"}]
+</div>
 

@@ -2,54 +2,113 @@
 
 ## Employment
 
-### Advanced Technology Group, Waters Biosciences
-**2026-Present** - Senior Staff Scientist 
+<div class="jw-timeline">
 
-### Advanced Technology Group, BD Biosciences
-**2025-2026** - Senior Staff Scientist 
-**2025-2025** - Staff Scientist II 
-**2023-2025** - Staff Scientist
+<div class="jw-timeline-item jw-reveal">
+  <div class="jw-timeline-item__date">2026 — Present</div>
+  <div class="jw-timeline-item__title">Senior Staff Scientist</div>
+  <div class="jw-timeline-item__org">Advanced Technology Group, Waters Biosciences</div>
+  <div class="jw-timeline-item__desc">Next-generation scientific hardware and software development.</div>
+</div>
 
-### Translational Nanobiology Section, National Institutes of Health
-**2023-2023** - Staff Scientist
+<div class="jw-timeline-item jw-reveal">
+  <div class="jw-timeline-item__date">2023 — 2026</div>
+  <div class="jw-timeline-item__title">Staff Scientist → Senior Staff Scientist</div>
+  <div class="jw-timeline-item__org">Advanced Technology Group, BD Biosciences</div>
+  <div class="jw-timeline-item__desc">Advanced flow cytometry instrumentation and small particle analysis.</div>
+</div>
 
-**2021-2023** - Research Fellow
+<div class="jw-timeline-item jw-reveal">
+  <div class="jw-timeline-item__date">2017 — 2023</div>
+  <div class="jw-timeline-item__title">Visiting Fellow → Research Fellow → Staff Scientist</div>
+  <div class="jw-timeline-item__org">Translational Nanobiology Section, National Institutes of Health (NCI/CCR)</div>
+  <div class="jw-timeline-item__desc">Developed nanoFACS, FCMPASS, and MIFlowCyt-EV framework for extracellular vesicle standardization.</div>
+</div>
 
-**2017-2021** - Visiting Postdoctoral Fellow
+<div class="jw-timeline-item jw-timeline-item--accent jw-reveal">
+  <div class="jw-timeline-item__date">2016 — 2017</div>
+  <div class="jw-timeline-item__title">Senior Research Assistant</div>
+  <div class="jw-timeline-item__org">University of Southampton</div>
+</div>
 
-### The Brilliant Club
+<div class="jw-timeline-item jw-timeline-item--accent jw-reveal">
+  <div class="jw-timeline-item__date">2014 — 2015</div>
+  <div class="jw-timeline-item__title">Tutor</div>
+  <div class="jw-timeline-item__org">The Brilliant Club</div>
+</div>
 
-**2014-2015** - Tutor
+<div class="jw-timeline-item jw-timeline-item--accent jw-reveal">
+  <div class="jw-timeline-item__date">2013 — 2016</div>
+  <div class="jw-timeline-item__title">Lab Demonstrator</div>
+  <div class="jw-timeline-item__org">University of Southampton</div>
+</div>
 
-### University of Southampton
-**2016-2017** - Senior Research Assistant, University of Southampton
-
-**2013-2016** - Lab Demonstrator, University of Southampton
+</div>
 
 ## Education
 
-**2013-2017** - Doctor of Philosophy (Translational Medicine), University of Southampton
+<div class="jw-timeline">
 
-**2014-2015** - PCAP Module 1, University of Southampton
+<div class="jw-timeline-item jw-reveal">
+  <div class="jw-timeline-item__date">2013 — 2017</div>
+  <div class="jw-timeline-item__title">Doctor of Philosophy (Translational Medicine)</div>
+  <div class="jw-timeline-item__org">University of Southampton</div>
+</div>
 
-**2010-2013** - Bachelor of Science (Physiology with Pharmacology), University of Leicester
+<div class="jw-timeline-item jw-timeline-item--accent jw-reveal">
+  <div class="jw-timeline-item__date">2014 — 2015</div>
+  <div class="jw-timeline-item__title">PCAP Module 1</div>
+  <div class="jw-timeline-item__org">University of Southampton</div>
+</div>
+
+<div class="jw-timeline-item jw-reveal">
+  <div class="jw-timeline-item__date">2010 — 2013</div>
+  <div class="jw-timeline-item__title">Bachelor of Science (Physiology with Pharmacology)</div>
+  <div class="jw-timeline-item__org">University of Leicester</div>
+</div>
+
+</div>
 
 ## Professional Positions
 
-**2024-Present** - Associate Editor, Cytometry Part A
+<div class="jw-cards" markdown>
 
-**2020-Present** - Member, ISAC Data Committee
+<div class="jw-card jw-reveal" markdown>
 
-**2020-2024** - Member-at-large, ISEV Executive Board
+:material-pencil: **Associate Editor**
 
-**2020-2023** - Associate Editor, Current Protocols in Cytometry
+Cytometry Part A (2024–Present) · Current Protocols in Cytometry (2020–2023)
 
-**2019-2023** - Chair, ISEV Rigor and Standardization: EV Reference Materials Task Force
+</div>
 
-**2016-Present** - Member, ISAC-ISEV-ISTH EV Flow Cytometry Working Group
+<div class="jw-card jw-reveal" markdown>
 
-**2015-Present** - Associate Fellow, Higher Education Academy
+:material-account-group: **Committee Member**
 
-**2014-2024** - Member, International Society of Extracellular Vesicles
+ISAC Data Committee (2020–Present) · ISEV Executive Board, Member-at-large (2020–2024)
 
-**2014-Present** - Member, International Society for Advancement of Cytometry (ISAC)
+</div>
+
+<div class="jw-card jw-reveal" markdown>
+
+:material-flag: **Task Force Chair**
+
+ISEV Rigor & Standardization: EV Reference Materials (2019–2023)
+
+</div>
+
+<div class="jw-card jw-reveal" markdown>
+
+:material-flask: **Working Group**
+
+ISAC-ISEV-ISTH EV Flow Cytometry Working Group (2016–Present)
+
+</div>
+
+</div>
+
+### Memberships
+
+- :material-certificate: **Associate Fellow**, Higher Education Academy (2015–Present)
+- :material-account: **Member**, International Society of Extracellular Vesicles (2014–2024)
+- :material-account: **Member**, International Society for Advancement of Cytometry (2014–Present)

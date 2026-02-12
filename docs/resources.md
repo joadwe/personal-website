@@ -16,9 +16,9 @@
     Course materials and documentation from extracellular vesicle and flow cytometry training programs:
 
 ### Recent Courses
-* **2026** - UVA EV Course [[doc](https://docs.google.com/document/d/1icJHnD8D_Jv-qTAkWWW8ZKmLRY6IImHdHrR-8KlDAmg/edit?usp=sharing){:target="_blank"}]
+* **2026** - UVA EV Course [[doc](https://docs.google.com/document/d/1VS01-umuw_jqNNvbYOXvL8g5oMI-fx1Vn7PS_7R5nVg/edit?usp=sharing){:target="_blank"}, [data](https://doi.org/10.6084/m9.figshare.25466308){:target="_blank"}]
 
-* **2025** - 48th Annual Flow Course [[doc](https://docs.google.com/document/d/1oECh1BSzNmgDyKnuRYf1zfKGsGyXFUZDIdj-mz_Jki0/edit?usp=sharing){:target="_blank"}, [data](https://genboree.org/nano-ui/ld/datasets?filter=Manuscript.entContent.title%3A45th+Annual+Flow+Cytometry+Course){:target="_blank"} [slides](https://drive.google.com/file/d/1DqigO4vq22unQck1b828Ys6TigiqWYbK/view?usp=sharing){:target="_blank}]
+* **2025** - 48th Annual Flow Course [[doc](https://docs.google.com/document/d/1oECh1BSzNmgDyKnuRYf1zfKGsGyXFUZDIdj-mz_Jki0/edit?usp=sharing){:target="_blank"}, [data](https://genboree.org/nano-ui/ld/datasets?filter=Manuscript.entContent.title%3A45th+Annual+Flow+Cytometry+Course){:target="_blank"} [slides](https://drive.google.com/file/d/1DqigO4vq22unQck1b828Ys6TigiqWYbK/view?usp=sharing){:target="_blank"}]
 
 * **2025** - UVA EV Course [[doc](https://docs.google.com/document/d/1icJHnD8D_Jv-qTAkWWW8ZKmLRY6IImHdHrR-8KlDAmg/edit?usp=sharing){:target="_blank"}]
 

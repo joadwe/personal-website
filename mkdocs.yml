@@ -1,24 +1,26 @@
 site_name: Joshua Welsh, PhD
-site_description: Personal website of Joshua Welsh, a research scientist interested in developing next generation translational instrumentation, software, and assays that increase the power of and reproducibility of modern research and medicine.
+site_description: Personal website of Joshua Welsh — research scientist developing next-generation translational instrumentation, software, and assays for reproducible science and medicine.
 site_author: Joshua Welsh
 site_url: https://www.joshuawelsh.co.uk/
 
 theme:
   name: material
+  custom_dir: overrides
+  favicon: assets/images/favicon.png
+  icon:
+    logo: material/flask-outline
   palette:
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -27,10 +29,15 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
     - search.highlight
+    - search.suggest
     - search.share
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
+    - header.autohide
 
 nav:
   - Home: index.md
@@ -38,9 +45,14 @@ nav:
   - Talks: talks.md
   - Publications: publications.md
   - Resources: resources.md
+  - Blog:
+    - blog/index.md
 
 plugins:
   - search
+  - blog
+  - tags
+  - glightbox
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -50,20 +62,49 @@ markdown_extensions:
   - admonition
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js
+  - javascripts/extra.js
+  - javascripts/charts.js
+  - javascripts/filters.js
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/joadwe
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joadwe/
+      name: LinkedIn
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?hl=en&user=DzpMNxoAAAAJ&view_op=list_works
+      name: Google Scholar
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/0000-0002-1097-9756
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/joadwe
+      name: ORCID
     - icon: fontawesome/solid/envelope
-      link: mailto:joshua.welsh@bd.com
+      link: mailto:joshua.welsh@waters.com
+      name: Email
 
-copyright: Copyright &copy; 2025 Joshua Welsh
+copyright: Copyright &copy; 2026 Joshua Welsh

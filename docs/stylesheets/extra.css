@@ -1,0 +1,648 @@
+/* ============================================================
+   Joshua Welsh, PhD — Personal Website Custom Styles
+   Theme: Dark Teal / Indigo
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   1. CUSTOM COLOR PALETTE
+   ---------------------------------------------------------- */
+:root > * {
+  --md-primary-fg-color:        #00796b;
+  --md-primary-fg-color--light: #4db6ac;
+  --md-primary-fg-color--dark:  #004d40;
+  --md-accent-fg-color:         #5c6bc0;
+  --md-accent-fg-color--transparent: rgba(92, 107, 192, 0.12);
+
+  /* Custom tokens */
+  --jw-gradient-start: #004d40;
+  --jw-gradient-end:   #1a237e;
+  --jw-hero-bg:        linear-gradient(135deg, var(--jw-gradient-start) 0%, var(--jw-gradient-end) 100%);
+  --jw-card-shadow:    0 4px 24px rgba(0,0,0,0.08);
+  --jw-card-hover:     0 8px 32px rgba(0,0,0,0.14);
+  --jw-border-radius:  12px;
+  --jw-text-muted:     rgba(0,0,0,0.55);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #26a69a;
+  --md-primary-fg-color--light: #80cbc4;
+  --md-primary-fg-color--dark:  #00796b;
+  --md-accent-fg-color:         #7986cb;
+  --jw-card-shadow:    0 4px 24px rgba(0,0,0,0.25);
+  --jw-card-hover:     0 8px 32px rgba(0,0,0,0.35);
+  --jw-text-muted:     rgba(255,255,255,0.5);
+}
+
+/* ----------------------------------------------------------
+   2. TYPOGRAPHY
+   ---------------------------------------------------------- */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+}
+
+/* ----------------------------------------------------------
+   3. HERO SECTION
+   ---------------------------------------------------------- */
+.jw-hero {
+  background: var(--jw-hero-bg);
+  color: #fff;
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.jw-hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 30% 40%, rgba(255,255,255,0.05) 0%, transparent 60%);
+  animation: jw-hero-glow 8s ease-in-out infinite alternate;
+}
+
+@keyframes jw-hero-glow {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(5%, 3%); }
+}
+
+.jw-hero__container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.jw-hero__photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.3);
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  animation: jw-fade-in 1s ease-out;
+}
+
+.jw-hero__name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.02em;
+  animation: jw-slide-up 0.8s ease-out;
+}
+
+.jw-hero__title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin: 0 0 1.5rem;
+  animation: jw-slide-up 0.8s ease-out 0.15s both;
+}
+
+.jw-hero__tagline {
+  font-size: 1rem;
+  opacity: 0.7;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  animation: jw-slide-up 0.8s ease-out 0.3s both;
+}
+
+/* Typing cursor */
+.jw-typing-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  background: rgba(255,255,255,0.7);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: jw-blink 0.8s step-end infinite;
+}
+
+@keyframes jw-blink {
+  50% { opacity: 0; }
+}
+
+/* Social buttons in hero */
+.jw-hero__socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: jw-slide-up 0.8s ease-out 0.45s both;
+}
+
+.jw-hero__social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1.5px solid rgba(255,255,255,0.3);
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+  background: rgba(255,255,255,0.08);
+}
+
+.jw-hero__social-btn:hover {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.jw-hero__social-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* ----------------------------------------------------------
+   4. STAT CARDS
+   ---------------------------------------------------------- */
+.jw-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.jw-stat-card {
+  background: var(--md-default-bg-color);
+  border-radius: var(--jw-border-radius);
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--jw-card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.jw-stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--jw-card-hover);
+}
+
+.jw-stat-card__number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.jw-stat-card__label {
+  font-size: 0.85rem;
+  color: var(--jw-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------------
+   5. FEATURE / LINK CARDS
+   ---------------------------------------------------------- */
+.jw-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  align-items: stretch;
+}
+
+.jw-card {
+  background: var(--md-default-bg-color);
+  border-radius: var(--jw-border-radius);
+  padding: 2rem 1.5rem;
+  box-shadow: var(--jw-card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none !important;
+  color: var(--md-default-fg-color) !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  height: 100%;
+}
+
+.jw-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--jw-card-hover);
+}
+
+.jw-card > * {
+  margin: 0;
+}
+
+.jw-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--md-primary-fg-color);
+  line-height: 1;
+}
+
+.jw-card__icon svg {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}
+
+.jw-card__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.jw-card__desc {
+  font-size: 0.85rem;
+  color: var(--jw-text-muted);
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------------
+   6. CAREER TIMELINE
+   ---------------------------------------------------------- */
+.jw-timeline {
+  position: relative;
+  padding: 1rem 0;
+  margin: 2rem 0;
+}
+
+.jw-timeline::before {
+  content: "";
+  position: absolute;
+  left: 28px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--md-primary-fg-color) 0%, var(--md-accent-fg-color) 100%);
+  border-radius: 2px;
+}
+
+.jw-timeline-item {
+  position: relative;
+  padding-left: 65px;
+  margin-bottom: 2rem;
+}
+
+.jw-timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+  border: 3px solid var(--md-default-bg-color);
+  box-shadow: 0 0 0 3px var(--md-primary-fg-color);
+  z-index: 1;
+}
+
+.jw-timeline-item--accent::before {
+  background: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 3px var(--md-accent-fg-color);
+}
+
+.jw-timeline-item__date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.jw-timeline-item__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.jw-timeline-item__org {
+  font-size: 0.9rem;
+  color: var(--jw-text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.jw-timeline-item__desc {
+  font-size: 0.85rem;
+  color: var(--jw-text-muted);
+  line-height: 1.5;
+}
+
+/* Responsive: single column on mobile already */
+@media (min-width: 768px) {
+  .jw-timeline::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .jw-timeline-item {
+    width: 45%;
+    padding-left: 0;
+    padding-right: 30px;
+    margin-bottom: 2.5rem;
+  }
+
+  .jw-timeline-item::before {
+    left: auto;
+    right: -11px;
+  }
+
+  .jw-timeline-item:nth-child(even) {
+    margin-left: 55%;
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  .jw-timeline-item:nth-child(even)::before {
+    left: -11px;
+    right: auto;
+  }
+}
+
+/* ----------------------------------------------------------
+   7. PUBLICATION FILTERS
+   ---------------------------------------------------------- */
+.jw-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: var(--md-default-bg-color);
+  border-radius: var(--jw-border-radius);
+  box-shadow: var(--jw-card-shadow);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.jw-filter-bar__search {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.6rem 1rem;
+  border: 1.5px solid var(--md-default-fg-color--lightest);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.jw-filter-bar__search:focus {
+  border-color: var(--md-primary-fg-color);
+}
+
+.jw-filter-bar__search::placeholder {
+  color: var(--jw-text-muted);
+}
+
+.jw-filter-btn {
+  padding: 0.45rem 1rem;
+  border-radius: 2rem;
+  border: 1.5px solid var(--md-default-fg-color--lightest);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.jw-filter-btn:hover {
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.jw-filter-btn--active {
+  background: var(--md-primary-fg-color);
+  color: #fff !important;
+  border-color: var(--md-primary-fg-color);
+}
+
+.jw-filter-count {
+  font-size: 0.8rem;
+  color: var(--jw-text-muted);
+  margin-left: auto;
+}
+
+/* Publication items for filtering */
+.jw-pub-item {
+  transition: opacity 0.3s ease, max-height 0.4s ease;
+}
+
+.jw-pub-item--hidden {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ----------------------------------------------------------
+   8. CHART CONTAINER
+   ---------------------------------------------------------- */
+.jw-chart-container {
+  background: var(--md-default-bg-color);
+  border-radius: var(--jw-border-radius);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--jw-card-shadow);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.jw-chart-container canvas {
+  max-height: 300px;
+}
+
+/* ----------------------------------------------------------
+   9. SCROLL REVEAL ANIMATIONS
+   ---------------------------------------------------------- */
+@keyframes jw-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes jw-slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes jw-scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.jw-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.jw-reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.jw-reveal--delay-1 { transition-delay: 0.1s; }
+.jw-reveal--delay-2 { transition-delay: 0.2s; }
+.jw-reveal--delay-3 { transition-delay: 0.3s; }
+.jw-reveal--delay-4 { transition-delay: 0.4s; }
+
+/* ----------------------------------------------------------
+   10. BADGES & TAGS
+   ---------------------------------------------------------- */
+.jw-badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 2rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.jw-badge--teal {
+  background: rgba(0, 121, 107, 0.12);
+  color: var(--md-primary-fg-color);
+}
+
+.jw-badge--indigo {
+  background: rgba(92, 107, 192, 0.12);
+  color: var(--md-accent-fg-color);
+}
+
+.jw-badge--active {
+  background: rgba(76, 175, 80, 0.12);
+  color: #4caf50;
+}
+
+.jw-badge--maintained {
+  background: rgba(255, 152, 0, 0.12);
+  color: #ff9800;
+}
+
+/* ----------------------------------------------------------
+   11. RESOURCE CARDS (grid)
+   ---------------------------------------------------------- */
+.jw-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.jw-resource-card {
+  background: var(--md-default-bg-color);
+  border-radius: var(--jw-border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--jw-card-shadow);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jw-resource-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--jw-card-hover);
+}
+
+.jw-resource-card__title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.jw-resource-card__title a {
+  color: var(--md-primary-fg-color);
+}
+
+.jw-resource-card__desc {
+  font-size: 0.85rem;
+  color: var(--jw-text-muted);
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------------
+   12. TALKS SECTION BADGES
+   ---------------------------------------------------------- */
+.jw-talk-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 0.5rem;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* ----------------------------------------------------------
+   13. MISC
+   ---------------------------------------------------------- */
+
+/* Smooth page transitions */
+.md-content {
+  animation: jw-fade-in 0.4s ease-out;
+}
+
+/* Better admonitions */
+.md-typeset .admonition {
+  border-radius: var(--jw-border-radius);
+  box-shadow: var(--jw-card-shadow);
+}
+
+/* Footer social icons hover */
+.md-social__link:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+
+/* Hide nav/toc on homepage */
+.md-content--home .md-sidebar {
+  display: none;
+}
+
+/* Responsive hero */
+@media (max-width: 600px) {
+  .jw-hero {
+    padding: 3rem 1.2rem 2.5rem;
+  }
+  .jw-hero__name {
+    font-size: 2rem;
+  }
+  .jw-hero__photo {
+    width: 120px;
+    height: 120px;
+  }
+  .jw-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Print-friendly */
+@media print {
+  .jw-hero,
+  .jw-filter-bar,
+  .jw-chart-container {
+    display: none;
+  }
+}

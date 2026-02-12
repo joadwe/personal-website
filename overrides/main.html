@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Hero Section — only on the homepage -->
+  {% if page and page.meta and page.meta.hide and "navigation" in page.meta.hide %}
+  <section class="jw-hero">
+    <div class="jw-hero__container">
+      <img
+        src="{{ 'assets/images/profile.jpg' | url }}"
+        alt="Joshua Welsh, PhD"
+        class="jw-hero__photo"
+        onerror="this.style.display='none'"
+      />
+      <h1 class="jw-hero__name">Joshua A. Welsh, PhD</h1>
+      <p class="jw-hero__title">Senior Staff Scientist · Waters Biosciences</p>
+      <p class="jw-hero__tagline">
+        <span
+          data-jw-typing='["Developing next-generation instrumentation", "Advancing flow cytometry standardization", "Building open-source scientific tools", "Making EV research reproducible"]'
+        ></span><span class="jw-typing-cursor"></span>
+      </p>
+      <div class="jw-hero__socials">
+        <a href="https://github.com/joadwe" target="_blank" class="jw-hero__social-btn">
+          <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/joadwe/" target="_blank" class="jw-hero__social-btn">
+          <svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&user=DzpMNxoAAAAJ" target="_blank" class="jw-hero__social-btn">
+          <svg viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
+          Scholar
+        </a>
+        <a href="https://orcid.org/0000-0002-1097-9756" target="_blank" class="jw-hero__social-btn">
+          <svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378a.89.89 0 11-.002 1.78.89.89 0 01.002-1.78zm-.648 3.424h1.297v9.896H6.721V7.802zm3.834 0h3.508c3.248 0 5.222 2.069 5.222 4.955 0 2.886-1.974 4.941-5.222 4.941h-3.508V7.802zm1.297 1.142v7.611h2.139c2.593 0 3.964-1.62 3.964-3.812s-1.371-3.799-3.964-3.799h-2.139z"/></svg>
+          ORCID
+        </a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+{% endblock %}
