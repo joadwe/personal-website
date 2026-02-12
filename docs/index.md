@@ -6,7 +6,7 @@ Here, you can find links to my talk, publications, and resources.
 
 ## About Me
 
-I'm currently a Staff Scientist at Becton Dickinson Biosciences, where I work in the advanced technology group on the next generation of scientific hardware development. My area of interest are flow cytometry, standardization, data visualization, extracellular vesicles, and teaching.
+I'm currently a Senior Staff Scientist at Waters Biosciences, where I work in the advanced technology group on the next generation of scientific hardware development. My area of interest are flow cytometry, standardization, data visualization, extracellular vesicles, and teaching.
 
 ## Quick Links
 

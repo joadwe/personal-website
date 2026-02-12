@@ -2,9 +2,12 @@
 
 ## Employment
 
-### Advanced Technology Group, BD Biosciences
-**2025-Present** - Staff Scientist II 
+### Advanced Technology Group, Waters Biosciences
+**2026-Present** - Senior Staff Scientist 
 
+### Advanced Technology Group, BD Biosciences
+**2025-2026** - Senior Staff Scientist 
+**2025-2025** - Staff Scientist II 
 **2023-2025** - Staff Scientist
 
 ### Translational Nanobiology Section, National Institutes of Health

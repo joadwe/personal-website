@@ -4,6 +4,8 @@
 
 !!! info "Publications and Datasets"
     Here, you can find links to each of my publications and datasets where applicable.
+## 2025
+1. Bettin, B. A., Li, B., Falkena, K., van Leeuwen, T. G., Gollwitzer, C., Varga, Z., Ajzenberg, N., Antovic, J. P., Berckmans, P., Buzas, E. I., Carney, R. P., Cook, S., Dignat-George, F., Faille, D., Giebel, B., Jones, J. C., Kim, Y., Lacroix, R., Lannigan, J., Lucien, F., Maaninka, K., Marques de Menezes, E. G., Meyer, A., Mizenko, R. R., Nelissen, I., Nolan, J., Norris, P. J., Pink, D., Poudel, S., Robert, S., Siljander, P. R.-M., Tang, V. A., Tertel, T., Van Den Broeck, T., Wang, L., Welsh, J. A., Nieuwland, R., van der Pol, E. (2025), **Calibration of Flow Cytometers Enables Reproducible Measurements of Extracellular Vesicle Concentrations and Reference Range Establishment**, Journal of Extracellular Vesicles 14, no. 12: e70189, [[website](https://doi.org/10.1002/jev2.70189){ :target="_blank"}]
 
 ## 2024
 1. Cavicchi, R.E., Ripple, D.C., Welsh, J.A., Izac, J.R., Peterson, A.W., Goldfain, A.M., Vreeland, W.N. (2024), **Measuring the size of oil droplets in a flow cytometer using Mie resonances: A possible size calibration ladder for 0.5–6 μm**, Cytometry Part A, doi: 10.1002/cyto.a.24912 [[website](https://doi.org/10.1002/cyto.a.24912){ :target="_blank"}]
@@ -65,3 +67,22 @@
 ## 2017
 43. Welsh JA, Holloway JA, Wilkinson JS, Englyst NA., _Extracellular Vesicle Flow Cytometry Analysis and Standardization_, Front Cell Dev Biol, 2017, DOI: 10.3389/fcell.2017.00078 \[[website](https://doi.org/10.3389/fcell.2017.00078){:target="_blank"}]
 44. Ramirez MI, Amorim MG, Gadelha C, Milic I, Welsh JA, Freitas VM, Nawaz M, Akbar N, Couch Y, Makin L, Cooke F, Vettore AL, Batista PX, Freezor R, Pezuk JA, Rosa-Fernandes L, Carreira ACO, Devitt A, Jacobs L, Silva IT, Coakley G, Nunes DN, Carter D, Palmisano G, Dias-Neto E., _Technical challenges of working with extracellular vesicles_, Nanoscale, 2017, DOI: 10.1039/c7nr08360b \[ [website](https://doi.org/10.1039/c7nr08360b){:target="_blank"}]
+
+# Chapters
+
+## 2026
+1. Erdbrügger U, van Royen ME, Verhaegh GW, Grange C, Burger D, Greig M, Welsh JA, Nyman TA, Llorente A, Martens-Uzunova E, Puhka M, Barreiro KA, Ng MSY (2026), **Analysis of Urinary Extracellular Vesicles**, In: Srivastava AK (Ed.), Extracellular Vesicles, Springer US, pp. 115-166, DOI: 10.1007/978-1-0716-4905-3_7 \[[website](https://doi.org/10.1007/978-1-0716-4905-3_7){:target="_blank"}]
+
+## 2025
+1. Petrovich-Kopitman E, Welsh JA, Adutler-Lieber S, Dayan A, Porat Z (2025), **Quantification and characterization extracellular vesicles by flow cytometry**, In: Torrecilhas AC (Ed.), Current Topics in Membranes, Volume 96, Academic Press, pp. 277-315, DOI: 10.1016/bs.ctm.2025.09.002 \[[website](https://doi.org/10.1016/bs.ctm.2025.09.002){:target="_blank"}]
+
+# Patents
+
+!!! info "US Patents and Applications"
+    Granted US patents and published US patent applications.
+
+## Granted Patents
+1. Jones JC, Welsh JA, McKinnon KM, Berzofsky JA, **Purification and labeling of extracellular vesicles using a mixed mode resin composition**, US12,083,448 B2, Assignee: US Department of Health and Human Services, Granted: Sep 10, 2024 [[website](https://patents.google.com/patent/US12083448B2){:target="_blank"}]
+1. Jones JC, Morales-Kastresana A, Berzofsky JA, Welsh JA, Rosner A, **Molecular nanotags**, US11,536,719 B2, Assignee: US Department of Health and Human Services, Granted: Dec 27, 2022 [[website](https://patents.google.com/patent/US11536719B2){:target="_blank"}]
+1. Welsh JA, Jones JC, Telford WG, Berzofsky JA, Rosner A, **Optical configuration methods for spectral scatter flow cytometry**, US10,876,955 B2, Assignee: US Department of Health and Human Services, Granted: Dec 29, 2020 [[website](https://patents.google.com/patent/US10876955B2){:target="_blank"}]
+

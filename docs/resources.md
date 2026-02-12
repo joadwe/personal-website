@@ -8,6 +8,7 @@
 * **[Percent solids to particles per mL](https://joadwe.github.io/percent-solids-calculator/){:target="_blank"}** - Convert percentage solids to particle concentration
 * **[Flow cell model](https://joadwe.github.io/flow-cell-collection/){:target="_blank"}** - Model flow cell collection efficiency
 * **[Snells law model](https://joadwe.github.io/snells-law/){:target="_blank"}** - Calculate light refraction angles
+* **[EV centrifugation simulation](https://joadwe.github.io/ev-centrifugation-model/){:target="_blank"}** - Calculate EV pelleting efficiency for different centrifuges/rotors
 
 ## Courses
 
@@ -15,6 +16,8 @@
     Course materials and documentation from extracellular vesicle and flow cytometry training programs:
 
 ### Recent Courses
+* **2026** - UVA EV Course [[doc](https://docs.google.com/document/d/1icJHnD8D_Jv-qTAkWWW8ZKmLRY6IImHdHrR-8KlDAmg/edit?usp=sharing){:target="_blank"}]
+
 * **2025** - 48th Annual Flow Course [[doc](https://docs.google.com/document/d/1oECh1BSzNmgDyKnuRYf1zfKGsGyXFUZDIdj-mz_Jki0/edit?usp=sharing){:target="_blank"}, [data](https://genboree.org/nano-ui/ld/datasets?filter=Manuscript.entContent.title%3A45th+Annual+Flow+Cytometry+Course){:target="_blank"} [slides](https://drive.google.com/file/d/1DqigO4vq22unQck1b828Ys6TigiqWYbK/view?usp=sharing){:target="_blank}]
 
 * **2025** - UVA EV Course [[doc](https://docs.google.com/document/d/1icJHnD8D_Jv-qTAkWWW8ZKmLRY6IImHdHrR-8KlDAmg/edit?usp=sharing){:target="_blank"}]

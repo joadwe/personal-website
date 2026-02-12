@@ -61,7 +61,8 @@
 1. ***Microvesicles in Health & Disease***, R&D Seminar, Thermo Fisher Scientific, Oregon, USA, December 2014.
 
 ### Workshops
-
+1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2026. Co-organizer with Mike Solga & Joanne Lannigan.
+1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, Pennsylvania, USA, 2025. Co-organizer with Vera A. Tang, PhD.
 1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2025. Co-organizer with Mike Solga & Joanne Lannigan.
 1. ***Small particle flow cytometry***, Annual Flow Cytometry Course, Madison, USA, 2024. Co-organizer with Vera A. Tang, PhD & Joanne Lannigan.
 1. ***EV flow cytometry***, Tiny packages with big impact, Charlottesville, USA, 2024. Co-organizer with Mike Solga & Joanne Lannigan.
@@ -81,7 +82,6 @@
 ### Podcasts
 
 1. ***rEVview podcast***, October, 2024.
-
 1. ***SNEV podcast***, August, 2024.
 
 ### Sponsorship
