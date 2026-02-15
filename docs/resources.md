@@ -5,10 +5,21 @@
 !!! tip "Online Tools"
     Interactive calculators and models I've developed for the research community:
 
-* **[Percent solids to particles per mL](https://joadwe.github.io/percent-solids-calculator/){:target="_blank"}** - Convert percentage solids to particle concentration
-* **[Flow cell model](https://joadwe.github.io/flow-cell-collection/){:target="_blank"}** - Model flow cell collection efficiency
-* **[Snells law model](https://joadwe.github.io/snells-law/){:target="_blank"}** - Calculate light refraction angles
-* **[EV centrifugation simulation](https://joadwe.github.io/ev-centrifugation-model/){:target="_blank"}** - Calculate EV pelleting efficiency for different centrifuges/rotors
+### Percent solids to particles per mL
+Convert percentage solids to particle concentration.
+Links: [Live tool](https://joadwe.github.io/percent-solids-calculator/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/percent-solids-calculator){:target="_blank"}
+
+### Flow cell model
+Model flow cell collection efficiency.
+Links: [Live tool](https://joadwe.github.io/flow-cell-collection/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/flow-cell-collection){:target="_blank"}
+
+### Snells law model
+Calculate light refraction angles.
+Links: [Live tool](https://joadwe.github.io/snells-law/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/snells-law){:target="_blank"}
+
+### EV centrifugation simulation
+Calculate EV pelleting efficiency for different centrifuges/rotors.
+Links: [Live tool](https://joadwe.github.io/ev-centrifugation-model/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/ev-centrifugation-model){:target="_blank"}
 
 ## Courses
 
