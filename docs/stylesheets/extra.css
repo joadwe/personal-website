@@ -455,6 +455,33 @@
   padding: 0 !important;
 }
 
+/* Dynamic publication numbering via CSS counters */
+.md-content__inner {
+  counter-reset: jw-pub-num;
+}
+
+.jw-pub-item:not(.jw-pub-item--hidden) {
+  counter-increment: jw-pub-num;
+}
+
+.jw-pub-item ol {
+  list-style: none;
+  padding-left: 2.5em;
+  margin: 0;
+}
+
+.jw-pub-item ol li {
+  position: relative;
+}
+
+.jw-pub-item:not(.jw-pub-item--hidden) ol li::before {
+  content: counter(jw-pub-num) ". ";
+  position: absolute;
+  left: -2.5em;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
 /* ----------------------------------------------------------
    8. CHART CONTAINER
    ---------------------------------------------------------- */

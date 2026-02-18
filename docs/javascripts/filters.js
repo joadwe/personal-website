@@ -62,6 +62,14 @@ function jwInitFilters() {
         visible + " of " + pubItems.length + " shown";
     }
 
+    /* Force CSS counter recomputation after class changes */
+    const content = document.querySelector(".md-content__inner");
+    if (content) {
+      content.style.counterReset = "none";
+      void content.offsetHeight;
+      content.style.counterReset = "";
+    }
+
     updateYearHeadings();
   }
 
