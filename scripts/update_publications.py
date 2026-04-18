@@ -152,15 +152,152 @@ def enrich_publication(pub: dict) -> dict:
 # ---------------------------------------------------------------------------
 # Format a publication entry
 # ---------------------------------------------------------------------------
+
+# Journal abbreviation map — add entries as needed
+JOURNAL_ABBREVS: dict[str, str] = {
+    "journal of extracellular vesicles": "J Extracell Vesicles",
+    "journal of extracellular biology": "J Extracell Biol",
+    "cytometry part a": "Cytometry A",
+    "cell reports methods": "Cell Rep Methods",
+    "nano letters": "Nano Lett",
+    "journal of thrombosis and haemostasis": "J Thromb Haemost",
+    "frontiers in cellular and developmental biology": "Front Cell Dev Biol",
+    "frontiers in immunology": "Front Immunol",
+    "lab on a chip": "Lab Chip",
+    "nanoscale": "Nanoscale",
+    "current protocols in cytometry": "Curr Protoc Cytom",
+    "plos pathogens": "PLoS Pathog",
+    "neuro-oncology": "Neuro Oncol",
+    "journal of leukocyte biology": "J Leukoc Biol",
+    "sensors": "Sensors (Basel)",
+    "biosensors": "Biosensors (Basel)",
+    "viruses": "Viruses",
+    "iscience": "iScience",
+    "bioinformatics": "Bioinformatics",
+    "cell": "Cell",
+    "journal of clinical investigation": "J Clin Invest",
+    "extracellular vesicles and circulating nucleic acids": "Extracell Vesicles Circ Nucleic Acids",
+}
+
+
+def abbreviate_journal(journal: str) -> str:
+    """Try to abbreviate a journal name using the lookup table."""
+    key = journal.strip().lower()
+    return JOURNAL_ABBREVS.get(key, journal)
+
+
+def name_to_initials(full_name: str) -> str:
+    """
+    Convert 'Joshua Aden Welsh' → 'Welsh JA'.
+    Handles particles like 'van der Pol', 'de Rond', etc.
+    """
+    full_name = full_name.strip()
+    if not full_name:
+        return full_name
+
+    # If already in 'LastName IN' format (no lowercase first-name-length words
+    # at the start), return as-is
+    parts = full_name.split()
+    if len(parts) <= 1:
+        return full_name
+    if len(parts) == 2 and len(parts[1]) <= 3 and parts[1] == parts[1].upper():
+        return full_name  # Already "Welsh JA" format
+
+    # Known surname particles (lowercase)
+    particles = {"van", "von", "de", "del", "der", "den", "el", "la", "le",
+                 "di", "da", "dos", "das", "du", "'t"}
+
+    # Walk from the end to find where the surname starts.
+    # Surname = last word + any preceding lowercase particles.
+    # Everything before that = given names.
+    surname_start = len(parts) - 1
+    while surname_start > 1 and parts[surname_start - 1].lower() in particles:
+        surname_start -= 1
+
+    given_parts = parts[:surname_start]
+    surname_parts = parts[surname_start:]
+
+    if not given_parts:
+        return full_name  # Can't parse, return as-is
+
+    surname = " ".join(surname_parts)
+    initials = "".join(p[0].upper() for p in given_parts if p)
+    return f"{surname} {initials}"
+
+
 def format_authors(authors: str) -> str:
-    """Clean up author string from Scholar."""
-    # Scholar sometimes uses 'and' as separator; normalize to commas
+    """
+    Convert Scholar author string to 'LastName IN, LastName IN' format.
+    Input may be 'Joshua Welsh and Jennifer Jones' or
+    'Joshua Welsh, Jennifer Jones' or already abbreviated.
+    """
+    # Normalize separators
     authors = authors.replace(" and ", ", ")
-    return authors
+
+    author_list = [a.strip() for a in authors.split(",") if a.strip()]
+    converted = [name_to_initials(a) for a in author_list]
+
+    result = ", ".join(converted)
+    # Ensure trailing period
+    if not result.endswith("."):
+        result += "."
+    return result
 
 
+# ---------------------------------------------------------------------------
+# Publication type classification
+# ---------------------------------------------------------------------------
+def classify_publication(pub: dict) -> str:
+    """
+    Determine the type of a Scholar entry:
+    'patent', 'preprint', 'protocol', or 'publication'.
+    """
+    bib = pub.get("bib", {})
+    title = bib.get("title", "").lower()
+    journal = bib.get("journal", bib.get("venue", "")).lower()
+    pub_url = str(pub.get("pub_url", "")).lower()
+    eprint_url = str(pub.get("eprint_url", "")).lower()
+
+    # Patents — Google Patents URL or patent-like title keywords
+    if "patents.google.com" in pub_url or "patents.google.com" in eprint_url:
+        return "patent"
+    if any(kw in title for kw in ["patent", "us patent"]):
+        return "patent"
+
+    # Protocols — protocols.io
+    if "protocols.io" in pub_url or "protocols.io" in eprint_url:
+        return "protocol"
+    if "protocols.io" in journal:
+        return "protocol"
+
+    # Preprints — bioRxiv, medRxiv, arXiv, SSRN, preprints.org
+    preprint_indicators = ["biorxiv", "medrxiv", "arxiv", "ssrn", "preprints"]
+    if any(ind in journal for ind in preprint_indicators):
+        return "preprint"
+    if any(ind in pub_url for ind in preprint_indicators):
+        return "preprint"
+
+    return "publication"
+
+
+# ---------------------------------------------------------------------------
+# Formatters per type
+# ---------------------------------------------------------------------------
 def format_publication_entry(pub: dict, entry_number: int) -> str:
-    """Format a single Scholar publication into the site's markdown format."""
+    """Route to the correct formatter based on detected type."""
+    pub_type = classify_publication(pub)
+
+    if pub_type == "patent":
+        return _format_patent(pub, entry_number)
+    if pub_type == "protocol":
+        return _format_protocol(pub, entry_number)
+    if pub_type == "preprint":
+        return _format_preprint(pub, entry_number)
+    return _format_article(pub, entry_number)
+
+
+def _format_article(pub: dict, entry_number: int) -> str:
+    """Format a journal article in the site's manual style."""
     bib = pub.get("bib", {})
     title = bib.get("title", "Untitled")
     authors = format_authors(bib.get("author", "Unknown"))
@@ -170,57 +307,159 @@ def format_publication_entry(pub: dict, entry_number: int) -> str:
     number = bib.get("number", "")
     pages = bib.get("pages", "")
 
-    # Build citation details
-    details_parts = []
+    # Abbreviate journal name
     if journal:
-        details_parts.append(f"_{journal}_")
-    if volume:
-        vol_str = volume
-        if number:
-            vol_str += f"({number})"
-        details_parts.append(vol_str)
-    if pages:
-        details_parts.append(pages)
+        journal = abbreviate_journal(journal)
 
-    details = ", ".join(details_parts)
+    # Build journal/volume/pages block:  "J Extracell Vesicles. 13(2):e12416"
+    journal_block = ""
+    if journal:
+        journal_block = journal
+        if volume:
+            if journal_block and not journal_block.endswith("."):
+                journal_block += "."
+            journal_block += f" {volume}"
+            if number:
+                journal_block += f"({number})"
+            if pages:
+                journal_block += f":{pages}"
+        elif pages:
+            journal_block += f" {pages}"
 
     # DOI
     doi = extract_doi(str(pub.get("pub_url", "")))
     if not doi:
         doi = extract_doi(str(bib))
     if not doi:
-        # Try the eprint_url or other fields
         doi = extract_doi(str(pub))
 
-    # Build DOI/link portion
-    link_parts = []
+    # Build link
+    link = ""
     if doi:
-        link_parts.append(f"doi: {doi}")
-        link_parts.append(
-            f'[[website](https://doi.org/{doi}){{:target="_blank"}}]')
+        link = f'doi: {doi} \\[ [website](https://doi.org/{doi}){{:target="_blank"}}]'
     elif pub.get("pub_url"):
-        url = pub["pub_url"]
-        link_parts.append(
-            f'[[website]({url}){{:target="_blank"}}]')
+        link = f'\\[ [website]({pub["pub_url"]}){{:target="_blank"}}]'
 
-    doi_str = " ".join(link_parts)
-
-    # Assemble the full citation line
-    citation_parts = [f"{authors}"]
+    # Assemble:  Authors, **Title**, JournalBlock, YYYY, doi: X \[ [website](...)]
+    parts = [authors, f"**{title}**"]
+    if journal_block:
+        parts.append(journal_block)
     if year and year != "Unknown":
-        citation_parts[0] += f" ({year})"
-    citation_parts.append(f"**{title}**")
-    if details:
-        citation_parts.append(details)
-    if doi_str:
-        citation_parts.append(doi_str)
+        parts.append(str(year))
+    if link:
+        parts.append(link)
 
-    citation = ", ".join(citation_parts)
+    citation = ", ".join(parts)
 
     return (
         f'<div class="jw-pub-item" data-jw-type="publication" '
         f'data-jw-year="{year}" markdown>\n'
         f"{entry_number}. {citation}\n"
+        f"</div>"
+    )
+
+
+def _format_preprint(pub: dict, entry_number: int) -> str:
+    """Format a preprint (bioRxiv, medRxiv, etc.)."""
+    bib = pub.get("bib", {})
+    title = bib.get("title", "Untitled")
+    authors = format_authors(bib.get("author", "Unknown"))
+    year = bib.get("pub_year", "Unknown")
+    journal = bib.get("journal", bib.get("venue", ""))
+
+    # Normalize server name
+    server = "bioRxiv"
+    jl = journal.lower() if journal else ""
+    if "medrxiv" in jl:
+        server = "medRxiv"
+    elif "arxiv" in jl:
+        server = "arXiv"
+
+    doi = extract_doi(str(pub.get("pub_url", "")))
+    if not doi:
+        doi = extract_doi(str(bib))
+    if not doi:
+        doi = extract_doi(str(pub))
+
+    link = ""
+    if doi:
+        link = f'DOI: {doi} \\[[website](https://doi.org/{doi}){{:target="_blank"}}]'
+    elif pub.get("pub_url"):
+        link = f'\\[[website]({pub["pub_url"]}){{:target="_blank"}}]'
+
+    parts = [authors, f"**{title}**", server]
+    if year and year != "Unknown":
+        parts.append(str(year))
+    if link:
+        parts.append(link)
+
+    citation = ", ".join(parts)
+
+    return (
+        f'<div class="jw-pub-item" data-jw-type="publication" '
+        f'data-jw-year="{year}" markdown>\n'
+        f"{entry_number}. {citation}\n"
+        f"</div>"
+    )
+
+
+def _format_protocol(pub: dict, entry_number: int) -> str:
+    """Format a protocols.io entry. Numbered separately (always 1.)."""
+    bib = pub.get("bib", {})
+    title = bib.get("title", "Untitled")
+    authors = format_authors(bib.get("author", "Unknown"))
+    year = bib.get("pub_year", "Unknown")
+
+    url = pub.get("pub_url") or pub.get("eprint_url", "")
+
+    link = ""
+    if url:
+        link = f'[[website]({url}){{:target="_blank"}}]'
+
+    parts = [authors, f"**{title}**"]
+    if year and year != "Unknown":
+        parts.append(str(year))
+    if link:
+        parts.append(link)
+
+    citation = ", ".join(parts)
+
+    return (
+        f'<div class="jw-pub-item" data-jw-type="protocol" '
+        f'data-jw-year="{year}" markdown>\n'
+        f"1. {citation}\n"
+        f"</div>"
+    )
+
+
+def _format_patent(pub: dict, entry_number: int) -> str:
+    """Format a patent entry."""
+    bib = pub.get("bib", {})
+    title = bib.get("title", "Untitled")
+    authors = format_authors(bib.get("author", "Unknown"))
+    year = bib.get("pub_year", "Unknown")
+
+    url = pub.get("pub_url") or pub.get("eprint_url", "")
+    # Try to get Google Patents URL
+    if not url or "patents.google.com" not in url:
+        eprint = str(pub.get("eprint_url", ""))
+        if "patents.google.com" in eprint:
+            url = eprint
+
+    link = ""
+    if url:
+        link = f'[[website]({url}){{:target="_blank"}}]'
+
+    parts = [authors, f"**{title}**"]
+    if link:
+        parts.append(link)
+
+    citation = ", ".join(parts)
+
+    return (
+        f'<div class="jw-pub-item" data-jw-type="patent" '
+        f'data-jw-year="{year}" markdown>\n'
+        f"1. {citation}\n"
         f"</div>"
     )
 
@@ -320,14 +559,18 @@ def insert_new_publications(md_text: str, new_pubs: list[dict]) -> str:
         entries_text = "\n\n".join(insertions[year])
 
         if year in year_sections:
-            # Find the insertion point: right after the heading + any blank line
+            # Find the end of this year section (next ## heading or EOF)
             heading_idx = year_sections[year]
             insert_idx = heading_idx + 1
-            # Skip blank lines after heading
-            while insert_idx < len(lines) and lines[insert_idx].strip() == "":
+            while insert_idx < len(lines):
+                if re.match(r"^## \d{4}\s*$", lines[insert_idx]):
+                    break
                 insert_idx += 1
-            # Insert the new entries before existing entries for this year
-            new_block = entries_text + "\n\n"
+            # Back up past trailing blank lines
+            while insert_idx > 0 and lines[insert_idx - 1].strip() == "":
+                insert_idx -= 1
+            # Insert after last entry in this year section
+            new_block = "\n\n" + entries_text
             lines.insert(insert_idx, new_block)
         else:
             # Need to create a new year section.

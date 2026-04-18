@@ -2,7 +2,7 @@
 
 <!-- Publication Timeline Chart -->
 <div class="jw-chart-container jw-reveal">
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 7, 30, 6, 6, 8, 7, 5, 3]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [2, 5, 7, 11, 5, 5, 6, 7, 2, 1]}'></canvas>
 </div>
 
 <!-- Filter Bar -->
@@ -12,6 +12,7 @@
   <button class="jw-filter-btn" data-jw-filter="publication">Papers</button>
   <button class="jw-filter-btn" data-jw-filter="chapter">Chapters</button>
   <button class="jw-filter-btn" data-jw-filter="patent">Patents</button>
+  <button class="jw-filter-btn" data-jw-filter="protocol">Protocols</button>
   <span class="jw-filter-count" id="jw-filter-count"></span>
 </div>
 
@@ -19,33 +20,11 @@
     Here, you can find links to each of my publications, book chapters, patents, and associated datasets.
 ## 2026
 
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2026" markdown>
-47. Joshua Aden Welsh (2026), **Methods for detector gain modulation and systems for same**, [[website](https://patents.google.com/patent/US20260086018A1/en){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2026" markdown>
-48. Michelle L Pleet, Sean M Cook, Bryce Killingsworth, Timothy Traynor, Dove-Anna Johnson, Emily H Stack, Verity J Ford, Claudio Pinheiro, Jessie Arce, Jason Savage, Matthew Roth, Aleksandar Milosavljevic, Ionita Ghiran, An Hendrix, Steve Jacobson, Joshua A Welsh, Jennifer C Jones (2026), **Real-time, automated, standardized, and transparent analysis of microfluidic nanoparticle data with RPSPASS**, _bioRxiv_, 2026.03. 30.715405, doi: 10.64898/2026.03.30.715405.abstract [[website](https://doi.org/10.64898/2026.03.30.715405.abstract){:target="_blank"}]
-</div>
-
-
 <div class="jw-pub-item" data-jw-type="chapter" data-jw-year="2026" markdown>
 1. Erdbrügger U, van Royen ME, Verhaegh GW, Grange C, Burger D, Greig M, Welsh JA, Nyman TA, Llorente A, Martens-Uzunova E, Puhka M, Barreiro KA, Ng MSY (2026), **Analysis of Urinary Extracellular Vesicles**, In: Srivastava AK (Ed.), Extracellular Vesicles, Springer US, pp. 115-166, DOI: 10.1007/978-1-0716-4905-3_7 \[[website](https://doi.org/10.1007/978-1-0716-4905-3_7){:target="_blank"}]
 </div>
 
 ## 2025
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2025" markdown>
-49. Joshua Aden Welsh, Peter Ludington Mage, Wenyu Bai (2025), **Methods and systems for gain-independent data normalization in flow cytometry data and systems for same**, [[website](https://patents.google.com/patent/US20250389636A1/en){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2025" markdown>
-50. Timothy W Petersen, Joshua Aden Welsh, Keegan Jacob Owsley (2025), **Flow cells having optimized high voltage electrodes, flow cytometers including the same, and methods of use thereof**, [[website](https://patents.google.com/patent/US20250377284A1/en){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2025" markdown>
-51. Joshua Aden Welsh (2025), **Quantitative flow cytometry light scatter detector alignment**, [[website](https://patents.google.com/patent/US20250321179A1/en){:target="_blank"}]
-</div>
-
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2025" markdown>
 1. Bettin, B. A., Li, B., Falkena, K., van Leeuwen, T. G., Gollwitzer, C., Varga, Z., Ajzenberg, N., Antovic, J. P., Berckmans, P., Buzas, E. I., Carney, R. P., Cook, S., Dignat-George, F., Faille, D., Giebel, B., Jones, J. C., Kim, Y., Lacroix, R., Lannigan, J., Lucien, F., Maaninka, K., Marques de Menezes, E. G., Meyer, A., Mizenko, R. R., Nelissen, I., Nolan, J., Norris, P. J., Pink, D., Poudel, S., Robert, S., Siljander, P. R.-M., Tang, V. A., Tertel, T., Van Den Broeck, T., Wang, L., Welsh, J. A., Nieuwland, R., van der Pol, E. (2025), **Calibration of Flow Cytometers Enables Reproducible Measurements of Extracellular Vesicle Concentrations and Reference Range Establishment**, Journal of Extracellular Vesicles 14, no. 12: e70189, [[website](https://doi.org/10.1002/jev2.70189){ :target="_blank"}]
@@ -88,15 +67,6 @@
 ## 2023
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
-45. Fabrice Lucien, Dakota Gustafson, Metka Lenassi, Bo Li, Jacob J Teske, Eric Boilard, Katharina Clemm von Hohenberg, Juan Manual Falcón‐Perez, Alice Gualerzi, Antonia Reale, Jennifer C Jones, Cecilia Lässer, Charlotte Lawson, Irina Nazarenko, Lorraine O'Driscoll, Ryan Pink, Pia R‐M Siljander, Carolina Soekmadji, An Hendrix, Joshua A Welsh, Kenneth W Witwer, Rienk Nieuwland (2023), **MIBlood‐EV: Minimal information to enhance the quality and reproducibility of blood extracellular vesicle research**, _Journal of extracellular vesicles_, 12(12), 12385, doi: 10.1002/jev2.12385 [[website](https://doi.org/10.1002/jev2.12385){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
-52. Mi-Yeon Jung, Josie Trichka, Masahiro Oishi, Afua Agyeman-Andoh, Joshua Welsh, Jubin George, Amanda Roehrkasse, Maxwell Laws, Jennifer Jones, Stanley Adoro, Ian Parney, Desmond Brown (2023), **TMIC-09. PRIMARY CILIA REGULATE EXTRACELLULAR VESICLE-MEDIATED IMMUNOSUPPRESSION IN HUMAN GLIOBLASTOMA CELLS**, _Neuro-Oncology_, 25(Suppl 5), v279, [[website](https://pmc.ncbi.nlm.nih.gov/articles/PMC10640031/){:target="_blank"}]
-</div>
-
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2023" markdown>
 6. Cook S, Tang VA, Lannigan J, Jones JC, Welsh JA (2023), **Quantitative flow cytometry enables end-to-end optimization of cross-platform extracellular vesicle studies**, Cell Rep Methods. 3(12):100664, doi: 10.1016/j.crmeth.2023.100664 [[website](https://doi.org/10.1016/j.crmeth.2023.100664){:target="_blank"}]
 </div>
 
@@ -123,11 +93,6 @@
 ## 2022
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
-53. Joshua A Welsh, Sean M Cook, Jennifer Jones (2022), **Flow Cytometer Fluorescence Voltration for FCMPASS**, [[website](https://www.protocols.io/view/flow-cytometer-fluorescence-voltration-for-fcmpass-ci22ugge.pdf){:target="_blank"}]
-</div>
-
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2022" markdown>
 12. Mateescu B, Jones JC, Alexander RP, Alsop E, An JY, Asghari M, Boomgarden A, Bouchareychas L, Cayota A, Chang HC, Charest A, Chiu DT, Coffey RJ, Das S, De Hoff P, deMello A, D'Souza-Schorey C, Elashoff D, Eliato KR, Franklin JL, Galas DJ, Gerstein MB, Ghiran IH, Go DB, Gould S, Grogan TR, Higginbotham JN, Hladik F, Huang TJ, Huo X, Hutchins E, Jeppesen DK, Jovanovic-Talisman T, Kim BYS, Kim S, Kim KM, Kim Y, Kitchen RR, Knouse V, LaPlante EL, Lebrilla CB, Lee LJ, Lennon KM, Li G, Li F, Li T, Liu T, Liu Z, Maddox AL, McCarthy K, Meechoovet B, Maniya N, Meng Y, Milosavljevic A, Min BH, Morey A, Ng M, Nolan J, De Oliveira Junior GP, Paulaitis ME, Phu TA, Raffai RL, Reátegui E, Roth ME, Routenberg DA, Rozowsky J, Rufo J, Senapati S, Shachar S, Sharma H, Sood AK, Stavrakis S, Stürchler A, Tewari M, Tosar JP, Tucker-Schwartz AK, Turchinovich A, Valkov N, Van Keuren-Jensen K, Vickers KC, Vojtech L, Vreeland WN, Wang C, Wang K, Wang Z, Welsh JA, Witwer KW, Wong DTW, Xia J, Xie YH, Yang K, Zaborowski MP, Zhang C, Zhang Q, Zivkovic AM, Laurent LC., **Phase 2 of extracellular RNA communication consortium charts next-generation approaches for extracellular RNA research**, iScience, 2022, DOI: 10.1016/j.isci.2022.104653 \[ [website](https://doi.org/10.1016/j.isci.2022.104653){:target="_blank"}]
 </div>
 
@@ -150,11 +115,6 @@
 ## 2021
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
-54. Joshua Aden Welsh, Jennifer C Jones, Jay A Berzofsky (2021), **Biomarker analysis for high-throughput diagnostic multiplex data**, [[website](https://patents.google.com/patent/US20210025878A1/en){:target="_blank"}]
-</div>
-
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2021" markdown>
 16. Witwer KW, Goberdhan DC, O'Driscoll L, Théry C, Welsh JA, Blenkiron C, Buzás EI, Di Vizio D, Erdbrügger U, Falcón-Pérez JM, Fu QL, Hill AF, Lenassi M, Lötvall J, Nieuwland R, Ochiya T, Rome S, Sahoo S, Zheng L., **Updating MISEV: Evolving the minimal requirements for studies of extracellular vesicles**, J Extracell Vesicles, 2021, DOI: 10.1002/jev2.12182 \[ [website](https://doi.org/10.1002/jev2.12182){:target="_blank"}]
 </div>
 
@@ -175,83 +135,6 @@
 </div>
 
 ## 2020
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-55. Aizea Morales-Kastresana, Joshua Welsh, Jennifer Jones (2020), **Bulk EV staining with CFSE protein binding dye**, [[website](https://www.protocols.io/view/bulk-ev-staining-with-cfse-protein-binding-dye-bj6wkrfe.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-56. Aizea Morales-Kastresana, Joshua Welsh, Jennifer Jones (2020), **Astrios EQ instrument setup and sample acquisition**, [[website](https://www.protocols.io/view/astrios-eq-instrument-setup-and-sample-acquisition-bj6tkren.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-57. Aizea Morales-Kastresana, Joshua Welsh, Jennifer Jones (2020), **Counting particles and EVs on Astrios EQ with spike in reference beads**, [[website](https://www.protocols.io/view/counting-particles-and-evs-on-astrios-eq-with-spik-bj6rkrd6.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-58. Aizea Morales-Kastresana, Joshua Welsh, Jennifer Jones (2020), **Antigen-specific staining of EV markers with fluorochrome-conjugated antibodies**, [[website](https://www.protocols.io/view/antigen-specific-staining-of-ev-markers-with-fluor-bj6ukrew.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-59. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Acquisition and gating of light scatter reference materials**, doi: 10.17504/protocols [[website](https://doi.org/10.17504/protocols){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-60. Joshua Welsh, Sean Cook, Jennifer Jones (2020), **MPAPASS Software Collection**, [[website](https://www.protocols.io/view/mpapass-software-collection-bm3gk8jw.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-61. Aizea Morales Kastresana, Bryce Killingsworth, Joshua Welsh, Tim Traynor, Jennifer Jones (2020), **Preparing EV-depleted media**, [[website](https://www.protocols.io/view/preparing-ev-depleted-media-biihkcb6.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-62. Joshua Welsh, Sean Cook, Jennifer Jones (2020), **MPAPASS-Gating flow cytometry multiplex data**, [[website](https://www.protocols.io/view/mpapass-gating-flow-cytometry-multiplex-data-bjnwkmfe.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-63. Joshua Welsh, Julia Kepley, Bryce Killingsworth, Tim Traynor, Jennifer Jones (2020), **Ultrafiltration and purification of conditioned media (Pall Jumbsosep and Izon qEV-10)**, [[website](https://www.protocols.io/view/ultrafiltration-and-purification-of-conditioned-me-beqnjdve.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-64. Joshua Welsh, Sean Cook, Jennifer Jones (2020), **MPAPASS-Creating an MPAPASS database**, [[website](https://www.protocols.io/view/mpapass-creating-an-mpapass-database-bjnxkmfn.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-65. Joshua Welsh, Bryce Killingsworth, Julia Kepley, Tim Traynor, Alexis Barfield, Jennifer Jones (2020), **Multiplexed assay for detection of cell culture EV surface membrane proteins**, [[website](https://www.protocols.io/view/multiplexed-assay-for-detection-of-cell-culture-ev-be7yjhpw.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-66. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Acquisition and gating of fluorescence reference materials**, doi: 10.17504/protocols [[website](https://doi.org/10.17504/protocols){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-67. Joshua Welsh, Jennifer Jones (2020), **FCMPASS Protocol Collection**, [[website](https://www.protocols.io/view/fcmpass-protocol-collection-bjcqkivw.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-68. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Fluorescence calibration**, [[website](https://www.protocols.io/view/fcmpass-fluorescence-calibration-bhvyj67w.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-69. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Importing fcs files**, [[website](https://www.protocols.io/view/fcmpass-importing-fcs-files-bhvxj67n.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-70. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Creating a cytometer database and datasets**, [[website](https://www.protocols.io/view/fcmpass-creating-a-cytometer-database-and-datasets-bhvwj67e.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-71. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Light scatter calibration**, [[website](https://www.protocols.io/view/fcmpass-light-scatter-calibration-bhvzj676.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-72. Joshua Welsh, Jennifer Jones (2020), **FCMPASS-Performing and reporting calibration**, [[website](https://www.protocols.io/view/fcmpass-performing-and-reporting-calibration-bhv2j68e.pdf){:target="_blank"}]
-</div>
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
-73. Joshua Welsh, Bryce Killingsworth, Jason Savage, Tim Traynor, Jennifer Jones (2020), **Nanosight LM10**, [[website](https://www.protocols.io/view/nanosight-lm10-be58jg9w.pdf){:target="_blank"}]
-</div>
-
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
 21. Welsh JA, Jenkins LM, Kepley J, Lyons GC, Moore DM, Traynor T, Berzofsky JA, Jones JC., **High Sensitivity Protein Gel Electrophoresis Label Compatible with Mass-Spectrometry**, Biosensors (Basel), 2020, DOI: 10.3390/bios10110160 \[ [website](https://doi.org/10.3390/bios10110160){:target="_blank"}]
@@ -330,11 +213,6 @@
 ## 2018
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
-74. V Ford, D Smith, J Welsh, N Englyst (2018), **Predicting Excessive Post-Operative Blood Loss in Cardiac Surgical Patients Using Platelet Microvesicles: 0730**, _International Journal of Surgery_, 55, S12, [[website](https://journals.lww.com/international-journal-of-surgery/fulltext/2018/07001/predicting_excessive_post_operative_blood_loss_in.52.aspx){:target="_blank"}]
-</div>
-
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 38. Théry C, Witwer KW, Aikawa E, Alcaraz MJ, Anderson JD, Andriantsitohaina R, Antoniou A, Arab T, Archer F, Atkin-Smith GK, Ayre DC, Bach JM, Bachurski D, Baharvand H, Balaj L, Baldacchino S, Bauer NN, Baxter AA, Bebawy M, Beckham C, Bedina Zavec A, Benmoussa A, Berardi AC, Bergese P, Bielska E, Blenkiron C, Bobis-Wozowicz S, Boilard E, Boireau W, Bongiovanni A, Borràs FE, Bosch S, Boulanger CM, Breakefield X, Breglio AM, Brennan MÁ, Brigstock DR, Brisson A, Broekman ML, Bromberg JF, Bryl-Górecka P, Buch S, Buck AH, Burger D, Busatto S, Buschmann D, Bussolati B, Buzás EI, Byrd JB, Camussi G, Carter DR, Caruso S, Chamley LW, Chang YT, Chen C, Chen S, Cheng L, Chin AR, Clayton A, Clerici SP, Cocks A, Cocucci E, Coffey RJ, Cordeiro-da-Silva A, Couch Y, Coumans FA, Coyle B, Crescitelli R, Criado MF, D'Souza-Schorey C, Das S, Datta Chaudhuri A, de Candia P, De Santana EF, De Wever O, Del Portillo HA, Demaret T, Deville S, Devitt A, Dhondt B, Di Vizio D, Dieterich LC, Dolo V, Dominguez Rubio AP, Dominici M, Dourado MR, Driedonks TA, Duarte FV, Duncan HM, Eichenberger RM, Ekström K, El Andaloussi S, Elie-Caille C, Erdbrügger U, Falcón-Pérez JM, Fatima F, Fish JE, Flores-Bellver M, Försönits A, Frelet-Barrand A, et al., **Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines**, J Extracell Vesicles, 2018, DOI: 10.1080/20013078.2018.1535750 \[[website](https://doi.org/10.1080/20013078.2018.1535750){:target="_blank"}]
 </div>
 
@@ -362,9 +240,4 @@
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2017" markdown>
 44. Ramirez MI, Amorim MG, Gadelha C, Milic I, Welsh JA, Freitas VM, Nawaz M, Akbar N, Couch Y, Makin L, Cooke F, Vettore AL, Batista PX, Freezor R, Pezuk JA, Rosa-Fernandes L, Carreira ACO, Devitt A, Jacobs L, Silva IT, Coakley G, Nunes DN, Carter D, Palmisano G, Dias-Neto E., **Technical challenges of working with extracellular vesicles**, Nanoscale, 2017, DOI: 10.1039/c7nr08360b \[ [website](https://doi.org/10.1039/c7nr08360b){:target="_blank"}]
-</div>
-## 2014
-
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2014" markdown>
-46. Joshua Welsh, Judith Holloway, Nicola Englyst (2014), **Microvesicles as biomarkers in diabetes, obesity and non-alcoholic fatty liver disease: current knowledge and future directions**, 6(9), 1-7, [[website](https://eprints.soton.ac.uk/395326/){:target="_blank"}]
 </div>
