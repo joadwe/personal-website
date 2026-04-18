@@ -62,6 +62,9 @@ function jwInitFilters() {
         visible + " of " + pubItems.length + " shown";
     }
 
+    /* Update the chart to reflect filtered counts per year */
+    updateChart();
+
     /* Force CSS counter recomputation after class changes */
     const content = document.querySelector(".md-content__inner");
     if (content) {
@@ -71,6 +74,31 @@ function jwInitFilters() {
     }
 
     updateYearHeadings();
+  }
+
+  /**
+   * Update the bar chart to show counts only for visible (non-hidden) items.
+   */
+  function updateChart() {
+    if (typeof jwPubChart === "undefined" || !jwPubChart) return;
+
+    // Count visible items per year
+    var yearCounts = {};
+    pubItems.forEach(function (item) {
+      if (item.classList.contains("jw-pub-item--hidden")) return;
+      var year = item.getAttribute("data-jw-year") || "";
+      if (!year) return;
+      yearCounts[year] = (yearCounts[year] || 0) + 1;
+    });
+
+    // Use the chart's existing labels as the canonical year list
+    var labels = jwPubChart.data.labels;
+    var newData = labels.map(function (y) {
+      return yearCounts[y] || 0;
+    });
+
+    jwPubChart.data.datasets[0].data = newData;
+    jwPubChart.update("none"); // skip animation for snappy feedback
   }
 
   /**
