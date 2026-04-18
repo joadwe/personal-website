@@ -281,7 +281,7 @@ def classify_publication(pub: dict) -> str:
         return "preprint"
     # Check DOI patterns typical of preprint servers
     all_text = str(pub).lower()
-    if any(ind in all_text for ind in ["biorxiv", "medrxiv", "10.1101/", "arxiv.org"]):
+    if any(ind in all_text for ind in ["biorxiv", "medrxiv", "10.1101/", "10.64898/", "arxiv.org"]):
         return "preprint"
 
     return "publication"

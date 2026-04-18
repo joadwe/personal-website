@@ -320,7 +320,7 @@
 35. Morales-Kastresana A, Musich TA, Welsh JA, Telford W, Demberg T, Wood JCS, Bigos M, Ross CD, Kachynski A, Dean A, Felton EJ, Van Dyke J, Tigges J, Toxavidis V, Parks DR, Overton WR, Kesarwala AH, Freeman GJ, Rosner A, Perfetto SP, Pasquet L, Terabe M, McKinnon K, Kapoor V, Trepel JB, Puri A, Kobayashi H, Yung B, Chen X, Guion P, Choyke P, Knox SJ, Ghiran I, Robert-Guroff M, Berzofsky JA, Jones JC., **High-fidelity detection and sorting of nanoscale vesicles in viral disease and cancer**, J Extracell Vesicles, 2019, DOI: 10.1080/20013078.2019.1597603 \[ [website](https://doi.org/10.1080/20013078.2019.1597603){:target="_blank"}]
 </div>
 
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
+<div class="jw-pub-item" data-jw-type="preprint" data-jw-year="2019" markdown>
 36. Tang VA, Fritzsche AK, Renner TM, Burger D, van der Pol E, Lannigan JA, Brittain GC, Welsh JA, Jones JC, Langlois M,, **Engineered Retroviruses as Fluorescent Biological ReferenceParticles for Small Particle Flow Cytometry**, BioRxiv, 2019, DOI: 10.1101/614461 \[[website](https://doi.org/10.1101/614461){:target="_blank"}]
 </div>
 
