@@ -27,6 +27,7 @@ jobs:
       - name: Fetch & update publications
         env:
           SCHOLAR_ID: DzpMNxoAAAAJ
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scripts/update_publications.py
 
       - name: Check for changes
