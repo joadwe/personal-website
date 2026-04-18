@@ -272,9 +272,16 @@ def classify_publication(pub: dict) -> str:
 
     # Preprints — bioRxiv, medRxiv, arXiv, SSRN, preprints.org
     preprint_indicators = ["biorxiv", "medrxiv", "arxiv", "ssrn", "preprints"]
+    # Check journal/venue name
     if any(ind in journal for ind in preprint_indicators):
         return "preprint"
-    if any(ind in pub_url for ind in preprint_indicators):
+    # Check all URL fields (pub_url, eprint_url) and raw bib text
+    url_text = f"{pub_url} {eprint_url}"
+    if any(ind in url_text for ind in preprint_indicators):
+        return "preprint"
+    # Check DOI patterns typical of preprint servers
+    all_text = str(pub).lower()
+    if any(ind in all_text for ind in ["biorxiv", "medrxiv", "10.1101/", "arxiv.org"]):
         return "preprint"
 
     return "publication"
