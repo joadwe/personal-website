@@ -12,6 +12,7 @@
   <button class="jw-filter-btn" data-jw-filter="publication">Papers</button>
   <button class="jw-filter-btn" data-jw-filter="chapter">Chapters</button>
   <button class="jw-filter-btn" data-jw-filter="patent">Patents</button>
+  <button class="jw-filter-btn" data-jw-filter="preprint">Preprints</button>
   <button class="jw-filter-btn" data-jw-filter="protocol">Protocols</button>
   <span class="jw-filter-count" id="jw-filter-count"></span>
 </div>
@@ -29,7 +30,7 @@
 1. Welsh JA., **Methods for detector gain modulation and systems for same**, [[website](https://patents.google.com/patent/US20260086018A1/en){:target="_blank"}]
 </div>
 
-<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2026" markdown>
+<div class="jw-pub-item" data-jw-type="preprint" data-jw-year="2026" markdown>
 48. Pleet ML, Cook SM, Killingsworth B, Traynor T, Johnson D, Stack EH, Ford VJ, Pinheiro C, Arce J, Savage J, Roth M, Milosavljevic A, Ghiran I, Hendrix A, Jacobson S, Welsh JA, Jones JC., **Real-time, automated, standardized, and transparent analysis of microfluidic nanoparticle data with RPSPASS**, bioRxiv, 2026, DOI: 10.64898/2026.03.30.715405.abstract \[[website](https://doi.org/10.64898/2026.03.30.715405.abstract){:target="_blank"}]
 </div>
 
