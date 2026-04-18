@@ -22,7 +22,7 @@ from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -32,6 +32,27 @@ PUBS_FILE = Path(__file__).resolve().parent.parent / "docs" / "publications.md"
 TITLE_SIMILARITY_THRESHOLD = 0.85  # fuzzy match threshold for title comparison
 MAX_RETRIES = 3
 RETRY_DELAY = 30  # seconds
+
+
+def setup_proxy() -> None:
+    """Configure a proxy to avoid Google Scholar rate-limiting."""
+    pg = ProxyGenerator()
+
+    # Option 1: Use ScraperAPI if a key is provided (most reliable)
+    scraper_key = os.environ.get("SCRAPER_API_KEY")
+    if scraper_key:
+        log.info("Using ScraperAPI proxy.")
+        pg.ScraperAPI(scraper_key)
+        scholarly.use_proxy(pg)
+        return
+
+    # Option 2: Use free rotating proxies
+    log.info("Using FreeProxy (no ScraperAPI key set).")
+    success = pg.FreeProxies()
+    if success:
+        scholarly.use_proxy(pg)
+    else:
+        log.warning("FreeProxy setup failed; proceeding without proxy.")
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -342,6 +363,8 @@ def main() -> int:
     if not PUBS_FILE.exists():
         log.error("Publications file not found: %s", PUBS_FILE)
         return 1
+
+    setup_proxy()
 
     md_text = PUBS_FILE.read_text(encoding="utf-8")
 
