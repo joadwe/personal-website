@@ -2,7 +2,7 @@
 
 <!-- Publication Timeline Chart -->
 <div class="jw-chart-container jw-reveal">
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 7, 30, 6, 6, 8, 7, 5, 3]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 7, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
 </div>
 
 <!-- Filter Bar -->
@@ -85,6 +85,11 @@
 
 <div class="jw-pub-item" data-jw-type="patent" data-jw-year="2024" markdown>
 1. Jones JC, Welsh JA, McKinnon KM, Berzofsky JA, **Purification and labeling of extracellular vesicles using a mixed mode resin composition**, US12,083,448 B2, Assignee: US Department of Health and Human Services, Granted: Sep 10, 2024 [[website](https://patents.google.com/patent/US12083448B2){:target="_blank"}]
+</div>
+
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2024" markdown>
+75. Pleet M, Stack E, Welsh J, Monaco-Kushner M, Ngouth N, Ohayon J, Enose-Akahata Y, Nath A, Reich D, Jones J, Jacobson S., **Analysis of Extracellular Vesicle Signatures From Multiple Sclerosis Cerebrospinal Fluid**, MULTIPLE SCLEROSIS JOURNAL. 30(1):215-215, 2024, \[ [website](https://scholar.google.com/scholar?cluster=5300392256325568104&hl=en&oi=scholarr){:target="_blank"}]
 </div>
 
 ## 2023
