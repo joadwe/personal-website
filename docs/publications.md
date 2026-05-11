@@ -2,7 +2,7 @@
 
 <!-- Publication Timeline Chart -->
 <div class="jw-chart-container jw-reveal">
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 7, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
 </div>
 
 <!-- Filter Bar -->
@@ -332,6 +332,11 @@
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
 37. Welsh JA, Horak P, Wilkinson JS, Ford VJ, Jones JC, Smith D, Holloway JA, Englyst NA., **FCM(PASS) Software Aids Extracellular Vesicle Light Scatter Standardization**, Cytometry A, 2019, DOI: 10.1002/cyto.a.23782 \[ [website](https://doi.org/10.1002/cyto.a.23782){:target="_blank"}]
+</div>
+
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
+76. Dana C., **Educational Trends in Medicine: Collaborative Technologies and Pedagogical Models**, 2019, \[ [website](https://www.academia.edu/download/84704775/bulk-ev-staining-with-cfse-protein-binding-dye-bj6wkrfe.pdf){:target="_blank"}]
 </div>
 
 ## 2018
