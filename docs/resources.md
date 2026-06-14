@@ -9,6 +9,10 @@
 Convert percentage solids to particle concentration.
 Links: [Live tool](https://joadwe.github.io/percent-solids-calculator/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/percent-solids-calculator){:target="_blank"}
 
+### Online fluorescence calibration calculator
+Convert cytometer fluorescence signals to calibrated reference units using bead data.
+Links: [Live tool](https://vorpal-hamster.github.io/fluorescence-calibration-calculator/){:target="_blank"} | [GitHub repo](https://github.com/vorpal-hamster/fluorescence-calibration-calculator){:target="_blank"}
+
 ### Flow cell model
 Model flow cell collection efficiency.
 Links: [Live tool](https://joadwe.github.io/flow-cell-collection/){:target="_blank"} | [GitHub repo](https://github.com/joadwe/flow-cell-collection){:target="_blank"}

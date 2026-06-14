@@ -75,6 +75,14 @@
 
 <div class="jw-card jw-reveal" markdown>
 
+:material-account-star: **Technology Innovation & Development Councilor**
+
+International Society for Advancement of Cytometry (2026–2030)
+
+</div>
+
+<div class="jw-card jw-reveal" markdown>
+
 :material-pencil: **Associate Editor**
 
 Cytometry Part A (2024–Present) · Current Protocols in Cytometry (2020–2023)

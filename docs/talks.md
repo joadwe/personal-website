@@ -6,6 +6,8 @@
 ## Invited Talks
 
 ### Academic <span class="jw-talk-count"></span>
+1. ***Fundamental Considerations for Quantitative Fluorescence Standardization.***, CYTO2026, West Palm Beach, Florida, USA, June 2026.
+1. ***Practical guide to small particle flow cytometry.***, CYTO2026, West Palm Beach, Florida, USA, June 2026.
 1. ***EVs: Getting started.***, UC Davis, USA, February 2025.
 1. ***Small particle flow cytometry: The utility of assay agnostic metrics.***, Online Education Day, February 2025.
 1. ***Mastering small particle flow cytometry.***, Weizmann Institute of Science, Israel, September 2024.
