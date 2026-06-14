@@ -2,8 +2,8 @@ name: Update Publications from Google Scholar
 
 on:
   schedule:
-    # Run weekly on Mondays at 06:00 UTC
-    - cron: "0 6 * * 1"
+    # Run weekly at an off-peak minute; the Scholar request is jittered below.
+    - cron: "37 3 * * 1"
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -12,6 +12,7 @@ permissions:
 jobs:
   update-publications:
     runs-on: ubuntu-latest
+    timeout-minutes: 240
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,6 +26,14 @@ jobs:
 
       - name: Install dependencies
         run: pip install "httpx<0.28" scholarly free-proxy
+
+      - name: Randomize Scholar request time
+        if: github.event_name == 'schedule'
+        run: |
+          delay_seconds=$(( (RANDOM % 10800) + 300 ))
+          delay_minutes=$(( delay_seconds / 60 ))
+          echo "Waiting ${delay_minutes} minute(s) before contacting Google Scholar."
+          sleep "$delay_seconds"
 
       - name: Fetch & update publications
         env:
