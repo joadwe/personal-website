@@ -37,6 +37,11 @@ function jwInitFilters() {
     const query = currentSearch ? currentSearch.value.toLowerCase().trim() : "";
     let visible = 0;
 
+    window.jwCurrentPublicationFilter = {
+      activeFilter: activeFilter,
+      query: query,
+    };
+
     pubItems.forEach((item) => {
       const text = item.textContent.toLowerCase();
       const type = item.getAttribute("data-jw-type") || "publication";
@@ -62,7 +67,7 @@ function jwInitFilters() {
         visible + " of " + pubItems.length + " shown";
     }
 
-    /* Update the chart to reflect filtered counts per year */
+    /* Update the chart to reflect filtered metrics */
     updateChart();
 
     /* Force CSS counter recomputation after class changes */
@@ -76,29 +81,16 @@ function jwInitFilters() {
     updateYearHeadings();
   }
 
+  window.jwRefreshPublicationFilters = applyFilters;
+
   /**
    * Update the bar chart to show counts only for visible (non-hidden) items.
    */
   function updateChart() {
     if (typeof jwPubChart === "undefined" || !jwPubChart) return;
-
-    // Count visible items per year
-    var yearCounts = {};
-    pubItems.forEach(function (item) {
-      if (item.classList.contains("jw-pub-item--hidden")) return;
-      var year = item.getAttribute("data-jw-year") || "";
-      if (!year) return;
-      yearCounts[year] = (yearCounts[year] || 0) + 1;
-    });
-
-    // Use the chart's existing labels as the canonical year list
-    var labels = jwPubChart.data.labels;
-    var newData = labels.map(function (y) {
-      return yearCounts[y] || 0;
-    });
-
-    jwPubChart.data.datasets[0].data = newData;
-    jwPubChart.update("none"); // skip animation for snappy feedback
+    if (typeof jwUpdatePublicationChartForFilter === "function") {
+      jwUpdatePublicationChartForFilter({ animate: false });
+    }
   }
 
   /**
@@ -139,6 +131,8 @@ function jwInitFilters() {
   if (initCount) {
     initCount.textContent = pubItems.length + " of " + pubItems.length + " shown";
   }
+
+  applyFilters();
 }
 
 // Run on initial load

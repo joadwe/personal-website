@@ -1,56 +1,13 @@
-name: Update Publications from Google Scholar
+name: Update Publications from Scholar Export
 
 on:
-  schedule:
-    # Run weekly at an off-peak minute; the Scholar request is jittered below.
-    - cron: "37 3 * * 1"
-  workflow_dispatch: # Allow manual trigger
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  update-publications:
+  export-notice:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: pip install "httpx<0.28" scholarly free-proxy
-
-      - name: Randomize Scholar request time
-        if: github.event_name == 'schedule'
+      - name: Scholar updates are exported externally
         run: |
-          delay_seconds=$(( (RANDOM % 10800) + 300 ))
-          delay_minutes=$(( delay_seconds / 60 ))
-          echo "Waiting ${delay_minutes} minute(s) before contacting Google Scholar."
-          sleep "$delay_seconds"
-
-      - name: Fetch & update publications
-        env:
-          SCHOLAR_ID: DzpMNxoAAAAJ
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
-        run: python scripts/update_publications.py
-
-      - name: Check for changes
-        id: changes
-        run: |
-          git diff --quiet docs/publications.md && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit & push
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/publications.md
-          git commit -m "chore: auto-update publications from Google Scholar"
-          git push origin main
+          echo "Google Scholar scraping now runs in the local google-scholar Docker app."
+          echo "Export docs/data/scholar-dashboard.json from that app, commit it, and let the MkDocs deploy workflow publish the static site."

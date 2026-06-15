@@ -1,9 +1,6 @@
 # Publications
 
-<!-- Publication Timeline Chart -->
-<div class="jw-chart-container jw-reveal">
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
-</div>
+<div id="jw-scholar-dashboard" class="jw-scholar-dashboard jw-reveal" data-jw-scholar-src="../data/scholar-dashboard.json"></div>
 
 <!-- Filter Bar -->
 <div class="jw-filter-bar jw-reveal">
@@ -15,6 +12,18 @@
   <button class="jw-filter-btn" data-jw-filter="preprint">Preprints</button>
   <button class="jw-filter-btn" data-jw-filter="protocol">Protocols</button>
   <span class="jw-filter-count" id="jw-filter-count"></span>
+</div>
+
+<!-- Publication Timeline Chart -->
+<div class="jw-chart-container jw-reveal">
+  <div class="jw-chart-header">
+    <div class="jw-chart-title">Publication timeline</div>
+    <div class="jw-chart-mode" aria-label="Publication chart metric">
+      <button class="jw-chart-mode-btn jw-chart-mode-btn--active" type="button" data-jw-chart-mode="publications" aria-pressed="true">Papers/year</button>
+      <button class="jw-chart-mode-btn" type="button" data-jw-chart-mode="citations" aria-pressed="false" disabled>Citations/year</button>
+    </div>
+  </div>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
 </div>
 
 !!! info "Publications, Chapters, Patents and Datasets"

@@ -482,6 +482,20 @@
   color: var(--md-primary-fg-color);
 }
 
+.jw-pub-item__link,
+.jw-pub-item__link:visited,
+.jw-pub-item__link:hover,
+.jw-pub-item__link:focus-visible {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.jw-pub-item__link:hover,
+.jw-pub-item__link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 /* ----------------------------------------------------------
    8. CHART CONTAINER
    ---------------------------------------------------------- */
@@ -496,6 +510,160 @@
 
 .jw-chart-container canvas {
   max-height: 300px;
+}
+
+.jw-chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.jw-chart-title {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.jw-chart-mode {
+  display: inline-flex;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 2rem;
+  padding: 0.2rem;
+  background: var(--md-default-bg-color);
+}
+
+.jw-chart-mode-btn {
+  border: 0;
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 650;
+  padding: 0.35rem 0.75rem;
+}
+
+.jw-chart-mode-btn:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.jw-chart-mode-btn--active {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+/* ----------------------------------------------------------
+   8b. SCHOLAR DASHBOARD
+   ---------------------------------------------------------- */
+.jw-scholar-dashboard {
+  margin: 1.5rem 0 2rem;
+}
+
+.jw-scholar-loading,
+.jw-scholar-error {
+  padding: 1rem 1.2rem;
+  border-radius: var(--jw-border-radius);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--jw-text-muted);
+  background: var(--md-default-bg-color);
+  box-shadow: var(--jw-card-shadow);
+}
+
+.jw-scholar-error {
+  color: #c62828;
+  border-color: rgba(198, 40, 40, 0.35);
+}
+
+.jw-scholar-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.9rem;
+}
+
+.jw-scholar-metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--jw-border-radius);
+  box-shadow: var(--jw-card-shadow);
+  min-height: 7rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.jw-scholar-metric__label {
+  color: var(--jw-text-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.jw-scholar-metric__value {
+  color: var(--md-primary-fg-color);
+  font-size: 1.9rem;
+  font-weight: 750;
+  line-height: 1.1;
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.jw-pub-badges {
+  display: inline-flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin-left: 0.45rem;
+  vertical-align: baseline;
+}
+
+.jw-pub-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.12rem 0.55rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.jw-pub-badge--type {
+  color: var(--md-primary-fg-color);
+  background: rgba(0, 121, 107, 0.12);
+}
+
+.jw-pub-badge--patent {
+  color: #b45309;
+  background: rgba(217, 119, 6, 0.14);
+}
+
+.jw-pub-badge--preprint {
+  color: var(--md-accent-fg-color);
+  background: rgba(92, 107, 192, 0.14);
+}
+
+.jw-pub-badge--protocol {
+  color: #2e7d32;
+  background: rgba(46, 125, 50, 0.12);
+}
+
+.jw-pub-badge--citations {
+  color: var(--jw-text-muted);
+  background: var(--md-default-fg-color--lightest);
+}
+
+@media (max-width: 700px) {
+  .jw-chart-header,
+  .jw-chart-mode {
+    width: 100%;
+  }
+  .jw-chart-mode-btn {
+    flex: 1;
+  }
 }
 
 /* ----------------------------------------------------------

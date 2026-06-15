@@ -1,0 +1,15 @@
+[project]
+name = "personal-website"
+version = "0.1.0"
+description = "Joshua Welsh's personal website built with Material for MkDocs."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs==1.6.1",
+    "mkdocs-glightbox",
+    "mkdocs-material==9.5.47",
+    "scholarly",
+]
+
+[tool.uv]
+package = false

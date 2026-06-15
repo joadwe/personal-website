@@ -7,3 +7,18 @@ This website showcases my research work, publications, talks, and resources in t
 - Flow cytometry development and standardization
 - Biomedical instrumentation
 - Software development for reproducible research
+
+## Development
+
+Install the locked dependencies and start the local preview:
+
+```bash
+uv sync
+./dev.sh serve
+```
+
+Build the static website into `site/`:
+
+```bash
+./dev.sh build
+```

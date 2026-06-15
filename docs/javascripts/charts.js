@@ -4,6 +4,10 @@
    ============================================================ */
 
 var jwPubChart = null; // Store chart instance for cleanup
+var jwPubChartMode = "publications";
+var jwPubChartBase = null;
+var jwPubCitationChart = null;
+window.jwCurrentPublicationFilter = { activeFilter: "all", query: "" };
 
 function jwInitCharts() {
   const canvas = document.getElementById("jw-pub-chart");
@@ -14,6 +18,7 @@ function jwInitCharts() {
     jwPubChart.destroy();
     jwPubChart = null;
   }
+  jwPubChartMode = "publications";
 
   // Parse data from the element's data attribute, or fall back to defaults
   let labels, data;
@@ -25,6 +30,8 @@ function jwInitCharts() {
     labels = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
     data = [1, 4, 6, 5, 8, 6, 5, 4, 3, 2];
   }
+
+  jwPubChartBase = { labels: labels.slice(), values: data.slice() };
 
   // Detect dark mode
   const isDark =
@@ -46,7 +53,7 @@ function jwInitCharts() {
       labels: labels,
       datasets: [
         {
-          label: "Publications",
+          label: "Papers",
           data: data,
           backgroundColor: gradient,
           borderColor: "rgba(0, 121, 107, 0.9)",
@@ -82,7 +89,10 @@ function jwInitCharts() {
           callbacks: {
             label: function (context) {
               const val = context.parsed.y;
-              return val + (val === 1 ? " publication" : " publications");
+              if (jwPubChartMode === "citations") {
+                return val.toLocaleString() + (val === 1 ? " citation" : " citations");
+              }
+              return val + (val === 1 ? " paper" : " papers");
             },
           },
         },
@@ -103,6 +113,148 @@ function jwInitCharts() {
         },
       },
     },
+  });
+
+  initPublicationChartToggle();
+}
+
+function initPublicationChartToggle() {
+  var buttons = document.querySelectorAll(".jw-chart-mode-btn[data-jw-chart-mode]");
+  if (!buttons.length) return;
+
+  buttons.forEach(function (button) {
+    button.disabled = button.getAttribute("data-jw-chart-mode") === "citations" && !jwPubCitationChart;
+    button.addEventListener("click", function () {
+      setPublicationChartMode(button.getAttribute("data-jw-chart-mode"));
+    });
+  });
+
+  setActiveChartModeButton();
+}
+
+function setPublicationChartMode(mode) {
+  if (!jwPubChart || !jwPubChartBase) return;
+  if (mode === "citations" && !jwPubCitationChart) return;
+
+  jwPubChartMode = mode === "citations" ? "citations" : "publications";
+  setActiveChartModeButton();
+  jwUpdatePublicationChartForFilter({ animate: true });
+}
+
+function setActiveChartModeButton() {
+  document.querySelectorAll(".jw-chart-mode-btn[data-jw-chart-mode]").forEach(function (button) {
+    var isActive = button.getAttribute("data-jw-chart-mode") === jwPubChartMode;
+    button.classList.toggle("jw-chart-mode-btn--active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
+}
+
+function jwSetCitationChartData(history, publications) {
+  if (!Array.isArray(history) || history.length === 0) return;
+
+  var citationsByYear = {};
+  history.forEach(function (item) {
+    citationsByYear[String(item.year)] = item.citations || 0;
+  });
+
+  var firstAggregateYear = Math.min.apply(null, history.map(function (item) {
+    return Number(item.year);
+  }));
+  (publications || []).forEach(function (publication) {
+    (publication.citation_history || []).forEach(function (item) {
+      if (Number(item.year) >= firstAggregateYear) return;
+      var year = String(item.year);
+      citationsByYear[year] = (citationsByYear[year] || 0) + (item.citations || 0);
+    });
+  });
+
+  var labels = Object.keys(citationsByYear).sort();
+  jwPubCitationChart = {
+    labels: labels,
+    values: labels.map(function (year) { return citationsByYear[year] || 0; }),
+  };
+
+  document.querySelectorAll(".jw-chart-mode-btn[data-jw-chart-mode='citations']").forEach(function (button) {
+    button.disabled = false;
+  });
+
+  if (jwPubChartMode === "citations") {
+    jwUpdatePublicationChartForFilter({ animate: true });
+  }
+}
+
+function jwUpdatePublicationChartForFilter(options) {
+  if (!jwPubChart || !jwPubChartBase) return;
+
+  var series = jwPubChartMode === "citations"
+    ? buildFilteredCitationSeries()
+    : buildFilteredPublicationSeries();
+
+  jwPubChart.data.labels = series.labels;
+  jwPubChart.data.datasets[0].label = series.label;
+  jwPubChart.data.datasets[0].data = series.values;
+  jwPubChart.options.scales.y.ticks.stepSize = jwPubChartMode === "publications" ? 2 : undefined;
+  jwPubChart.update(options && options.animate ? undefined : "none");
+}
+
+function buildFilteredPublicationSeries() {
+  var yearCounts = {};
+  getVisiblePublicationItems().forEach(function (item) {
+    var year = item.getAttribute("data-jw-year") || "";
+    if (year) yearCounts[year] = (yearCounts[year] || 0) + 1;
+  });
+
+  return {
+    label: "Papers",
+    labels: jwPubChartBase.labels.slice(),
+    values: jwPubChartBase.labels.map(function (year) { return yearCounts[year] || 0; }),
+  };
+}
+
+function buildFilteredCitationSeries() {
+  var filterState = window.jwCurrentPublicationFilter || { activeFilter: "all", query: "" };
+  var hasActiveFilter = filterState.activeFilter !== "all" || Boolean(filterState.query);
+
+  if (!hasActiveFilter && jwPubCitationChart) {
+    return {
+      label: "Citations",
+      labels: jwPubCitationChart.labels.slice(),
+      values: jwPubCitationChart.values.slice(),
+    };
+  }
+
+  var yearCounts = {};
+  var scholarLookup = window.jwScholarPublicationLookup || {};
+  getVisiblePublicationItems().forEach(function (item) {
+    var key = item.getAttribute("data-jw-scholar-key");
+    var publication = key ? scholarLookup[key] : null;
+    if (!publication || !Array.isArray(publication.citation_history)) return;
+    if (publication.citation_history.length === 0) {
+      if (publication.year && publication.total_citations > 0) {
+        var publicationYear = String(publication.year);
+        yearCounts[publicationYear] = (yearCounts[publicationYear] || 0) + publication.total_citations;
+      }
+      return;
+    }
+    publication.citation_history.forEach(function (entry) {
+      var year = String(entry.year);
+      yearCounts[year] = (yearCounts[year] || 0) + (entry.citations || 0);
+    });
+  });
+
+  var labels = jwPubCitationChart
+    ? jwPubCitationChart.labels.slice()
+    : Object.keys(yearCounts).sort();
+  return {
+    label: "Citations",
+    labels: labels,
+    values: labels.map(function (year) { return yearCounts[year] || 0; }),
+  };
+}
+
+function getVisiblePublicationItems() {
+  return Array.prototype.slice.call(document.querySelectorAll(".jw-pub-item")).filter(function (item) {
+    return !item.classList.contains("jw-pub-item--hidden");
   });
 }
 

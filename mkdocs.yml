@@ -86,10 +86,12 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js
   - javascripts/extra.js
+  - javascripts/scholar-dashboard.js
   - javascripts/charts.js
   - javascripts/filters.js
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/joadwe

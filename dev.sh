@@ -5,19 +5,19 @@
 case "$1" in
     "serve" | "dev")
         echo "Starting development server..."
-        mkdocs serve
+        uv run mkdocs serve
         ;;
     "build")
         echo "Building the site..."
-        mkdocs build
+        uv run mkdocs build
         ;;
     "deploy")
         echo "Building and deploying to GitHub Pages..."
-        mkdocs gh-deploy
+        uv run mkdocs gh-deploy
         ;;
     "install")
         echo "Installing dependencies..."
-        pip install -r requirements.txt
+        uv sync
         ;;
     "clean")
         echo "Cleaning build artifacts..."
