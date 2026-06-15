@@ -71,52 +71,92 @@
 
 ## Professional Positions
 
-<div class="jw-cards" markdown>
+<div class="jw-positions">
 
-<div class="jw-card jw-reveal" markdown>
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Technology Innovation &amp; Development Councilor</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">International Society for Advancement of Cytometry</span>
+      <span class="jw-position__date">2026–2030</span>
+    </div>
+  </div>
+</div>
 
-:material-account-star: **Technology Innovation & Development Councilor**
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Associate Editor</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization"><em>Cytometry Part A</em></span>
+      <span class="jw-position__date">2024–Present</span>
+    </div>
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization"><em>Current Protocols in Cytometry</em></span>
+      <span class="jw-position__date">2020–2023</span>
+    </div>
+  </div>
+</div>
 
-International Society for Advancement of Cytometry (2026–2030)
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Committee Member</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">ISAC Data Committee</span>
+      <span class="jw-position__date">2020–Present</span>
+    </div>
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">ISEV Executive Board, Member-at-large</span>
+      <span class="jw-position__date">2020–2024</span>
+    </div>
+  </div>
+</div>
+
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Task Force Chair</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">ISEV Rigor &amp; Standardization: EV Reference Materials</span>
+      <span class="jw-position__date">2019–2023</span>
+    </div>
+  </div>
+</div>
+
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Working Group</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">ISAC-ISEV-ISTH EV Flow Cytometry Working Group</span>
+      <span class="jw-position__date">2016–Present</span>
+    </div>
+  </div>
+</div>
 
 </div>
 
-<div class="jw-card jw-reveal" markdown>
+<div class="jw-positions">
 
-:material-pencil: **Associate Editor**
-
-Cytometry Part A (2024–Present) · Current Protocols in Cytometry (2020–2023)
-
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Associate Fellow</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">Higher Education Academy</span>
+      <span class="jw-position__date">2015–Present</span>
+    </div>
+  </div>
 </div>
 
-<div class="jw-card jw-reveal" markdown>
-
-:material-account-group: **Committee Member**
-
-ISAC Data Committee (2020–Present) · ISEV Executive Board, Member-at-large (2020–2024)
-
-</div>
-
-<div class="jw-card jw-reveal" markdown>
-
-:material-flag: **Task Force Chair**
-
-ISEV Rigor & Standardization: EV Reference Materials (2019–2023)
-
-</div>
-
-<div class="jw-card jw-reveal" markdown>
-
-:material-flask: **Working Group**
-
-ISAC-ISEV-ISTH EV Flow Cytometry Working Group (2016–Present)
-
+<div class="jw-position jw-reveal">
+  <div class="jw-position__role">Member</div>
+  <div class="jw-position__appointments">
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">International Society of Extracellular Vesicles</span>
+      <span class="jw-position__date">2014–2024</span>
+    </div>
+    <div class="jw-position__appointment">
+      <span class="jw-position__organization">International Society for Advancement of Cytometry</span>
+      <span class="jw-position__date">2014–Present</span>
+    </div>
+  </div>
 </div>
 
 </div>
-
-### Memberships
-
-- :material-certificate: **Associate Fellow**, Higher Education Academy (2015–Present)
-- :material-account: **Member**, International Society of Extracellular Vesicles (2014–2024)
-- :material-account: **Member**, International Society for Advancement of Cytometry (2014–Present)

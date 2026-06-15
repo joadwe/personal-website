@@ -273,6 +273,85 @@
   line-height: 1.5;
 }
 
+/* Professional positions and memberships */
+.jw-positions {
+  display: grid;
+  gap: 0.85rem;
+  margin: 2rem 0;
+}
+
+.jw-position {
+  display: grid;
+  gap: 0.85rem;
+  align-items: start;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--md-primary-fg-color);
+  border-radius: var(--jw-border-radius);
+  box-shadow: var(--jw-card-shadow);
+  overflow: hidden;
+}
+
+.jw-position__role {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+  color: var(--md-primary-fg-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+  padding: 0.8rem 1.4rem;
+}
+
+.jw-position__appointments {
+  display: grid;
+  gap: 0.7rem;
+  min-width: 0;
+  padding: 1rem 1.4rem 1.2rem;
+}
+
+.jw-position__appointment {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.jw-position__appointment + .jw-position__appointment {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 0.7rem;
+}
+
+.jw-position__organization {
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.jw-position__date {
+  color: var(--md-primary-fg-color);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .jw-position__role {
+    padding: 0.75rem 1.1rem;
+  }
+
+  .jw-position__appointments {
+    padding: 0.9rem 1.1rem 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .jw-position__appointment {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
+
 /* ----------------------------------------------------------
    6. CAREER TIMELINE
    ---------------------------------------------------------- */
