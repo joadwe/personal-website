@@ -80,18 +80,12 @@ markdown_extensions:
   - toc:
       permalink: true
 
-extra_css:
-  - stylesheets/extra.css
-
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js
-  - javascripts/extra.js
-  - javascripts/scholar-dashboard.js
-  - javascripts/charts.js
-  - javascripts/filters.js
 
 extra:
   generator: false
+  asset_version: !ENV [ASSET_VERSION, dev]
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/joadwe

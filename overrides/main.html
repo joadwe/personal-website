@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'stylesheets/extra.css' | url }}?v={{ config.extra.asset_version }}">
+{% endblock %}
+
 {% block tabs %}
   {{ super() }}
 
@@ -41,4 +45,12 @@
     </div>
   </section>
   {% endif %}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'javascripts/extra.js' | url }}?v={{ config.extra.asset_version }}"></script>
+  <script src="{{ 'javascripts/scholar-dashboard.js' | url }}?v={{ config.extra.asset_version }}"></script>
+  <script src="{{ 'javascripts/charts.js' | url }}?v={{ config.extra.asset_version }}"></script>
+  <script src="{{ 'javascripts/filters.js' | url }}?v={{ config.extra.asset_version }}"></script>
 {% endblock %}
