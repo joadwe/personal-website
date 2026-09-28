@@ -3,7 +3,7 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "$0")/.." && pwd)"
-export PATH="/opt/homebrew/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+export PATH="/opt/homebrew/bin:$HOME/.local/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:$PATH"
 export GIT_TERMINAL_PROMPT=0
 export GIT_SSH_COMMAND="ssh -o BatchMode=yes -o ConnectTimeout=15"
 cd "$repo_root"
@@ -35,7 +35,10 @@ if [[ ! -x "$python_bin" || ! -x "$mkdocs_bin" ]]; then
   uv sync --locked
 fi
 
-"$python_bin" scripts/sync_scholar_export.py
+export_path="$(mktemp "${TMPDIR:-/tmp}/scholar-export.XXXXXX")"
+trap 'rm -f "$export_path"' EXIT
+docker exec google-scholar-dashboard-1 cat /exports/scholar-dashboard.json > "$export_path"
+"$python_bin" scripts/sync_scholar_export.py --source "$export_path"
 if ! git diff --quiet -- docs/data/scholar-dashboard.json docs/publications.md; then
   "$mkdocs_bin" build --strict
   git add -- docs/data/scholar-dashboard.json docs/publications.md

@@ -49,8 +49,11 @@ macOS job on the Docker host:
 bash scripts/install_scholar_schedule.sh
 ```
 
-The job fetches `main`, imports the export, runs a strict MkDocs build, and commits
+The installer creates a private checkout under
+`~/Library/Application Support/personal-website-scholar/repo`, because macOS blocks
+background jobs from reading a checkout in `Documents`. The job reads the export
+through Docker, fetches `main`, imports it, runs a strict MkDocs build, and commits
 and pushes only the generated publication Markdown and JSON. The existing Pages
-workflow deploys that push. It skips runs when the worktree contains other edits and
+workflow deploys that push. It skips runs when its checkout contains other edits and
 logs to `~/Library/Logs/personal-website-scholar.log`. Git SSH access to the `origin`
 remote must work without an interactive prompt for scheduled pushes.
