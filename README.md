@@ -22,3 +22,35 @@ Build the static website into `site/`:
 ```bash
 ./dev.sh build
 ```
+
+## Scholar publication updates
+
+The local `google-scholar` Docker app exports `../google-scholar/exports/scholar-dashboard.json`
+after its daily sync. GitHub Pages cannot access that local file, so the Mac hosting
+Docker publishes changes from this repository.
+
+To import the latest export and preview changes without writing files:
+
+```bash
+python3 scripts/sync_scholar_export.py --dry-run
+```
+
+The importer updates citation metrics and appends well-formed new publications to
+`docs/publications.md`. Existing citations remain untouched. Scholar records without
+an author, year, or usable link are reported as deferred so incomplete citations do
+not appear on the website. Reviewed corrections for incomplete Scholar records live
+in `scripts/scholar_publication_overrides.json`. If the app only completes an
+author-only fallback sync, unchanged metrics do not create another site commit.
+
+After this repository's setup changes are committed and pushed, install the hourly
+macOS job on the Docker host:
+
+```bash
+bash scripts/install_scholar_schedule.sh
+```
+
+The job fetches `main`, imports the export, runs a strict MkDocs build, and commits
+and pushes only the generated publication Markdown and JSON. The existing Pages
+workflow deploys that push. It skips runs when the worktree contains other edits and
+logs to `~/Library/Logs/personal-website-scholar.log`. Git SSH access to the `origin`
+remote must work without an interactive prompt for scheduled pushes.

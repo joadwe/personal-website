@@ -23,7 +23,7 @@
       <button class="jw-chart-mode-btn" type="button" data-jw-chart-mode="citations" aria-pressed="false" disabled>Citations/year</button>
     </div>
   </div>
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 3]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 5]}'></canvas>
 </div>
 
 !!! info "Publications, Chapters, Patents and Datasets"
@@ -41,6 +41,14 @@
 
 <div class="jw-pub-item" data-jw-type="preprint" data-jw-year="2026" markdown>
 48. Pleet ML, Cook SM, Killingsworth B, Traynor T, Johnson D, Stack EH, Ford VJ, Pinheiro C, Arce J, Savage J, Roth M, Milosavljevic A, Ghiran I, Hendrix A, Jacobson S, Welsh JA, Jones JC., **Real-time, automated, standardized, and transparent analysis of microfluidic nanoparticle data with RPSPASS**, bioRxiv, 2026, DOI: 10.64898/2026.03.30.715405.abstract \[[website](https://doi.org/10.64898/2026.03.30.715405.abstract){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="protocol" data-jw-year="2026" markdown>
+1. Tang VA, Welsh JA (2026), **Cross-Calibration: Assignment of instrument-specific fluorescence standard units to multi-peak rainbow beads**, protocols.io, [[website](https://doi.org/10.17504/protocols.io.6qpvr1o6pgmk/v1){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2026" markdown>
+1. Pantham P, Aleksejeva-Zagura E, Barreiro K, Burger D, Burnett LA, Fisher MC, Leivo J, Martens E, Ng MSY, Nolan JP, Svenningsen P, Varik I, Velthut-Meikas A, Welsh J, Erdbrügger U, Puhka M (2026), **Sex Differences in Urinary Extracellular Vesicles Originating from the Genitourinary System in Health and Disease**, Am J Physiol Renal Physiol, doi: 10.1152/ajprenal.00402.2025, [[website](https://doi.org/10.1152/ajprenal.00402.2025){:target="_blank"}]
 </div>
 
 ## 2025

@@ -131,13 +131,20 @@ function linkPublicationText(target) {
 function buildPublicationLookup(publications) {
   return publications.reduce(function (lookup, publication) {
     if (publication.title) {
-      lookup[normalizeTitle(publication.title)] = publication;
+      keepMoreCited(lookup, normalizeTitle(publication.title), publication);
     }
     if (publication.doi) {
-      lookup[normalizeDoi(publication.doi)] = publication;
+      keepMoreCited(lookup, normalizeDoi(publication.doi), publication);
     }
     return lookup;
   }, {});
+}
+
+function keepMoreCited(lookup, key, publication) {
+  if (!key) return;
+  if (!lookup[key] || Number(publication.total_citations || 0) > Number(lookup[key].total_citations || 0)) {
+    lookup[key] = publication;
+  }
 }
 
 function getPublicationLookupKey(publication) {
