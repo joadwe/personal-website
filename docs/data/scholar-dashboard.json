@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-30T02:28:49.384729+00:00",
+  "generated_at": "2026-10-01T02:01:09.099960+00:00",
   "profile": {
     "id": 1,
     "scholar_id": "DzpMNxoAAAAJ",
@@ -1997,7 +1997,7 @@
     {
       "id": 8815,
       "title": "The nanoflow repository",
-      "authors": "",
+      "authors": "Jessie E Arce and Joshua A Welsh and Sean M Cook and John Tigges and Ionita Calin Ghiran and Jennifer Clare Jones and Andrew Jackson and Matthew E. Roth and Aleksandar Milosavljevic",
       "venue": "",
       "year": 2023,
       "total_citations": 7,
@@ -2027,7 +2027,7 @@
     {
       "id": 43,
       "title": "Monolithically-integrated cytometer for measuring particle diameter in the extracellular vesicle size range using multi-angle scattering",
-      "authors": "",
+      "authors": "Jonathan T. Butement and Paul M. Holloway and Joshua A Welsh and Judith A. Holloway and Nicola A. Englyst and Péter Horák and Jonathan J. West and James S. Wilkinson",
       "venue": "",
       "year": 2020,
       "total_citations": 7,
@@ -2177,7 +2177,7 @@
     {
       "id": 48,
       "title": "Microvesicles as biomarkers in diabetes, obesity and non-alcoholic fatty liver disease: current knowledge and future directions",
-      "authors": "",
+      "authors": "Joshua A Welsh",
       "venue": "",
       "year": 2014,
       "total_citations": 2,
@@ -2254,7 +2254,7 @@
     {
       "id": 7290,
       "title": "Cross-Calibration: Assignment of instrument-specific fluorescence standard units to multi-peak rainbow beads",
-      "authors": "",
+      "authors": "Vera A. Tang and Joshua A Welsh",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2280,7 +2280,7 @@
     {
       "id": 53,
       "title": "Real-time, automated, standardized, and transparent analysis of microfluidic nanoparticle data with RPSPASS",
-      "authors": "",
+      "authors": "Michelle L. Pleet and Sean M Cook and Bryce Killingsworth and Timothy R. Traynor and Dove-Anna Johnson and Emily H. Stack and Verity J. Ford and Cláudio Pinheiro and Jessie E Arce and Jason E. Savage and Matthew E. Roth and Aleksandar Milosavljevic and Ionita Calin Ghiran and An Hendrix and Steve Jacobson and Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2397,7 +2397,7 @@
     {
       "id": 59,
       "title": "TMIC-09. PRIMARY CILIA REGULATE EXTRACELLULAR VESICLE-MEDIATED IMMUNOSUPPRESSION IN HUMAN GLIOBLASTOMA CELLS",
-      "authors": "",
+      "authors": "Mi-Yeon Jung and Josie Trichka and Masahiro Oishi and Afua Agyeman-Andoh and Joshua A Welsh and Jubin George and Amanda M. Roehrkasse and Maxwell Thomas Laws and Jennifer Clare Jones and Stanley Adoro and Ian F. Parney and Desmond A. Brown",
       "venue": "",
       "year": 2023,
       "total_citations": 0,
@@ -2410,7 +2410,7 @@
     {
       "id": 60,
       "title": "Viral Immune Signatures from Cerebrospinal Fluid Extracellular Vesicles in HAM/TSP and Other Chronic Neurological Diseases",
-      "authors": "",
+      "authors": "Michelle L. Pleet and Joshua A. Welsh and E. Stack and Sean Cook and Dove-Anna Johnson and Bryce Killingsworth and Tim Traynor and Annaliese Clauze and Randall A. Hughes and M. C. Monaco and Nyater Ngouth and J. Ohayon and Yoshimi Enose-Akahata and A. Nath and I. Cortese and D. Reich and Jennifer C. Jones and S. Jacobson",
       "venue": "",
       "year": 2023,
       "total_citations": 0,
@@ -2423,7 +2423,7 @@
     {
       "id": 61,
       "title": "Flow Cytometer Fluorescence Voltration for FCMPASS",
-      "authors": "",
+      "authors": "Joshua A Welsh and Sean M Cook and Jennifer Clare Jones",
       "venue": "",
       "year": 2022,
       "total_citations": 0,
@@ -2462,7 +2462,7 @@
     {
       "id": 64,
       "title": "Astrios EQ instrument setup and sample acquisition",
-      "authors": "",
+      "authors": "Aizea Morales‐Kastresana and Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2488,7 +2488,7 @@
     {
       "id": 65,
       "title": "Counting particles and EVs on Astrios EQ with spike in reference beads",
-      "authors": "",
+      "authors": "Aizea Morales‐Kastresana and Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2501,7 +2501,7 @@
     {
       "id": 75,
       "title": "FCMPASS Protocol Collection",
-      "authors": "",
+      "authors": "Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2527,7 +2527,7 @@
     {
       "id": 67,
       "title": "FCMPASS-Acquisition and gating of light scatter reference materials",
-      "authors": "",
+      "authors": "Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2540,7 +2540,7 @@
     {
       "id": 78,
       "title": "FCMPASS-Creating a cytometer database and datasets",
-      "authors": "",
+      "authors": "Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2657,7 +2657,7 @@
     {
       "id": 81,
       "title": "Nanosight LM10",
-      "authors": "",
+      "authors": "Joshua A Welsh and Bryce Killingsworth and Jason Savage and Tim R. Traynor and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2760,6 +2760,12 @@
     }
   ],
   "sync_log": [
+    {
+      "id": 173,
+      "synced_at": "2026-10-01T02:00:00.557034+00:00",
+      "status": "success",
+      "message": "Fallback sync: authors only (scholarly blocked)"
+    },
     {
       "id": 172,
       "synced_at": "2026-09-30T02:00:00.537625+00:00",
@@ -2873,12 +2879,6 @@
       "synced_at": "2026-09-12T02:00:00.603324+00:00",
       "status": "success",
       "message": "Synced 86 publications"
-    },
-    {
-      "id": 153,
-      "synced_at": "2026-09-11T02:00:00.549040+00:00",
-      "status": "success",
-      "message": "Fallback sync: authors only (scholarly blocked)"
     }
   ]
 }
