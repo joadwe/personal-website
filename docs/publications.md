@@ -23,7 +23,7 @@
       <button class="jw-chart-mode-btn" type="button" data-jw-chart-mode="citations" aria-pressed="false" disabled>Citations/year</button>
     </div>
   </div>
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 30, 6, 6, 8, 8, 5, 5]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 31, 6, 6, 8, 8, 5, 5]}'></canvas>
 </div>
 
 !!! info "Publications, Chapters, Patents and Datasets"
@@ -319,6 +319,10 @@
 
 <div class="jw-pub-item" data-jw-type="protocol" data-jw-year="2020" markdown>
 1. Welsh J, Killingsworth B, Savage J, Traynor T, Jones J., **Nanosight LM10**, 2020, [[website](https://www.protocols.io/view/nanosight-lm10-be58jg9w.pdf){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
+1. Killingsworth B, Welsh JA, Traynor T, Jones J (2020), **Spectradyne nCS1: Sample measurement and device maintenence protocol V.**, [[website](https://pdfs.semanticscholar.org/34a9/a9ae3fca8bd187d1ef522e2da63b1d5b05a1.pdf){:target="_blank"}]
 </div>
 
 ## 2019
