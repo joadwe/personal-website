@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T02:10:00.705759+00:00",
+  "generated_at": "2026-10-13T02:12:12.015057+00:00",
   "profile": {
     "id": 1,
     "scholar_id": "DzpMNxoAAAAJ",
@@ -9,9 +9,9 @@
     "interests": "Flow Cytometry",
     "h_index": 29,
     "i10_index": 43,
-    "total_citations": 23722,
+    "total_citations": 23803,
     "thumbnail_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=DzpMNxoAAAAJ&citpid=2",
-    "last_synced": "2026-10-11T02:00:00.566157+00:00"
+    "last_synced": "2026-10-13T02:00:00.554698+00:00"
   },
   "citation_history": [
     {
@@ -36,42 +36,42 @@
     },
     {
       "year": 2023,
-      "citations": 2816
+      "citations": 2817
     },
     {
       "year": 2024,
-      "citations": 3513
+      "citations": 3515
     },
     {
       "year": 2025,
-      "citations": 4589
+      "citations": 4594
     },
     {
       "year": 2026,
-      "citations": 5124
+      "citations": 5193
     }
   ],
   "publication_counts": {
     "by_year": {
       "2014": 1,
       "2017": 1,
-      "2018": 8,
-      "2019": 8,
-      "2020": 33,
+      "2018": 11,
+      "2019": 9,
+      "2020": 34,
       "2021": 6,
       "2022": 7,
-      "2023": 11,
+      "2023": 12,
       "2024": 10,
       "2025": 7,
       "2026": 6
     },
     "by_type": {
       "patent": 8,
-      "preprint": 2,
-      "protocol": 22,
-      "publication": 69
+      "preprint": 3,
+      "protocol": 23,
+      "publication": 77
     },
-    "total": 101
+    "total": 111
   },
   "publications": [
     {
@@ -80,7 +80,7 @@
       "authors": "Clotilde Théry and Kenneth W Witwer and Elena Aikawa and Maria Jose Alcaraz and Johnathon D Anderson and Ramaroson Andriantsitohaina and Anna Antoniou and Tanina Arab and Fabienne Archer and Georgia K Atkin‐Smith and D Craig Ayre and Jean‐Marie Bach and Daniel Bachurski and Hossein Baharvand and Leonora Balaj and Shawn Baldacchino and Natalie N Bauer and Amy A Baxter and Mary Bebawy and Carla Beckham and Apolonija Bedina Zavec and Abderrahim Benmoussa and Anna C Berardi and Paolo Bergese and Ewa Bielska and Cherie Blenkiron and Sylwia Bobis‐Wozowicz and Eric Boilard and Wilfrid Boireau and Antonella Bongiovanni and Francesc E Borràs and Steffi Bosch and Chantal M Boulanger and Xandra Breakefield and Andrew M Breglio and Meadhbh Á Brennan and David R Brigstock and Alain Brisson and Marike LD Broekman and Jacqueline F Bromberg and Paulina Bryl‐Górecka and Shilpa Buch and Amy H Buck and Dylan Burger and Sara Busatto and Dominik Buschmann and Benedetta Bussolati and Edit I Buzás and James Bryan Byrd and Giovanni Camussi and David RF Carter and Sarah Caruso and Lawrence W Chamley and Yu‐Ting Chang and Chihchen Chen and Shuai Chen and Lesley Cheng and Andrew R Chin and Aled Clayton and Stefano P Clerici and Alex Cocks and Emanuele Cocucci and Robert J Coffey and Anabela Cordeiro‐da‐Silva and Yvonne Couch and Frank AW Coumans and Beth Coyle and Rossella Crescitelli and Miria Ferreira Criado and Crislyn D'Souza‐Schorey and Saumya Das and Amrita Datta Chaudhuri and Paola De Candia and Eliezer F De Santana and Olivier De Wever and Hernando A Del Portillo and Tanguy Demaret and Sarah Deville and Andrew Devitt and Bert Dhondt and Dolores Di Vizio and Lothar C Dieterich and Vincenza Dolo and Ana Paula Dominguez Rubio and Massimo Dominici and Mauricio R Dourado and Tom AP Driedonks and Filipe V Duarte and Heather M Duncan and Ramon M Eichenberger and Karin Ekström and Samir El Andaloussi and Celine Elie‐Caille and Uta Erdbrügger and Juan M Falcón‐Pérez and Farah Fatima and Jason E Fish and Miguel Flores‐Bellver and András Försönits and Annie Frelet‐Barrand and Fabia Fricke and Gregor Fuhrmann and Susanne Gabrielsson and Ana Gámez‐Valero and Chris Gardiner and Kathrin Gärtner and Raphael Gaudin and Yong Song Gho and Bernd Giebel and Caroline Gilbert and Mario Gimona and Ilaria Giusti and Deborah CI Goberdhan and André Görgens and Sharon M Gorski and David W Greening and Julia Christina Gross and Alice Gualerzi and Gopal N Gupta and Dakota Gustafson and Aase Handberg and Reka A Haraszti and Paul Harrison and Hargita Hegyesi and An Hendrix and Andrew F Hill and Fred H Hochberg and Karl F Hoffmann and Beth Holder and Harry Holthofer and Baharak Hosseinkhani and Guoku Hu and Yiyao Huang and Veronica Huber and Stuart Hunt and Ahmed Gamal‐Eldin Ibrahim and Tsuneya Ikezu and Jameel M Inal and Mustafa Isin and Alena Ivanova and Hannah K Jackson and Soren Jacobsen and Steven M Jay and Muthuvel Jayachandran and Guido Jenster and Lanzhou Jiang and Suzanne M Johnson and Jennifer C Jones and Ambrose Jong and Tijana Jovanovic‐Talisman",
       "venue": "Journal of extracellular vesicles",
       "year": 2018,
-      "total_citations": 12871,
+      "total_citations": 12894,
       "pub_url": "https://isevjournals.onlinelibrary.wiley.com/doi/abs/10.1080/20013078.2018.1535750",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -112,11 +112,11 @@
         },
         {
           "year": 2025,
-          "citations": 1604
+          "citations": 1606
         },
         {
           "year": 2026,
-          "citations": 1520
+          "citations": 1540
         }
       ]
     },
@@ -126,7 +126,7 @@
       "authors": "Joshua A Welsh and Deborah CI Goberdhan and Lorraine O'Driscoll and Edit I Buzas and Cherie Blenkiron and Benedetta Bussolati and Houjian Cai and Dolores Di Vizio and Tom AP Driedonks and Uta Erdbrügger and Juan M Falcon‐Perez and Qing‐Ling Fu and Andrew F Hill and Metka Lenassi and Sai Kiang Lim and Mỹ G Mahoney and Sujata Mohanty and Andreas Möller and Rienk Nieuwland and Takahiro Ochiya and Susmita Sahoo and Ana C Torrecilhas and Lei Zheng and Andries Zijlstra and Sarah Abuelreich and Reem Bagabas and Paolo Bergese and Esther M Bridges and Marco Brucale and Dylan Burger and Randy P Carney and Emanuele Cocucci and Rossella Crescitelli and Edveena Hanser and Adrian L Harris and Norman J Haughey and An Hendrix and Alexander R Ivanov and Tijana Jovanovic‐Talisman and Nicole A Kruh‐Garcia and Vroniqa Ku'ulei‐Lyn Faustino and Diego Kyburz and Cecilia Lässer and Kathleen M Lennon and Jan Lötvall and Adam L Maddox and Elena S Martens‐Uzunova and Rachel R Mizenko and Lauren A Newman and Andrea Ridolfi and Eva Rohde and Tatu Rojalin and Andrew Rowland and Andras Saftics and Ursula S Sandau and Julie A Saugstad and Faezeh Shekari and Simon Swift and Dmitry Ter‐Ovanesyan and Juan P Tosar and Zivile Useckaite and Francesco Valle and Zoltan Varga and Edwin Van Der Pol and Martijn JC Van Herwijnen and Marca HM Wauben and Ann M Wehman and Sarah Williams and Andrea Zendrini and Alan J Zimmerman and Misev Consortium and Sarah Abuelreich and Samar Ahmad and Dina AK Ahmed and Sarah H Ahmed and Elena Aikawa and Naveed Akbar and Kazunari Akiyoshi and David P Al‐Adra and Maimonah E Al‐Masawa and Manuel Albanese and Ainhoa Alberro and María José Alcaraz and Jen Alexander‐Brett and Kimberley L Alexander and Nilufar Ali and Faisal J Alibhai and Susann Allelein and Mark C Allenby and Fausto Almeida and Sameh W Almousa and Nihal Altan‐Bonnet and Wanessa F Altei and Gloria Alvarez‐Llamas and Cora L Alvarez and Hyo Jung An and Krishnan Anand and Johnathon D Anderson and Ramaroson Andriantsitohaina and Khairul I Ansari and Achille Anselmo and Anna Antoniou and Farrukh Aqil and Tanina Arab and Fabienne Archer and Syrine Arif and David A Armstrong and Onno J Arntz and Pierre Arsène and Luis Arteaga‐Blanco and Nandini Asokan and Trude Aspelin and Georgia K Atkin‐Smith and Dimitri Aubert and Kanchana K Ayyar and Maryam Azlan and Ioannis Azoidis and Anaïs Bécot and Jean‐Marie Bach and Daniel Bachurski and Seoyoon Bae and Reem Bagabas and Monika Baj‐Krzyworzeka and Leonora Balaj and Carolina Balbi and Bas WM van Balkom and Abhijna R Ballal and Afsareen Bano and Sébastien Banzet and Yonis Bare and Lucio Barile and Bahnisikha Barman and Isabel Barranco and Valeria Barreca and Geneviève Bart and Natasha S Barteneva and Manuela Basso and Mona Batish and Natalie R Bauer and Amy A Baxter and Wilfried W Bazié and Erica Bazzan and Joel EJ Beaumont and Mary Bebawy and Maarten P Bebelman and Apolonija Bedina‐Zavec and Danielle J Beetler and Tamás Beke‐Somfai and Clémence Belleannée and Birke J Benedikter",
       "venue": "Journal of extracellular vesicles",
       "year": 2024,
-      "total_citations": 5596,
+      "total_citations": 5641,
       "pub_url": "https://isevjournals.onlinelibrary.wiley.com/doi/abs/10.1002/jev2.12404",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -134,15 +134,15 @@
       "citation_history": [
         {
           "year": 2024,
-          "citations": 841
+          "citations": 843
         },
         {
           "year": 2025,
-          "citations": 2050
+          "citations": 2052
         },
         {
           "year": 2026,
-          "citations": 2648
+          "citations": 2688
         }
       ]
     },
@@ -202,7 +202,7 @@
       "authors": "Joshua A Welsh and Edwin Van Der Pol and Ger JA Arkesteijn and Michel Bremer and Alain Brisson and Frank Coumans and Françoise Dignat-George and Erika Duggan and Ionita Ghiran and Bernd Giebel and André Görgens and An Hendrix and Romaric Lacroix and Joanne Lannigan and Sten FWM Libregts and Estefanía Lozano-Andrés and Aizea Morales-Kastresana and Stephane Robert and Leonie De Rond and Tobias Tertel and John Tigges and Olivier De Wever and Xiaomei Yan and Rienk Nieuwland and Marca HM Wauben and John P Nolan and Jennifer C Jones",
       "venue": "Journal of extracellular vesicles",
       "year": 2020,
-      "total_citations": 598,
+      "total_citations": 599,
       "pub_url": "https://www.tandfonline.com/doi/abs/10.1080/20013078.2020.1713526",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -234,7 +234,7 @@
         },
         {
           "year": 2026,
-          "citations": 122
+          "citations": 123
         }
       ]
     },
@@ -378,7 +378,7 @@
       "authors": "Kenneth W Witwer and Deborah CI Goberdhan and Lorraine O'Driscoll and Clotilde Théry and Joshua A Welsh and Cherie Blenkiron and Edit I Buzás and Dolores Di Vizio and Uta Erdbrügger and Juan M Falcón‐Pérez and Qing‐Ling Fu and Andrew F Hill and Metka Lenassi and Jan Lötvall and Rienk Nieuwland and Takahiro Ochiya and Sophie Rome and Susmita Sahoo and Lei Zheng",
       "venue": "",
       "year": 2021,
-      "total_citations": 400,
+      "total_citations": 401,
       "pub_url": "https://isevjournals.onlinelibrary.wiley.com/doi/abs/10.1002/jev2.12182",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -398,7 +398,7 @@
         },
         {
           "year": 2025,
-          "citations": 80
+          "citations": 81
         },
         {
           "year": 2026,
@@ -626,7 +626,7 @@
       "authors": "Joshua A Welsh and Edwin van der Pol and Britta A Bettin and David RF Carter and An Hendrix and Metka Lenassi and Marc-André Langlois and Alicia Llorente and Arthur S van de Nes and Rienk Nieuwland and Vera Tang and Lili Wang and Kenneth W Witwer and Jennifer C Jones",
       "venue": "",
       "year": 2020,
-      "total_citations": 179,
+      "total_citations": 180,
       "pub_url": "https://www.tandfonline.com/doi/abs/10.1080/20013078.2020.1816641",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -658,7 +658,7 @@
         },
         {
           "year": 2026,
-          "citations": 35
+          "citations": 36
         }
       ]
     },
@@ -748,7 +748,7 @@
       "authors": "Aizea Morales-Kastresana and Thomas A Musich and Joshua A Welsh and William Telford and Thorsten Demberg and James CS Wood and Marty Bigos and Carley D Ross and Aliaksander Kachynski and Alan Dean and Edward J Felton and Jonathan Van Dyke and John Tigges and Vasilis Toxavidis and David R Parks and W Roy Overton and Aparna H Kesarwala and Gordon J Freeman and Ariel Rosner and Stephen P Perfetto and Lise Pasquet and Masaki Terabe and Katherine McKinnon and Veena Kapoor and Jane B Trepel and Anu Puri and Hisataka Kobayashi and Bryant Yung and Xiaoyuan Chen and Peter Guion and Peter Choyke and Susan J Knox and Ionita Ghiran and Marjorie Robert-Guroff and Jay A Berzofsky and Jennifer C Jones",
       "venue": "Journal of extracellular vesicles",
       "year": 2019,
-      "total_citations": 154,
+      "total_citations": 155,
       "pub_url": "https://www.tandfonline.com/doi/abs/10.1080/20013078.2019.1597603",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -780,7 +780,7 @@
         },
         {
           "year": 2026,
-          "citations": 18
+          "citations": 19
         }
       ]
     },
@@ -854,7 +854,7 @@
       "authors": "Joshua A Welsh and Peter Horak and James S Wilkinson and Verity J Ford and Jennifer C Jones and David Smith and Judith A Holloway and Nicola A Englyst",
       "venue": "Cytometry Part A",
       "year": 2020,
-      "total_citations": 110,
+      "total_citations": 112,
       "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cyto.a.23782",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -890,7 +890,7 @@
         },
         {
           "year": 2026,
-          "citations": 16
+          "citations": 18
         }
       ]
     },
@@ -1014,7 +1014,7 @@
       "authors": "JA Welsh and DCI Goberdhan and L O’Driscoll and EI Buzas and C Blenkiron and B Bussolati and H Cai and D Di Vizio and TAP Driedonks and U Erdbrügger and JM Falcon-Perez and QL Fu and AF Hill and M Lenassi and SK Lim and MG Mahoney and S Mohanty and A Möller and R Nieuwland and T Ochiya and S Sahoo and AC Torrecilhas and L Zheng and A Zijlstra and S Abuelreich and R Bagabas and P Bergese and EM Bridges and M Brucale and D Burger and RP Carney and E Cocucci and R Crescitelli and E Hanser and AL Harris and NJ Haughey and A Hendrix and AR Ivanov and T Jovanovic-Talisman and NA Kruh-Garcia and V Ku’ulei-Lyn Faustino and D Kyburz and C Lässer and KM Lennon and J Lötvall and AL Maddox and ES Martens-Uzunova and RR Mizenko and LA Newman and A Ridolfi and E Rohde and T Rojalin and A Rowland and A Saftics and US Sandau and JA Saugstad and F Shekari and S Swift and D Ter-Ovanesyan and JP Tosar and Z Useckaite and F Valle and Z Varga and E Van Der Pol and MJC Van Herwijnen and MHM Wauben and AM Wehman and S Williams and A Zendrini and AJ Zimmerman",
       "venue": "Journal of Extracellular Vesicles",
       "year": 2024,
-      "total_citations": 76,
+      "total_citations": 77,
       "pub_url": "https://scholar.google.com/scholar?cluster=14599724476813043091&hl=en&oi=scholarr",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -1030,7 +1030,7 @@
         },
         {
           "year": 2026,
-          "citations": 31
+          "citations": 32
         }
       ]
     },
@@ -1214,7 +1214,7 @@
       "authors": "James Kim and Shihan Xu and Seung‐Ryoung Jung and Alya Nguyen and Yuanhua Cheng and Mengxia Zhao and Bryant S Fujimoto and Wyatt Nelson and Perry Schiro and Jeffrey L Franklin and James N Higginbotham and Robert J Coffey and Min Shi and Lucia N Vojtech and Florian Hladik and Muneesh Tewari and John Tigges and Ionita Ghiran and Tijana Jovanovic‐Talisman and Louise C Laurent and Saumya Das and Olesia Gololobova and Kenneth W Witwer and Tuoye Xu and Al Charest and Kendall Van Keuren Jensen and Robert L Raffai and Jennifer C Jones and Joshua A Welsh and John P Nolan and Daniel T Chiu",
       "venue": "Journal of Extracellular Vesicles",
       "year": 2024,
-      "total_citations": 42,
+      "total_citations": 43,
       "pub_url": "https://isevjournals.onlinelibrary.wiley.com/doi/abs/10.1002/jev2.12498",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -1230,7 +1230,7 @@
         },
         {
           "year": 2026,
-          "citations": 22
+          "citations": 23
         }
       ]
     },
@@ -1600,7 +1600,7 @@
       "authors": "Aizea Morales‐Kastresana and Joshua A Welsh and Jennifer C Jones",
       "venue": "Current protocols in cytometry",
       "year": 2020,
-      "total_citations": 21,
+      "total_citations": 22,
       "pub_url": "https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpcy.81",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -1624,7 +1624,7 @@
         },
         {
           "year": 2026,
-          "citations": 4
+          "citations": 5
         }
       ]
     },
@@ -1722,7 +1722,7 @@
       "authors": "Britta A Bettin and Bo Li and Kim Falkena and Ton G Van Leeuwen and Christian Gollwitzer and Zoltán Varga and Nadine Ajzenberg and Jovan P Antovic and Pascale Berckmans and Edit I Buzas and Randy P Carney and Sean Cook and Françoise Dignat‐George and Dorothee Faille and Bernd Giebel and Jennifer C Jones and Yohan Kim and Romaric Lacroix and Joanne Lannigan and Fabrice Lucien and Katariina Maaninka and Erika G Marques De Menezes and Annette Meyer and Rachel R Mizenko and Inge Nelissen and John Nolan and Philip J Norris and Desmond Pink and Sumeet Poudel and Stéphane Robert and Pia R‐M Siljander and Vera A Tang and Tobias Tertel and Tina Van Den Broeck and Lili Wang and Joshua A Welsh and Rienk Nieuwland and Edwin Van Der Pol",
       "venue": "Journal of Extracellular Vesicles",
       "year": 2025,
-      "total_citations": 16,
+      "total_citations": 17,
       "pub_url": "https://isevjournals.onlinelibrary.wiley.com/doi/abs/10.1002/jev2.70189",
       "pub_type": "manuscript",
       "website_type": "publication",
@@ -1734,7 +1734,7 @@
         },
         {
           "year": 2026,
-          "citations": 15
+          "citations": 16
         }
       ]
     },
@@ -2221,6 +2221,42 @@
       ]
     },
     {
+      "id": 12353,
+      "title": "FCM Scatter-Diameter Software-Joshua A. Welsh",
+      "authors": "JA Welsh",
+      "venue": "",
+      "year": null,
+      "total_citations": 2,
+      "pub_url": "https://scholar.google.com/scholar?cluster=3416915259659339316&hl=en&oi=scholarr",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": [
+        {
+          "year": 2018,
+          "citations": 2
+        }
+      ]
+    },
+    {
+      "id": 12354,
+      "title": "Quantitative Flow Cytometry (qFCM) protocols for end-to-end optimization of cross-platform extracellular vesicle studies",
+      "authors": "Sean M Cook and Vera A Tang and Joanne Lannigan and Jennifer C Jones and Joshua A Welsh",
+      "venue": "",
+      "year": 2023,
+      "total_citations": 1,
+      "pub_url": "https://www.protocols.io/view/quantitative-flow-cytometry-qfcm-protocols-for-end-cni2vcge.pdf",
+      "pub_type": "protocol",
+      "website_type": "protocol",
+      "doi": null,
+      "citation_history": [
+        {
+          "year": 2023,
+          "citations": 1
+        }
+      ]
+    },
+    {
       "id": 51,
       "title": "Molecular nanotags",
       "authors": "Jennifer C Jones and Aizea Morales-Kastresana and Jay A Berzofsky and Joshua Welsh and Ari Rosner",
@@ -2473,6 +2509,19 @@
       "citation_history": []
     },
     {
+      "id": 12370,
+      "title": "BIOM-09. MULTIPLEX ANALYSIS OF CSF EXTRACELLULAR VESICLES OF INTRASPINAL TUMORS",
+      "authors": "Franz Ricklefs and Ines Stevic and Christian Mende and Joshua Welsh and Jennifer Jones and Manfred Westphal and Katrin Lamszus and Sven Eicker",
+      "venue": "Neuro-oncology",
+      "year": 2020,
+      "total_citations": 0,
+      "pub_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7650448/",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
       "id": 63,
       "title": "Bulk EV staining with CFSE protein binding dye",
       "authors": "Aizea Morales-Kastresana and Joshua Welsh and Jennifer Jones",
@@ -2720,6 +2769,19 @@
       "citation_history": []
     },
     {
+      "id": 12392,
+      "title": "Abstract PL04-02: Extracellular vesicles as opportunities for integrative or focused liquid biopsy studies",
+      "authors": "Joshua Welsh and Kenneth Aldape and Jennifer Jones",
+      "venue": "Molecular Cancer Therapeutics",
+      "year": 2019,
+      "total_citations": 0,
+      "pub_url": "https://aacrjournals.org/mct/article-abstract/18/12_Supplement/PL04-02/231937",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
       "id": 2210,
       "title": "Educational Trends in Medicine: Collaborative Technologies and Pedagogical Models",
       "authors": "Craciun Dana",
@@ -2733,6 +2795,45 @@
       "citation_history": []
     },
     {
+      "id": 12395,
+      "title": "Abstract LB-A06: Pipeline for High Throughput Analysis of Exosomes in Clinical Biofluids",
+      "authors": "Jennifer Jones and Joshua Welsh and Jason Savage and Jenn Marte and James Gulley and Kevin Conlon and Thomas Waldmann and Kevin Camphausen and Jay Berzofsky",
+      "venue": "Molecular Cancer Therapeutics",
+      "year": 2018,
+      "total_citations": 0,
+      "pub_url": "https://aacrjournals.org/mct/article/17/1_Supplement/LB-A06/238521",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
+      "id": 12394,
+      "title": "An accessible method of flow cytometer scatter standardization for EV analysis",
+      "authors": "Joshua A Welsh and Peter Horak and Wilkinson James and Jennifer Jones and Verity Ford and David Smith and Judith Holloway and Nicola Englyst",
+      "venue": "Journal of Extracellular Vesicles",
+      "year": 2018,
+      "total_citations": 0,
+      "pub_url": "https://search.proquest.com/openview/0b6da89f2f9c43cccb4b216983b0b5d9/1?pq-origsite=gscholar&cbl=2030046",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
+      "id": 12396,
+      "title": "Development of a multiplex-to-single exosome analysis (MT-SEA) pipeline to characterize exosomes associated with tumour progression and responses to treatment",
+      "authors": "Joshua A Welsh and Julia Kepley and Alexis Barfield and Jason Savage and Milos Miljkovié and André Görgens and Thomas Waldmann and Kevin Conlon and Katherine McKinnon and Samir El-Andaloussi and Kevin Camphausen and Veronica Galli and Veffa Franchini and Jay Berzofsky and Jennifer Jones",
+      "venue": "Journal of Extracellular Vesicles",
+      "year": 2018,
+      "total_citations": 0,
+      "pub_url": "https://search.proquest.com/openview/e6916a267e5aa8e68d585cd3afc99c28/1?pq-origsite=gscholar&cbl=2030046",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
       "id": 82,
       "title": "Predicting Excessive Post-Operative Blood Loss in Cardiac Surgical Patients Using Platelet Microvesicles: 0730",
       "authors": "V Ford and D Smith and J Welsh and N Englyst",
@@ -2742,6 +2843,32 @@
       "pub_url": "https://journals.lww.com/international-journal-of-surgery/fulltext/2018/07001/predicting_excessive_post_operative_blood_loss_in.52.aspx",
       "pub_type": "manuscript",
       "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
+      "id": 12398,
+      "title": "How are EVs formed?",
+      "authors": "Joshua A Welsh",
+      "venue": "",
+      "year": null,
+      "total_citations": 0,
+      "pub_url": "https://scholar.google.com/scholar?cluster=9301249897378036746&hl=en&oi=scholarr",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
+      "id": 12397,
+      "title": "MPA PASS Enables Stitched Multiplex Multi-Dimensional EV Repertoire Analysis",
+      "authors": "Joshua Welsh and Bryce Killingsworth and Julia Kepley and Tim Traynor and Sean Cook and Jason Savage and Jenn Marte and Min-Jung Lee and Hoyoung Maeng and Michelle Pleet and Setty Magana and Andre Gorgens and Cecile Maire and Katrin Lamszus and Franz Ricklefs and Maria J Merino and W Marston Linehan and Tim Greten and Tomer Cooks and Curtis Harris and Andrea Apolo and Asim Abdel-Mageed and Alexander R Ivanov and Jane Trepel and Matthew Roth and Mercedes Tkach and Aleksandar Milosavljevic and Clotilde Théry and Amy LeBlanc and Jay Berzofsky and Eytan Ruppin and Kenneth Aldape and Kevin Camphausen and James Gulley and Ionita Ghiran and Steven Jacobson and Jennifer C Jones",
+      "venue": "",
+      "year": null,
+      "total_citations": 0,
+      "pub_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3784885",
+      "pub_type": "preprint",
+      "website_type": "preprint",
       "doi": null,
       "citation_history": []
     },
@@ -2761,11 +2888,24 @@
     {
       "id": 84,
       "title": "NIH Common Fund Extracellular RNA Communication Consortium, Phase 2 (ERCC2): Next-Generation Approaches for Isolating and Characterizing exRNA and their Carriers.",
-      "authors": "Bogdan Mateescu and Jennifer C Jones and Roger Alexander and Mohammad Asghari and Alex Boomgarden and Laura Bouchareychas and Ji Yeong An and Alfonso Cayota and Hsueh-Chia Chang and James N Higginbotham Gould and Florian Hladik and Tony Jun Huang and Xiaoye Huo and Dennis K Jeppesen and Betty YS Kim and Sung Kim and Kyoung Mee Kim and Yong Kim and R Robert and Emily L LaPlante Kitchen and Carlos B Lebrilla and L James Lee and Kathleen M Lennon and Guoping Li and Feng Li and Tieyi Li and Tao Liu and Zirui Liu and Adam L Maddox and Kyle McCarthy and Nalin Maniya and Yingchao Meng and Aleksandar Milosavjevic and Byoung Hoon Min and John Nolan and Michael E Paulaitis and Tuan Anh Phu and Robert Raffai and Eduardo Reátegui and Matthew E Roth and Nedyalka Valkov Turchinovich and Kendall Van Keuren-Jensen and Kasey C Vickers and Lucia Vojtech and Wyatt N Vreeland and Ceming Wang and Kai Wang and ZeYu Wang and Joshua A Welsh and Kenneth W Witwer and David TW Wong and Ya-Hong Xie and Mikołaj P Zaborowski and Chenguang Zhang and Qin Zhang and Angela M Zivkovic and Louise C Laurent",
+      "authors": "",
       "venue": "",
       "year": null,
       "total_citations": 0,
-      "pub_url": "https://scholar.google.com/scholar?cluster=10137046317786170808&hl=en&oi=scholarr",
+      "pub_url": "",
+      "pub_type": "manuscript",
+      "website_type": "publication",
+      "doi": null,
+      "citation_history": []
+    },
+    {
+      "id": 12399,
+      "title": "What are EVs?",
+      "authors": "",
+      "venue": "",
+      "year": null,
+      "total_citations": 0,
+      "pub_url": "",
       "pub_type": "manuscript",
       "website_type": "publication",
       "doi": null,
@@ -2773,6 +2913,18 @@
     }
   ],
   "sync_log": [
+    {
+      "id": 185,
+      "synced_at": "2026-10-13T02:00:00.554698+00:00",
+      "status": "success",
+      "message": "Synced 98 publications"
+    },
+    {
+      "id": 184,
+      "synced_at": "2026-10-12T02:00:00.563028+00:00",
+      "status": "success",
+      "message": "Synced 87 publications"
+    },
     {
       "id": 183,
       "synced_at": "2026-10-11T02:00:00.566157+00:00",
@@ -2878,18 +3030,6 @@
     {
       "id": 166,
       "synced_at": "2026-09-24T02:00:00.599555+00:00",
-      "status": "success",
-      "message": "Synced 86 publications"
-    },
-    {
-      "id": 165,
-      "synced_at": "2026-09-23T02:00:00.562905+00:00",
-      "status": "success",
-      "message": "Fallback sync: authors only (scholarly blocked)"
-    },
-    {
-      "id": 164,
-      "synced_at": "2026-09-22T02:00:00.621955+00:00",
       "status": "success",
       "message": "Synced 86 publications"
     }

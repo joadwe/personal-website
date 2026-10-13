@@ -23,7 +23,7 @@
       <button class="jw-chart-mode-btn" type="button" data-jw-chart-mode="citations" aria-pressed="false" disabled>Citations/year</button>
     </div>
   </div>
-  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 6, 8, 31, 6, 6, 8, 8, 5, 5]}'></canvas>
+  <canvas id="jw-pub-chart" data-jw-chart='{"labels": ["2014", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"], "values": [1, 2, 9, 9, 32, 6, 6, 8, 8, 5, 5]}'></canvas>
 </div>
 
 !!! info "Publications, Chapters, Patents and Datasets"
@@ -325,6 +325,10 @@
 1. Killingsworth B, Welsh JA, Traynor T, Jones J (2020), **Spectradyne nCS1: Sample measurement and device maintenence protocol V.**, [[website](https://pdfs.semanticscholar.org/34a9/a9ae3fca8bd187d1ef522e2da63b1d5b05a1.pdf){:target="_blank"}]
 </div>
 
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2020" markdown>
+1. Ricklefs F, Stevic I, Mende C, Welsh J, Jones J, Westphal M, Lamszus K, Eicker S (2020), **BIOM-09. MULTIPLEX ANALYSIS OF CSF EXTRACELLULAR VESICLES OF INTRASPINAL TUMORS**, Neuro-oncology, [[website](https://pmc.ncbi.nlm.nih.gov/articles/PMC7650448/){:target="_blank"}]
+</div>
+
 ## 2019
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
@@ -360,6 +364,10 @@
 76. Dana C., **Educational Trends in Medicine: Collaborative Technologies and Pedagogical Models**, 2019, \[ [website](https://www.academia.edu/download/84704775/bulk-ev-staining-with-cfse-protein-binding-dye-bj6wkrfe.pdf){:target="_blank"}]
 </div>
 
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2019" markdown>
+1. Welsh J, Aldape K, Jones J (2019), **Abstract PL04-02: Extracellular vesicles as opportunities for integrative or focused liquid biopsy studies**, Molecular Cancer Therapeutics, [[website](https://aacrjournals.org/mct/article-abstract/18/12_Supplement/PL04-02/231937){:target="_blank"}]
+</div>
+
 ## 2018
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
@@ -385,6 +393,18 @@
 
 <div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
 74. Ford V, Smith D, Welsh J, Englyst N., **Predicting Excessive Post-Operative Blood Loss in Cardiac Surgical Patients Using Platelet Microvesicles: 0730**, International Journal of Surgery. 55:S12, 2018, \[ [website](https://journals.lww.com/international-journal-of-surgery/fulltext/2018/07001/predicting_excessive_post_operative_blood_loss_in.52.aspx){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
+1. Jones J, Welsh J, Savage J, Marte J, Gulley J, Conlon K, Waldmann T, Camphausen K, Berzofsky J (2018), **Abstract LB-A06: Pipeline for High Throughput Analysis of Exosomes in Clinical Biofluids**, Molecular Cancer Therapeutics, [[website](https://aacrjournals.org/mct/article/17/1_Supplement/LB-A06/238521){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
+1. Welsh JA, Horak P, James W, Jones J, Ford V, Smith D, Holloway J, Englyst N (2018), **An accessible method of flow cytometer scatter standardization for EV analysis**, J Extracell Vesicles, [[website](https://search.proquest.com/openview/0b6da89f2f9c43cccb4b216983b0b5d9/1?pq-origsite=gscholar&cbl=2030046){:target="_blank"}]
+</div>
+
+<div class="jw-pub-item" data-jw-type="publication" data-jw-year="2018" markdown>
+1. Welsh JA, Kepley J, Barfield A, Savage J, Miljkovié M, Görgens A, Waldmann T, Conlon K, McKinnon K, El-Andaloussi S, Camphausen K, Galli V, Franchini V, Berzofsky J, Jones J (2018), **Development of a multiplex-to-single exosome analysis (MT-SEA) pipeline to characterize exosomes associated with tumour progression and responses to treatment**, J Extracell Vesicles, [[website](https://search.proquest.com/openview/e6916a267e5aa8e68d585cd3afc99c28/1?pq-origsite=gscholar&cbl=2030046){:target="_blank"}]
 </div>
 
 ## 2017
