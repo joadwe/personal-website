@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T02:34:26.202112+00:00",
+  "generated_at": "2026-10-16T02:00:52.972951+00:00",
   "profile": {
     "id": 1,
     "scholar_id": "DzpMNxoAAAAJ",
@@ -1997,7 +1997,7 @@
     {
       "id": 8815,
       "title": "The nanoflow repository",
-      "authors": "",
+      "authors": "Jessie E Arce and Joshua A Welsh and Sean M Cook and John Tigges and Ionita Calin Ghiran and Jennifer Clare Jones and Andrew Jackson and Matthew E. Roth and Aleksandar Milosavljevic",
       "venue": "",
       "year": 2023,
       "total_citations": 7,
@@ -2155,7 +2155,7 @@
     {
       "id": 49,
       "title": "Measuring the size of oil droplets in a flow cytometer using Mie resonances: A possible size calibration ladder for 0.5–6 μm",
-      "authors": "",
+      "authors": "Richard E. Cavicchi and Dean C. Ripple and Joshua A Welsh and Jerilyn R. Izac and Alexander W. Peterson and Aaron M. Goldfain and Wyatt N. Vreeland",
       "venue": "",
       "year": 2025,
       "total_citations": 2,
@@ -2241,7 +2241,7 @@
     {
       "id": 12354,
       "title": "Quantitative Flow Cytometry (qFCM) protocols for end-to-end optimization of cross-platform extracellular vesicle studies",
-      "authors": "",
+      "authors": "Sean M Cook and Vera A. Tang and Joanne Lannigan and Jennifer Clare Jones and Joshua A Welsh",
       "venue": "",
       "year": 2023,
       "total_citations": 1,
@@ -2342,7 +2342,7 @@
     {
       "id": 11488,
       "title": "Sex differences in urinary extracellular vesicles originating from the genitourinary system in health and disease",
-      "authors": "",
+      "authors": "Priyadarshini Pantham and Elina Aleksejeva and Karina A. Barreiro and Dylan E Burger and Lindsey A. Burnett and Molly Ainsman Fisher and Janne Leivo and Elena Martens and Monica Suet Ying Ng and John Nolan and Per Svenningsen and Inge Varik and Agne Velthut‐Meikas and Joshua Welsh and Uta Erdbrügger and Maija Puhka",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2914,6 +2914,12 @@
   ],
   "sync_log": [
     {
+      "id": 188,
+      "synced_at": "2026-10-16T02:00:00.561876+00:00",
+      "status": "success",
+      "message": "Fallback sync: authors only (scholarly blocked)"
+    },
+    {
       "id": 187,
       "synced_at": "2026-10-15T02:00:00.605671+00:00",
       "status": "success",
@@ -3026,12 +3032,6 @@
       "synced_at": "2026-09-27T02:00:00.622380+00:00",
       "status": "success",
       "message": "Fallback sync: authors only (scholarly blocked)"
-    },
-    {
-      "id": 168,
-      "synced_at": "2026-09-26T02:00:00.550026+00:00",
-      "status": "success",
-      "message": "Synced 86 publications"
     }
   ]
 }
