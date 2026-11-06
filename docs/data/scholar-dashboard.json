@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T02:34:36.882572+00:00",
+  "generated_at": "2026-11-06T02:01:12.074493+00:00",
   "profile": {
     "id": 1,
     "scholar_id": "DzpMNxoAAAAJ",
@@ -2031,7 +2031,7 @@
     {
       "id": 43,
       "title": "Monolithically-integrated cytometer for measuring particle diameter in the extracellular vesicle size range using multi-angle scattering",
-      "authors": "",
+      "authors": "Jonathan T. Butement and Paul M. Holloway and Joshua A Welsh and Judith A. Holloway and Nicola A. Englyst and Péter Horák and Jonathan J. West and James S. Wilkinson",
       "venue": "",
       "year": 2020,
       "total_citations": 7,
@@ -2091,7 +2091,7 @@
     {
       "id": 45,
       "title": "Viral Immune signatures from cerebrospinal fluid extracellular vesicles and particles in HAM and other chronic neurological diseases",
-      "authors": "",
+      "authors": "Michelle L. Pleet and Joshua A Welsh and Emily H. Stack and Sean M Cook and Dove-Anna Johnson and Bryce Killingsworth and Tim R. Traynor and Annaliese Clauze and Randall Hughes and Maria Chiara Monaco and Nyater Ngouth and Joan M. Ohayon and Yoshimi Enose‐Akahata and Avindra Nath and Irene C. M. Cortese and Daniel S. Reich and Jennifer Clare Jones and Steven Jacobson",
       "venue": "",
       "year": 2023,
       "total_citations": 6,
@@ -2159,7 +2159,7 @@
     {
       "id": 49,
       "title": "Measuring the size of oil droplets in a flow cytometer using Mie resonances: A possible size calibration ladder for 0.5–6 μm",
-      "authors": "",
+      "authors": "Richard E. Cavicchi and Dean C. Ripple and Joshua A Welsh and Jerilyn R. Izac and Alexander W. Peterson and Aaron M. Goldfain and Wyatt N. Vreeland",
       "venue": "",
       "year": 2025,
       "total_citations": 2,
@@ -2281,7 +2281,7 @@
     {
       "id": 52,
       "title": "Analysis of Urinary Extracellular Vesicles",
-      "authors": "",
+      "authors": "Uta Erdbrügger and Martin E. van Royen and Gerald W.C.T Verhaegh and Cristina Grange and Dylan E Burger and Morgan Greig and Joshua A Welsh and Tuula A. Nyman and Alicia Llorente and Elena S. Martens‐Uzunova and Maija Puhka and Karina A. Barreiro and Monica Suet Ying Ng",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2346,7 +2346,7 @@
     {
       "id": 53,
       "title": "Real-time, automated, standardized, and transparent analysis of microfluidic nanoparticle data with RPSPASS",
-      "authors": "",
+      "authors": "Michelle L. Pleet and Sean M Cook and Bryce Killingsworth and Timothy R. Traynor and Dove-Anna Johnson and Emily H. Stack and Verity J. Ford and Cláudio Pinheiro and Jessie E Arce and Jason E. Savage and Matthew E. Roth and Aleksandar Milosavljevic and Ionita Calin Ghiran and An Hendrix and Steve Jacobson and Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2372,7 +2372,7 @@
     {
       "id": 11488,
       "title": "Sex differences in urinary extracellular vesicles originating from the genitourinary system in health and disease",
-      "authors": "",
+      "authors": "Priyadarshini Pantham and Elina Aleksejeva and Karina A. Barreiro and Dylan E Burger and Lindsey A. Burnett and Molly Ainsman Fisher and Janne Leivo and Elena Martens and Monica Suet Ying Ng and John Nolan and Per Svenningsen and Inge Varik and Agne Velthut‐Meikas and Joshua Welsh and Uta Erdbrügger and Maija Puhka",
       "venue": "",
       "year": 2026,
       "total_citations": 0,
@@ -2463,7 +2463,7 @@
     {
       "id": 59,
       "title": "TMIC-09. PRIMARY CILIA REGULATE EXTRACELLULAR VESICLE-MEDIATED IMMUNOSUPPRESSION IN HUMAN GLIOBLASTOMA CELLS",
-      "authors": "",
+      "authors": "Mi-Yeon Jung and Josie Trichka and Masahiro Oishi and Afua Agyeman-Andoh and Joshua A Welsh and Jubin George and Amanda M. Roehrkasse and Maxwell Thomas Laws and Jennifer Clare Jones and Stanley Adoro and Ian F. Parney and Desmond A. Brown",
       "venue": "",
       "year": 2023,
       "total_citations": 0,
@@ -2476,7 +2476,7 @@
     {
       "id": 60,
       "title": "Viral Immune Signatures from Cerebrospinal Fluid Extracellular Vesicles in HAM/TSP and Other Chronic Neurological Diseases",
-      "authors": "",
+      "authors": "Michelle L. Pleet and Joshua A Welsh and Emily H. Stack and Sean M Cook and Dove-Anna Johnson and Bryce Killingsworth and Tim R. Traynor and Annaliese Clauze and Randall Hughes and Maria Chiara Monaco and Nyater Ngouth and Joan M. Ohayon and Yoshimi Enose‐Akahata and Avindra Nath and Irene C. M. Cortese and Daniel S. Reich and Jennifer Clare Jones and Steven Jacobson",
       "venue": "",
       "year": 2023,
       "total_citations": 0,
@@ -2541,7 +2541,7 @@
     {
       "id": 12370,
       "title": "BIOM-09. MULTIPLEX ANALYSIS OF CSF EXTRACELLULAR VESICLES OF INTRASPINAL TUMORS",
-      "authors": "",
+      "authors": "Franz Lennard Ricklefs and Ines Stevic and Christian Mende and Joshua A Welsh and Jennifer Clare Jones and Manfred Westphal and Katrin Lamszus and Sven Oliver Eicker",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2606,7 +2606,7 @@
     {
       "id": 67,
       "title": "FCMPASS-Acquisition and gating of light scatter reference materials",
-      "authors": "",
+      "authors": "Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2619,7 +2619,7 @@
     {
       "id": 78,
       "title": "FCMPASS-Creating a cytometer database and datasets",
-      "authors": "",
+      "authors": "Joshua A Welsh and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2697,7 +2697,7 @@
     {
       "id": 72,
       "title": "MPAPASS-Creating an MPAPASS database",
-      "authors": "",
+      "authors": "Joshua A Welsh and Sean M Cook and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2749,7 +2749,7 @@
     {
       "id": 69,
       "title": "Preparing EV-depleted media",
-      "authors": "",
+      "authors": "Aizea Morales‐Kastresana and Bryce Killingsworth and Joshua A Welsh and Tim R. Traynor and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2775,7 +2775,7 @@
     {
       "id": 11852,
       "title": "Spectradyne nCS1: Sample measurement and device maintenence protocol V.",
-      "authors": "",
+      "authors": "Bryce Killingsworth and Joshua A Welsh and Tim Traynor and Jennifer Clare Jones",
       "venue": "",
       "year": 2020,
       "total_citations": 0,
@@ -2801,7 +2801,7 @@
     {
       "id": 12392,
       "title": "Abstract PL04-02: Extracellular vesicles as opportunities for integrative or focused liquid biopsy studies",
-      "authors": "",
+      "authors": "Joshua A Welsh and Kenneth Aldape and Jennifer Clare Jones",
       "venue": "",
       "year": 2019,
       "total_citations": 0,
@@ -2866,7 +2866,7 @@
     {
       "id": 82,
       "title": "Predicting Excessive Post-Operative Blood Loss in Cardiac Surgical Patients Using Platelet Microvesicles: 0730",
-      "authors": "",
+      "authors": "V. Ford and David C. Smith and Joshua A. Welsh and N. Englyst",
       "venue": "",
       "year": 2018,
       "total_citations": 0,
@@ -2943,6 +2943,12 @@
     }
   ],
   "sync_log": [
+    {
+      "id": 209,
+      "synced_at": "2026-11-06T02:00:00.562434+00:00",
+      "status": "success",
+      "message": "Fallback sync: authors only (scholarly blocked)"
+    },
     {
       "id": 208,
       "synced_at": "2026-11-05T02:00:00.579902+00:00",
@@ -3056,12 +3062,6 @@
       "synced_at": "2026-10-18T02:00:00.576678+00:00",
       "status": "success",
       "message": "Fallback sync: authors only (scholarly blocked)"
-    },
-    {
-      "id": 189,
-      "synced_at": "2026-10-17T02:00:00.575661+00:00",
-      "status": "success",
-      "message": "Synced 100 publications"
     }
   ]
 }
